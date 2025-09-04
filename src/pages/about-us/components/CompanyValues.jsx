@@ -89,7 +89,7 @@ const CompanyValues = () => {
               Our values ensure that each story we help create is authentic, beautiful, and unforgettable."
             </blockquote>
             <cite className="text-secondary font-semibold">
-              - Sarah Wanjiku, Founder & CEO
+              - Ian Gichora, Founder & CEO
             </cite>
           </div>
         </div>

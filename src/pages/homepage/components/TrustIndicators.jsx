@@ -6,14 +6,14 @@ const TrustIndicators = () => {
     {
       id: 1,
       icon: "Users",
-      number: "500+",
+      number: "50+",
       label: "Happy Clients",
       description: "Satisfied customers across Kenya"
     },
     {
       id: 2,
       icon: "Calendar",
-      number: "1,200+",
+      number: "120+",
       label: "Events Planned",
       description: "Successful events delivered"
     },
@@ -27,7 +27,7 @@ const TrustIndicators = () => {
     {
       id: 4,
       icon: "Award",
-      number: "15+",
+      number: "5+",
       label: "Years Experience",
       description: "Industry expertise and trust"
     }

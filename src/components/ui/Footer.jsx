@@ -36,16 +36,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link to="/homepage" className="flex items-center space-x-3 mb-6">
-              <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
-                <svg 
-                  viewBox="0 0 24 24" 
-                  className="w-5 h-5 text-primary-foreground" 
-                  fill="currentColor"
-                >
-                  <path d="M12 2L2 7v10c0 5.55 3.84 9.739 9 11 5.16-1.261 9-5.45 9-11V7l-10-5z"/>
-                  <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" fill="none"/>
-                </svg>
-              </div>
+              <img
+                src="/assets/Nova-logo-05.png" // Corrected logo path for the footer
+                alt="Nova Luxury Events Logo"
+                className="w-20 h-20 object-contain rounded-full"
+              />
               <div className="flex flex-col">
                 <span className="text-lg font-semibold text-primary tracking-tight">
                   Nova
@@ -83,7 +78,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3 text-sm">
                 <Icon name="MapPin" size={16} className="text-secondary mt-0.5" />
                 <span className="text-muted-foreground">
-                  Westlands, Nairobi<br />
+                  Garden Estate, Nairobi<br />
                   Kenya
                 </span>
               </div>
@@ -180,9 +175,16 @@ const Footer = () => {
               </div>
             </div>
             
-            <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-              <Icon name="Heart" size={14} className="text-secondary" />
-              <span>Crafted with passion in Kenya</span>
+            <div className="text-sm text-muted-foreground">
+              <span>Crafted by </span>
+              <a 
+                href="https://evoqcreative.co.ke" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="font-semibold text-primary hover:text-secondary luxury-transition"
+              >
+                EVOQ TECH
+              </a>
             </div>
           </div>
         </div>

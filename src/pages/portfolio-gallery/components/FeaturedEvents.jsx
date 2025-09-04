@@ -131,17 +131,7 @@ const FeaturedEvents = ({ featuredEvents }) => {
                   >
                     <Link to="/contact-booking">Plan Similar Event</Link>
                   </Button>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    iconName="ExternalLink"
-                    iconPosition="left"
-                    onClick={() => {
-                      // Open full case study or gallery
-                    }}
-                  >
-                    View Case Study
-                  </Button>
+                 
                 </div>
               </div>
             </div>

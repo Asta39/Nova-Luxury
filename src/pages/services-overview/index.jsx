@@ -178,7 +178,7 @@ const ServicesOverview = () => {
       role: 'CEO',
       company: 'Safaricom Foundation',
       content: 'Nova Luxury Events transformed our annual gala into an unforgettable experience. Their attention to detail and cultural sensitivity made all the difference.',
-      avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face',
+      avatar: 'https://images.unslash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face',
       rating: 5
     },
     {
@@ -186,7 +186,7 @@ const ServicesOverview = () => {
       role: 'Managing Director',
       company: 'Equity Bank',
       content: 'The team\'s professionalism and creativity exceeded our expectations. Our product launch was flawlessly executed and generated incredible buzz.',
-      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
+      avatar: 'https://images.unspash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
       rating: 5
     }
   ];

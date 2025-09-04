@@ -5,7 +5,7 @@ import Breadcrumb from '../../components/ui/Breadcrumb';
 import ContactInfo from './components/ContactInfo';
 import BookingForm from './components/BookingForm';
 import LocationMap from './components/LocationMap';
-import LiveChat from './components/LiveChat';
+
 import Icon from '../../components/AppIcon';
 
 const ContactBooking = () => {
@@ -132,7 +132,7 @@ const ContactBooking = () => {
       </main>
 
       <Footer />
-      <LiveChat />
+      
     </div>
   );
 };

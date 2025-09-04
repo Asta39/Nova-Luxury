@@ -125,11 +125,11 @@ const CallToAction = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Award" size={16} className="text-secondary" />
-                <span>15+ Years Experience</span>
+                <span>5+ Years Experience</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Users" size={16} className="text-secondary" />
-                <span>500+ Happy Clients</span>
+                <span>50+ Happy Clients</span>
               </div>
             </div>
           </div>

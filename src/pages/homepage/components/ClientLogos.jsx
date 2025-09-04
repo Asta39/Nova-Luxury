@@ -6,42 +6,42 @@ const ClientLogos = () => {
     {
       id: 1,
       name: "Safaricom",
-      logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      logo: "https://images.unspash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
     },
     {
       id: 2,
       name: "Kenya Airways",
-      logo: "https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      logo: "https://images.unspash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
     },
     {
       id: 3,
       name: "Equity Bank",
-      logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      logo: "https://images.unspash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
     },
     {
       id: 4,
       name: "East African Breweries",
-      logo: "https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      logo: "https://images.unspash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
     },
     {
       id: 5,
       name: "Nation Media Group",
-      logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      logo: "https://images.unslash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
     },
     {
       id: 6,
       name: "KCB Group",
-      logo: "https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      logo: "https://images.unslash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
     },
     {
       id: 7,
       name: "Bamburi Cement",
-      logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      logo: "https://images..com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
     },
     {
       id: 8,
       name: "Standard Chartered",
-      logo: "https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      logo: "https://images.unslash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
     }
   ];
 
@@ -96,7 +96,7 @@ const ClientLogos = () => {
             "Nova Luxury Events transformed our annual conference into an unforgettable experience. Their attention to detail and professional execution exceeded all expectations."
           </blockquote>
           <cite className="block mt-4 text-sm font-semibold text-primary">
-            — Sarah Kimani, Corporate Events Manager, Safaricom
+            — Sarah Kimani, Corporate Events Manager
           </cite>
         </div>
       </div>

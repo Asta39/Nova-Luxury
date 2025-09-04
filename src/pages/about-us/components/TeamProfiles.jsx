@@ -12,11 +12,12 @@ const TeamProfiles = () => {
       name: "Ian Gichora",
       role: "Founder & CEO",
       image: "https://images.unplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face",
-      shortBio: "15+ years in luxury hospitality & event management",
-      fullBio: `Ian brings over 15 years of international experience in luxury hospitality and event management. Having worked with prestigious hotels in London and Dubai before returning to Kenya, he combines global best practices with deep understanding of local culture. Ian holds a Master's in Hospitality Management from Les Roches and is certified by the International Association of Event Planners.`,
+      shortBio: "5+ years in luxury hospitality & event management",
+      fullBio: `Ian brings over 5 years of international experience in luxury hospitality and event management. Having worked with prestigious hotels in London and Dubai before returning to Kenya, he combines global best practices with deep understanding of local culture. Ian holds a Master's in Hospitality Management from Les Roches and is certified by the International Association of Event Planners.`,
       specialties: ["Luxury Weddings", "Corporate Events", "Cultural Ceremonies"],
       contact: "ian@novaluxuryevents.com"
     },
+    /*
     {
       id: 2,
       name: "Daisy",
@@ -26,16 +27,16 @@ const TeamProfiles = () => {
       fullBio: `Daisy is our visionary Creative Director, responsible for transforming client dreams into stunning visual realities. With a background in interior design and event styling, she has won multiple awards for her innovative approach to event aesthetics. Daisy specializes in creating immersive environments that tell compelling stories through design.`,
       specialties: ["Event Design", "Floral Arrangements", "Venue Styling"],
       contact: "daisy@novaluxuryevents.com"
-    },
+    },*/
     {
       id: 3,
-      name: "Grace Akinyi",
+      name: "Daisy",
       role: "Operations Manager",
       image: "https://images.unplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
       shortBio: "Expert in logistics and vendor coordination",
-      fullBio: `Grace ensures every event runs seamlessly from conception to completion. With her exceptional organizational skills and extensive network of premium vendors across Kenya, she manages complex logistics with precision. Grace's attention to detail and proactive problem-solving approach has earned her recognition as one of Kenya's top event operations specialists.`,
+      fullBio: `Daisy ensures every event runs seamlessly from conception to completion. With her exceptional organizational skills and extensive network of premium vendors across Kenya, she manages complex logistics with precision. Daisy's attention to detail and proactive problem-solving approach has earned her recognition as one of Kenya's top event operations specialists.`,
       specialties: ["Event Logistics", "Vendor Management", "Timeline Coordination"],
-      contact: "grace@novaluxuryevents.com"
+      contact: "daisy@novaluxuryevents.com"
     },
     /*
     {

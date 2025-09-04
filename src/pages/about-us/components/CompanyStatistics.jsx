@@ -15,7 +15,7 @@ const CompanyStatistics = () => {
   const statistics = [
     {
       icon: "Calendar",
-      value: 500,
+      value: 50,
       suffix: "+",
       label: "Successful Events",
       description: "Luxury celebrations delivered with excellence"
@@ -29,7 +29,7 @@ const CompanyStatistics = () => {
     },
     {
       icon: "Clock",
-      value: 7,
+      value: 5,
       suffix: "",
       label: "Years Experience",
       description: "Building luxury event experiences"

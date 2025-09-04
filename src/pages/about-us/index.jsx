@@ -31,8 +31,8 @@ const AboutUs = () => {
         <meta property="og:title" content="About Nova Luxury Events - Kenya's Premier Event Planning Company" />
         <meta property="og:description" content="Meet our expert team and discover our journey as Kenya's leading luxury event planning company, creating extraordinary celebrations since 2018." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://novaluxuryevents.com/about-us" />
-        <link rel="canonical" href="https://novaluxuryevents.com/about-us" />
+        <meta property="og:url" content="https://novaluxuryeventske.com/about-us" />
+        <link rel="canonical" href="https://novaluxuryeventske.com/about-us" />
       </Helmet>
 
       <Header />
@@ -56,11 +56,11 @@ const AboutUs = () => {
               {/* Quick Stats */}
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-secondary mb-2">500+</div>
+                  <div className="text-3xl font-bold text-secondary mb-2">50+</div>
                   <div className="text-sm text-muted-foreground">Events Delivered</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-secondary mb-2">7</div>
+                  <div className="text-3xl font-bold text-secondary mb-2">5</div>
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="text-center">

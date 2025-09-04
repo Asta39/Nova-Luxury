@@ -5,7 +5,7 @@ import Icon from '../../../components/AppIcon';
 
 const CTASection = () => {
   return (
-    <section className="bg-gradient-to-r from-primary to-primary/90 text-primary-foreground py-16">
+    <section className="bg-accent text-primary py-16">
       <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center">
         <div className="mb-8">
           <Icon name="Sparkles" size={48} className="text-secondary mx-auto mb-6" />
@@ -35,7 +35,7 @@ const CTASection = () => {
             iconName="Phone"
             iconPosition="left"
             onClick={() => window.location.href = 'tel:+254700000000'}
-            className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+            className="bg-primary border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
           >
             Call Now: +254 700 000 000
           </Button>

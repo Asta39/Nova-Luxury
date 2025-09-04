@@ -4,8 +4,8 @@ import Button from '../../../components/ui/Button';
 
 const LocationMap = () => {
   const officeLocation = {
-    lat: -1.2641,
-    lng: 36.8017,
+    lat: -1.2236267598742192,
+    lng: 36.8654509674709,
     address: "Westlands Business District, Nairobi, Kenya"
   };
 

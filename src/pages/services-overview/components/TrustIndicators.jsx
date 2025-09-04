@@ -3,9 +3,9 @@ import Icon from '../../../components/AppIcon';
 
 const TrustIndicators = () => {
   const stats = [
-    { icon: "Calendar", value: "500+", label: "Events Planned" },
+    { icon: "Calendar", value: "50+", label: "Events Planned" },
     { icon: "Users", value: "98%", label: "Client Satisfaction" },
-    { icon: "Award", value: "15+", label: "Years Experience" },
+    { icon: "Award", value: "5+", label: "Years Experience" },
     { icon: "MapPin", value: "50+", label: "Venues Partnered" }
   ];
 

@@ -36,7 +36,7 @@ const IndividualServicePages = () => {
     wedding: {
       name: "Wedding Celebrations",
       category: "Luxury Weddings",
-      heroImage: "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&h=800&fit=crop",
+      heroImage: "https://images.usplash.com/photo-1519741497674-611481863552?w=1200&h=800&fit=crop",
       heroDescription: "Create the wedding of your dreams with our comprehensive luxury planning services. From intimate ceremonies to grand celebrations, we orchestrate every detail to perfection.",
       overviewTitle: "Luxury Wedding Planning Excellence",
       overviewDescription: `Transform your special day into an unforgettable celebration with Nova Luxury Events. Our expert wedding planners specialize in creating bespoke experiences that reflect your unique love story. From traditional Kenyan ceremonies to modern destination weddings, we handle every aspect with meticulous attention to detail.\n\nOur comprehensive approach ensures seamless coordination from engagement to honeymoon, allowing you to focus on what matters most - celebrating your love.`,
@@ -49,16 +49,16 @@ const IndividualServicePages = () => {
         "Photography and videography coordination"
       ],
       overviewImages: [
-        { src: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=400&h=400&fit=crop", alt: "Elegant wedding ceremony setup" },
-        { src: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&h=400&fit=crop", alt: "Luxury wedding reception" },
-        { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=400&h=400&fit=crop", alt: "Wedding floral arrangements" },
-        { src: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=400&h=400&fit=crop", alt: "Wedding cake and desserts" }
+        { src: "https://images.unspash.com/photo-1606216794074-735e91aa2c92?w=400&h=400&fit=crop", alt: "Elegant wedding ceremony setup" },
+        { src: "https://images.unslash.com/photo-1511795409834-ef04bbd61622?w=400&h=400&fit=crop", alt: "Luxury wedding reception" },
+        { src: "https://images.unslash.com/photo-1465495976277-4387d4b0e4a6?w=400&h=400&fit=crop", alt: "Wedding floral arrangements" },
+        { src: "https://images.unplash.com/photo-1520854221256-17451cc331bf?w=400&h=400&fit=crop", alt: "Wedding cake and desserts" }
       ],
       offerings: [
         {
           title: "Traditional Ceremonies",
           description: "Honor your heritage with authentic traditional wedding ceremonies that celebrate your cultural roots while incorporating modern luxury elements.",
-          image: "https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?w=600&h=400&fit=crop",
+          image: "https://images.peels.com/photos/1444442/pexels-photo-1444442.jpeg?w=600&h=400&fit=crop",
           features: [
             "Cultural ceremony coordination",
             "Traditional attire consultation",
@@ -71,7 +71,7 @@ const IndividualServicePages = () => {
         {
           title: "Modern Celebrations",
           description: "Contemporary wedding experiences featuring cutting-edge design, innovative technology, and personalized touches that reflect your modern love story.",
-          image: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&h=400&fit=crop",
+          image: "https://images.unslash.com/photo-1583939003579-730e3918a45a?w=600&h=400&fit=crop",
           features: [
             "Modern venue styling",
             "Technology integration",
@@ -84,7 +84,7 @@ const IndividualServicePages = () => {
         {
           title: "Destination Weddings",
           description: "Exotic destination weddings in Kenya's most breathtaking locations, from coastal resorts to safari lodges, creating unforgettable experiences.",
-          image: "https://images.pixabay.com/photo/2016/11/21/16/01/beach-1846040_1280.jpg?w=600&h=400&fit=crop",
+          image: "https://images.piabay.com/photo/2016/11/21/16/01/beach-1846040_1280.jpg?w=600&h=400&fit=crop",
           features: [
             "Location scouting",
             "Travel coordination",
@@ -122,12 +122,12 @@ const IndividualServicePages = () => {
         }
       ],
       portfolioImages: [
-        { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=400&fit=crop", alt: "Elegant outdoor wedding ceremony" },
-        { src: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=400&h=400&fit=crop", alt: "Luxury wedding reception setup" },
-        { src: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&h=400&fit=crop", alt: "Wedding floral centerpieces" },
-        { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=400&h=400&fit=crop", alt: "Bridal bouquet arrangement" },
-        { src: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=400&h=400&fit=crop", alt: "Wedding cake display" },
-        { src: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=400&h=400&fit=crop", alt: "Modern wedding venue" }
+        { src: "https://images.unspash.com/photo-1519741497674-611481863552?w=400&h=400&fit=crop", alt: "Elegant outdoor wedding ceremony" },
+        { src: "https://images.unspash.com/photo-1606216794074-735e91aa2c92?w=400&h=400&fit=crop", alt: "Luxury wedding reception setup" },
+        { src: "https://images.unspash.com/photo-1511795409834-ef04bbd61622?w=400&h=400&fit=crop", alt: "Wedding floral centerpieces" },
+        { src: "https://images.unslash.com/photo-1465495976277-4387d4b0e4a6?w=400&h=400&fit=crop", alt: "Bridal bouquet arrangement" },
+        { src: "https://images.unslash.com/photo-1520854221256-17451cc331bf?w=400&h=400&fit=crop", alt: "Wedding cake display" },
+        { src: "https://images.unslash.com/photo-1583939003579-730e3918a45a?w=400&h=400&fit=crop", alt: "Modern wedding venue" }
       ],
       testimonials: [
         {
@@ -136,7 +136,7 @@ const IndividualServicePages = () => {
           date: "December 2024",
           rating: 5,
           content: "Nova Luxury Events made our dream wedding a reality. They seamlessly blended our traditional Kikuyu ceremony with a modern reception. Every detail was perfect, and our guests are still talking about it!",
-          avatar: "https://randomuser.me/api/portraits/women/32.jpg"
+          avatar: "https://randouser.me/api/portraits/women/32.jpg"
         },
         {
           name: "Priya & David Ochieng",
@@ -144,7 +144,7 @@ const IndividualServicePages = () => {
           date: "November 2024",
           rating: 5,
           content: "Planning a destination wedding in Diani was stress-free with Nova\'s team. They coordinated everything from guest accommodations to the beachside ceremony. Absolutely magical experience!",
-          avatar: "https://randomuser.me/api/portraits/women/45.jpg"
+          avatar: "https://randouser.me/api/portraits/women/45.jpg"
         }
       ],
       faqs: [
@@ -165,7 +165,7 @@ const IndividualServicePages = () => {
     corporate: {
       name: "Corporate Events",
       category: "Business Excellence", 
-      heroImage: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=1200&h=800&fit=crop",
+      heroImage: "https://images.usplash.com/photo-1511578314322-379afb476865?w=1200&h=800&fit=crop",
       heroDescription: "Elevate your business presence with professionally executed corporate events that inspire, engage, and deliver results. From conferences to product launches, we create impactful experiences.",
       overviewTitle: "Professional Corporate Event Management",
       overviewDescription: `Transform your business objectives into memorable experiences with Nova Luxury Events' corporate division. We specialize in creating professional events that enhance your brand image, engage stakeholders, and drive business results.\n\nOur experienced team understands the unique requirements of corporate events, from budget management to brand compliance, ensuring every event reflects your company's values and achieves your strategic goals.`,
@@ -178,16 +178,16 @@ const IndividualServicePages = () => {
         "Post-event analysis and ROI measurement"
       ],
       overviewImages: [
-        { src: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=400&h=400&fit=crop", alt: "Corporate conference setup" },
-        { src: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=400&h=400&fit=crop", alt: "Business networking event" },
-        { src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=400&fit=crop", alt: "Product launch presentation" },
-        { src: "https://images.unsplash.com/photo-1559223607-b4d0555ae227?w=400&h=400&fit=crop", alt: "Corporate gala dinner" }
+        { src: "https://images.unslash.com/photo-1511578314322-379afb476865?w=400&h=400&fit=crop", alt: "Corporate conference setup" },
+        { src: "https://images.unplash.com/photo-1505373877841-8d25f7d46678?w=400&h=400&fit=crop", alt: "Business networking event" },
+        { src: "https://images.unplash.com/photo-1540575467063-178a50c2df87?w=400&h=400&fit=crop", alt: "Product launch presentation" },
+        { src: "https://images.unplash.com/photo-1559223607-b4d0555ae227?w=400&h=400&fit=crop", alt: "Corporate gala dinner" }
       ],
       offerings: [
         {
           title: "Conferences & Seminars",
           description: "Professional conferences and seminars that educate, inspire, and connect your audience with cutting-edge content and seamless execution.",
-          image: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop",
+          image: "https://images.unplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop",
           features: [
             "Venue selection and setup",
             "Speaker coordination",
@@ -200,7 +200,7 @@ const IndividualServicePages = () => {
         {
           title: "Product Launches",
           description: "Create buzz and excitement around your new products with strategically planned launch events that capture attention and drive market adoption.",
-          image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop",
+          image: "https://images.unspash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop",
           features: [
             "Launch strategy development",
             "Media and PR coordination",
@@ -213,7 +213,7 @@ const IndividualServicePages = () => {
         {
           title: "Team Building & Retreats",
           description: "Strengthen team bonds and boost morale with engaging team building activities and corporate retreats in inspiring locations.",
-          image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?w=600&h=400&fit=crop",
+          image: "https://images.peels.com/photos/3184291/pexels-photo-3184291.jpeg?w=600&h=400&fit=crop",
           features: [
             "Activity planning and coordination",
             "Venue sourcing and booking",
@@ -251,12 +251,12 @@ const IndividualServicePages = () => {
         }
       ],
       portfolioImages: [
-        { src: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=400&h=400&fit=crop", alt: "Corporate conference presentation" },
-        { src: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=400&h=400&fit=crop", alt: "Business networking reception" },
-        { src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=400&fit=crop", alt: "Product launch event" },
-        { src: "https://images.unsplash.com/photo-1559223607-b4d0555ae227?w=400&h=400&fit=crop", alt: "Corporate awards ceremony" },
-        { src: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?w=400&h=400&fit=crop", alt: "Team building activity" },
-        { src: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=400&h=400&fit=crop", alt: "Executive meeting setup" }
+        { src: "https://images.unspash.com/photo-1511578314322-379afb476865?w=400&h=400&fit=crop", alt: "Corporate conference presentation" },
+        { src: "https://images.unspash.com/photo-1505373877841-8d25f7d46678?w=400&h=400&fit=crop", alt: "Business networking reception" },
+        { src: "https://images.unspash.com/photo-1540575467063-178a50c2df87?w=400&h=400&fit=crop", alt: "Product launch event" },
+        { src: "https://images.unspash.com/photo-1559223607-b4d0555ae227?w=400&h=400&fit=crop", alt: "Corporate awards ceremony" },
+        { src: "https://images.pexls.com/photos/3184291/pexels-photo-3184291.jpeg?w=400&h=400&fit=crop", alt: "Team building activity" },
+        { src: "https://images.unslash.com/photo-1515187029135-18ee286d815b?w=400&h=400&fit=crop", alt: "Executive meeting setup" }
       ],
       testimonials: [
         {
@@ -265,7 +265,7 @@ const IndividualServicePages = () => {
           date: "January 2025",
           rating: 5,
           content: "Nova delivered an exceptional conference experience for our 500+ attendees. The seamless coordination and professional execution exceeded our expectations. Highly recommended for corporate events.",
-          avatar: "https://randomuser.me/api/portraits/men/42.jpg"
+          avatar: "https://randmuser.me/api/portraits/men/42.jpg"
         },
         {
           name: "Linda Wanjiku",
@@ -273,7 +273,7 @@ const IndividualServicePages = () => {
           date: "December 2024",
           rating: 5,
           content: "Our product launch was a huge success thanks to Nova\'s strategic planning and flawless execution. The media coverage and attendee engagement were outstanding.",
-          avatar: "https://randomuser.me/api/portraits/women/38.jpg"
+          avatar: "https://randomser.me/api/portraits/women/38.jpg"
         }
       ],
       faqs: [
@@ -302,7 +302,7 @@ const IndividualServicePages = () => {
     birthday: {
       name: "Birthday Celebrations",
       category: "Life Celebrations",
-      heroImage: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1200&h=800&fit=crop",
+      heroImage: "https://images.nsplash.com/photo-1530103862676-de8c9debad1d?w=1200&h=800&fit=crop",
       heroDescription: "Make every birthday unforgettable with personalized celebrations that capture the joy and uniqueness of your special day. From intimate gatherings to grand parties, we create magical moments.",
       overviewTitle: "Personalized Birthday Celebration Planning",
       overviewDescription: `Celebrate life's milestones with Nova Luxury Events' birthday planning expertise. Whether it's a child's themed party, a milestone adult celebration, or a surprise gathering, we create personalized experiences that reflect the birthday person's personality and preferences.\n\nOur creative team specializes in transforming venues into magical spaces that create lasting memories for guests of all ages, ensuring every birthday celebration is as unique as the person being celebrated.`,
@@ -318,7 +318,7 @@ const IndividualServicePages = () => {
         {
           title: "Children\'s Themed Parties",
           description: "Magical themed birthday parties for children featuring beloved characters, interactive entertainment, and age-appropriate activities that create wonder and excitement.",
-          image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=600&h=400&fit=crop",
+          image: "https://images.unplash.com/photo-1513475382585-d06e58bcb0e0?w=600&h=400&fit=crop",
           features: [
             "Character appearances and entertainment",
             "Interactive games and activities",
@@ -331,7 +331,7 @@ const IndividualServicePages = () => {
         {
           title: "Milestone Celebrations",
           description: "Sophisticated celebrations for significant birthdays like 18th, 21st, 30th, 50th, and beyond, designed to honor life achievements and create memorable experiences.",
-          image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop",
+          image: "https://images.unslash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop",
           features: [
             "Elegant venue styling",
             "Sophisticated entertainment",
@@ -344,7 +344,7 @@ const IndividualServicePages = () => {
         {
           title: "Surprise Parties",
           description: "Expertly coordinated surprise celebrations that create unforgettable moments of joy and amazement for the birthday person and their loved ones.",
-          image: "https://images.pexels.com/photos/1729931/pexels-photo-1729931.jpeg?w=600&h=400&fit=crop",
+          image: "https://images.pexls.com/photos/1729931/pexels-photo-1729931.jpeg?w=600&h=400&fit=crop",
           features: [
             "Secret planning coordination",
             "Guest communication management",
@@ -372,12 +372,12 @@ const IndividualServicePages = () => {
         }
       ],
       portfolioImages: [
-        { src: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&h=400&fit=crop", alt: "Colorful birthday party decorations" },
-        { src: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&h=400&fit=crop", alt: "Birthday cake celebration" },
-        { src: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=400&fit=crop", alt: "Children\'s themed party" },
-        { src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop", alt: "Adult milestone birthday" },
-        { src: "https://images.pexels.com/photos/1729931/pexels-photo-1729931.jpeg?w=400&h=400&fit=crop", alt: "Surprise birthday party" },
-        { src: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=400&h=400&fit=crop", alt: "Birthday party entertainment" }
+        { src: "https://images.unslash.com/photo-1530103862676-de8c9debad1d?w=400&h=400&fit=crop", alt: "Colorful birthday party decorations" },
+        { src: "https://images.unplash.com/photo-1464349095431-e9a21285b5f3?w=400&h=400&fit=crop", alt: "Birthday cake celebration" },
+        { src: "https://images.usplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=400&fit=crop", alt: "Children\'s themed party" },
+        { src: "https://images.usplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop", alt: "Adult milestone birthday" },
+        { src: "https://images.peels.com/photos/1729931/pexels-photo-1729931.jpeg?w=400&h=400&fit=crop", alt: "Surprise birthday party" },
+        { src: "https://images.usplash.com/photo-1555252333-9f8e92e65df9?w=400&h=400&fit=crop", alt: "Birthday party entertainment" }
       ],
       testimonials: [
         {
@@ -386,7 +386,7 @@ const IndividualServicePages = () => {
           date: "January 2025",
           rating: 5,
           content: "Nova created the most magical princess party for my daughter. The attention to detail was incredible, and seeing her face light up made it all worth it. The children had an amazing time!",
-          avatar: "https://randomuser.me/api/portraits/women/29.jpg"
+          avatar: "https://randmuser.me/api/portraits/women/29.jpg"
         },
         {
           name: "John Mutua",
@@ -394,7 +394,7 @@ const IndividualServicePages = () => {
           date: "December 2024",
           rating: 5,
           content: "My 50th birthday celebration was beyond my expectations. Nova perfectly captured my personality in the theme and created an elegant evening that my friends and family will never forget.",
-          avatar: "https://randomuser.me/api/portraits/men/48.jpg"
+          avatar: "https://rndomuser.me/api/portraits/men/48.jpg"
         }
       ],
       faqs: [
@@ -423,7 +423,7 @@ const IndividualServicePages = () => {
     private: {
       name: "Private Luxury Events",
       category: "Exclusive Experiences",
-      heroImage: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1200&h=800&fit=crop",
+      heroImage: "https://images.unslash.com/photo-1464366400600-7168b8af9bc3?w=1200&h=800&fit=crop",
       heroDescription: "Create exclusive, intimate experiences with our private luxury event planning. From VIP gatherings to cultural ceremonies, we craft bespoke celebrations that reflect sophistication and elegance.",
       overviewTitle: "Exclusive Private Event Experiences",
       overviewDescription: `Elevate your private gatherings with Nova Luxury Events' exclusive planning services. We specialize in creating intimate, sophisticated experiences that cater to discerning clients seeking privacy, elegance, and personalized attention.\n\nOur private event expertise encompasses cultural ceremonies, religious celebrations, VIP gatherings, and exclusive parties, all executed with the highest level of discretion and luxury service standards.`,
@@ -439,7 +439,7 @@ const IndividualServicePages = () => {
         {
           title: "VIP Exclusive Gatherings",
           description: "Ultra-exclusive gatherings for high-profile clients requiring privacy, security, and impeccable service in sophisticated settings.",
-          image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=400&fit=crop",
+          image: "https://images.unslash.com/photo-1551698618-1dfe5d97d256?w=600&h=400&fit=crop",
           features: [
             "Private venue exclusivity",
             "Security and privacy management",
@@ -452,7 +452,7 @@ const IndividualServicePages = () => {
         {
           title: "Cultural Ceremonies",
           description: "Authentic cultural and traditional ceremonies honoring heritage while incorporating modern luxury elements and professional coordination.",
-          image: "https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop",
+          image: "https://images.unslash.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop",
           features: [
             "Cultural authenticity consultation",
             "Traditional element coordination",
@@ -465,7 +465,7 @@ const IndividualServicePages = () => {
         {
           title: "Religious Celebrations",
           description: "Sacred religious celebrations and ceremonies planned with deep respect for traditions while ensuring seamless logistics and meaningful experiences.",
-          image: "https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?w=600&h=400&fit=crop",
+          image: "https://images.peels.com/photos/8849295/pexels-photo-8849295.jpeg?w=600&h=400&fit=crop",
           features: [
             "Religious protocol adherence",
             "Sacred space preparation",
@@ -503,12 +503,12 @@ const IndividualServicePages = () => {
         }
       ],
       portfolioImages: [
-        { src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=400&fit=crop", alt: "Private luxury dinner event" },
-        { src: "https://images.unsplash.com/photo-1519167758481-83f29c1fe8ea?w=400&h=400&fit=crop", alt: "Exclusive venue setup" },
-        { src: "https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=400&h=400&fit=crop", alt: "Cultural ceremony celebration" },
-        { src: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=400&fit=crop", alt: "VIP gathering space" },
-        { src: "https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?w=400&h=400&fit=crop", alt: "Religious ceremony setup" },
-        { src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=400&fit=crop", alt: "Private party atmosphere" }
+        { src: "https://images.unsplah.com/photo-1464366400600-7168b8af9bc3?w=400&h=400&fit=crop", alt: "Private luxury dinner event" },
+        { src: "https://images.unsplsh.com/photo-1519167758481-83f29c1fe8ea?w=400&h=400&fit=crop", alt: "Exclusive venue setup" },
+        { src: "https://images.unspash.com/photo-1478146896981-b80fe463b330?w=400&h=400&fit=crop", alt: "Cultural ceremony celebration" },
+        { src: "https://images.unslash.com/photo-1551698618-1dfe5d97d256?w=400&h=400&fit=crop", alt: "VIP gathering space" },
+        { src: "https://images.peels.com/photos/8849295/pexels-photo-8849295.jpeg?w=400&h=400&fit=crop", alt: "Religious ceremony setup" },
+        { src: "https://images.usplash.com/photo-1414235077428-338989a2e8c0?w=400&h=400&fit=crop", alt: "Private party atmosphere" }
       ],
       testimonials: [
         {
@@ -517,7 +517,7 @@ const IndividualServicePages = () => {
           date: "December 2024",
           rating: 5,
           content: "Nova handled our traditional ceremony with exceptional cultural sensitivity and luxury service. The discretion and attention to detail were exactly what we needed for this important family celebration.",
-          avatar: "https://randomuser.me/api/portraits/women/52.jpg"
+          avatar: "https://randouser.me/api/portraits/women/52.jpg"
         },
         {
           name: "Dr. Samuel Kiprotich",
@@ -525,7 +525,7 @@ const IndividualServicePages = () => {
           date: "November 2024",
           rating: 5,
           content: "The religious celebration organized by Nova was both spiritually meaningful and elegantly executed. They understood the sacred nature of our event while providing luxury service.",
-          avatar: "https://randomuser.me/api/portraits/men/55.jpg"
+          avatar: "https://randomser.me/api/portraits/men/55.jpg"
         }
       ],
       faqs: [
@@ -554,7 +554,7 @@ const IndividualServicePages = () => {
     milestone: {
       name: "Milestone Celebrations",
       category: "Life Achievements",
-      heroImage: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&h=800&fit=crop",
+      heroImage: "https://images.unspash.com/photo-1492684223066-81342ee5ff30?w=1200&h=800&fit=crop",
       heroDescription: "Honor life's significant moments with elegant milestone celebrations that capture the importance of your achievements and create lasting memories for you and your loved ones.",
       overviewTitle: "Meaningful Milestone Celebrations",
       overviewDescription: `Celebrate life's most significant moments with Nova Luxury Events' milestone celebration expertise. From graduations to retirements, anniversaries to achievements, we create meaningful experiences that honor your journey and accomplishments.\n\nOur thoughtful approach ensures every milestone celebration reflects the significance of the occasion while creating an atmosphere of joy, reflection, and anticipation for the future.`,
@@ -570,7 +570,7 @@ const IndividualServicePages = () => {
         {
           title: "Academic Achievements",
           description: "Celebrate educational milestones with graduations, academic honors, and scholarship celebrations that recognize hard work and achievement.",
-          image: "https://images.unsplash.com/photo-1523050854058-8df90110c9d1?w=600&h=400&fit=crop",
+          image: "https://images.unslash.com/photo-1523050854058-8df90110c9d1?w=600&h=400&fit=crop",
           features: [
             "Graduation ceremony coordination",
             "Academic honor celebrations",
@@ -583,7 +583,7 @@ const IndividualServicePages = () => {
         {
           title: "Career Milestones",
           description: "Honor professional achievements with retirement parties, promotion celebrations, and career recognition events that acknowledge dedication and success.",
-          image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&h=400&fit=crop",
+          image: "https://images.unslash.com/photo-1557804506-669a67965ba0?w=600&h=400&fit=crop",
           features: [
             "Retirement celebration planning",
             "Promotion recognition events",
@@ -596,7 +596,7 @@ const IndividualServicePages = () => {
         {
           title: "Life Transitions",
           description: "Mark significant life transitions with coming of age ceremonies, anniversary celebrations, and personal achievement recognition events.",
-          image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&h=400&fit=crop",
+          image: "https://images.unsplsh.com/photo-1464366400600-7168b8af9bc3?w=600&h=400&fit=crop",
           features: [
             "Coming of age ceremonies",
             "Anniversary celebrations",
@@ -634,12 +634,12 @@ const IndividualServicePages = () => {
         }
       ],
       portfolioImages: [
-        { src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400&h=400&fit=crop", alt: "Milestone celebration setup" },
-        { src: "https://images.unsplash.com/photo-1523050854058-8df90110c9d1?w=400&h=400&fit=crop", alt: "Graduation celebration" },
-        { src: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=400&fit=crop", alt: "Career milestone event" },
-        { src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=400&fit=crop", alt: "Anniversary celebration" },
-        { src: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&h=400&fit=crop", alt: "Achievement recognition" },
-        { src: "https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=400&h=400&fit=crop", alt: "Traditional ceremony" }
+        { src: "https://images.unsplas.com/photo-1492684223066-81342ee5ff30?w=400&h=400&fit=crop", alt: "Milestone celebration setup" },
+        { src: "https://images.unsplah.com/photo-1523050854058-8df90110c9d1?w=400&h=400&fit=crop", alt: "Graduation celebration" },
+        { src: "https://images.unsplsh.com/photo-1557804506-669a67965ba0?w=400&h=400&fit=crop", alt: "Career milestone event" },
+        { src: "https://images.unspash.com/photo-1464366400600-7168b8af9bc3?w=400&h=400&fit=crop", alt: "Anniversary celebration" },
+        { src: "https://images.unslash.com/photo-1511795409834-ef04bbd61622?w=400&h=400&fit=crop", alt: "Achievement recognition" },
+        { src: "https://images.unplash.com/photo-1478146896981-b80fe463b330?w=400&h=400&fit=crop", alt: "Traditional ceremony" }
       ],
       testimonials: [
         {
@@ -648,7 +648,7 @@ const IndividualServicePages = () => {
           date: "December 2024",
           rating: 5,
           content: "Nova made my PhD graduation celebration incredibly meaningful. They understood the significance of this achievement and created a beautiful ceremony that honored my academic journey.",
-          avatar: "https://randomuser.me/api/portraits/women/41.jpg"
+          avatar: "https://randmuser.me/api/portraits/women/41.jpg"
         },
         {
           name: "Professor James Wanjiku",
@@ -656,7 +656,7 @@ const IndividualServicePages = () => {
           date: "November 2024",
           rating: 5,
           content: "After 40 years in education, Nova created the perfect retirement celebration that honored my career while bringing together colleagues, students, and family. It was truly special.",
-          avatar: "https://randomuser.me/api/portraits/men/58.jpg"
+          avatar: "https://randmuser.me/api/portraits/men/58.jpg"
         }
       ],
       faqs: [
@@ -677,7 +677,7 @@ const IndividualServicePages = () => {
     family: {
       name: "Family & Social Events",
       category: "Family Gatherings",
-      heroImage: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&h=800&fit=crop",
+      heroImage: "https://images.unspash.com/photo-1511895426328-dc8714191300?w=1200&h=800&fit=crop",
       heroDescription: "Create warm, welcoming family gatherings that bring loved ones together. From baby showers to family reunions, we specialize in events that celebrate family bonds and create cherished memories.",
       overviewTitle: "Heartwarming Family Celebrations",
       overviewDescription: `Strengthen family bonds with Nova Luxury Events' family-focused celebration planning. We understand that family events are about connection, love, and creating memories that last a lifetime. Our approach emphasizes warmth, inclusivity, and personal touches that make every family member feel special.\n\nWhether it's welcoming a new family member, celebrating achievements, or simply bringing everyone together, we create environments where families can connect, laugh, and create lasting memories.`,
@@ -693,7 +693,7 @@ const IndividualServicePages = () => {
         {
           title: "Baby & Family Celebrations",
           description: "Welcome new family members with baby showers, naming ceremonies, and first birthday parties that celebrate new beginnings and family joy.",
-          image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop",
+          image: "https://images.unspash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop",
           features: [
             "Baby shower coordination",
             "Naming ceremony planning",
@@ -706,7 +706,7 @@ const IndividualServicePages = () => {
         {
           title: "Family Reunions",
           description: "Bring families together with reunions that accommodate multiple generations, celebrate family history, and create new memories for years to come.",
-          image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&h=400&fit=crop",
+          image: "https://images.unsplsh.com/photo-1511895426328-dc8714191300?w=600&h=400&fit=crop",
           features: [
             "Multi-day reunion planning",
             "Activity coordination for all ages",
@@ -719,7 +719,7 @@ const IndividualServicePages = () => {
         {
           title: "Holiday & Seasonal Gatherings",
           description: "Create magical holiday celebrations and seasonal gatherings that honor traditions while making new ones for your family to treasure.",
-          image: "https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?w=600&h=400&fit=crop",
+          image: "https://images.peels.com/photos/1303081/pexels-photo-1303081.jpeg?w=600&h=400&fit=crop",
           features: [
             "Holiday dinner coordination",
             "Seasonal celebration planning",
@@ -757,12 +757,12 @@ const IndividualServicePages = () => {
         }
       ],
       portfolioImages: [
-        { src: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=400&h=400&fit=crop", alt: "Family reunion gathering" },
-        { src: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=400&fit=crop", alt: "Baby shower celebration" },
-        { src: "https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?w=400&h=400&fit=crop", alt: "Holiday family gathering" },
-        { src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=400&fit=crop", alt: "Family dinner setup" },
-        { src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop", alt: "Children\'s family activity" },
-        { src: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=400&h=400&fit=crop", alt: "Multi-generation celebration" }
+        { src: "https://images.unsplas.com/photo-1511895426328-dc8714191300?w=400&h=400&fit=crop", alt: "Family reunion gathering" },
+        { src: "https://images.unsplah.com/photo-1544367567-0f2fcb009e0b?w=400&h=400&fit=crop", alt: "Baby shower celebration" },
+        { src: "https://images.pexel.com/photos/1303081/pexels-photo-1303081.jpeg?w=400&h=400&fit=crop", alt: "Holiday family gathering" },
+        { src: "https://images.unspash.com/photo-1464366400600-7168b8af9bc3?w=400&h=400&fit=crop", alt: "Family dinner setup" },
+        { src: "https://images.unslash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop", alt: "Children\'s family activity" },
+        { src: "https://images.unplash.com/photo-1511895426328-dc8714191300?w=400&h=400&fit=crop", alt: "Multi-generation celebration" }
       ],
       testimonials: [
         {
@@ -771,7 +771,7 @@ const IndividualServicePages = () => {
           date: "December 2024",
           rating: 5,
           content: "Nova brought our entire extended family together for the first time in years. They managed to coordinate activities that entertained both the grandchildren and great-grandparents. It was magical!",
-          avatar: "https://randomuser.me/api/portraits/women/67.jpg"
+          avatar: "https://randomser.me/api/portraits/women/67.jpg"
         },
         {
           name: "Peter & Mary Kimani",
@@ -779,7 +779,7 @@ const IndividualServicePages = () => {
           date: "January 2025",
           rating: 5,
           content: "Our baby shower was perfect! Nova created such a warm, loving atmosphere and made sure every family member felt special. The attention to detail was incredible.",
-          avatar: "https://randomuser.me/api/portraits/women/31.jpg"
+          avatar: "https://randmuser.me/api/portraits/women/31.jpg"
         }
       ],
       faqs: [

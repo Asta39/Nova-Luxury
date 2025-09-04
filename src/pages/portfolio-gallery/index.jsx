@@ -26,7 +26,7 @@ const PortfolioGallery = () => {
   const portfolioImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&h=600&fit=crop",
+      src: "https://images.unslash.com/photo-1519167758481-83f550bb49b3?w=800&h=600&fit=crop",
       alt: "Corporate Annual Gala at Nairobi Serena Hotel",
       eventType: "Corporate Events",
       category: "corporate",
@@ -42,7 +42,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800&h=600&fit=crop",
+      src: "https://images.unslash.com/photo-1606800052052-a08af7148866?w=800&h=600&fit=crop",
       alt: "Traditional Kikuyu Wedding Ceremony",
       eventType: "Wedding Celebrations",
       category: "weddings",
@@ -58,7 +58,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&h=600&fit=crop",
+      src: "https://images.unslash.com/photo-1530103862676-de8c9debad1d?w=800&h=600&fit=crop",
       alt: "50th Birthday Milestone Celebration",
       eventType: "Birthday Celebrations",
       category: "birthdays",
@@ -74,7 +74,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&h=600&fit=crop",
+      src: "https://images.unspash.com/photo-1511795409834-ef04bbd61622?w=800&h=600&fit=crop",
       alt: "Product Launch Event at KICC",
       eventType: "Corporate Events",
       category: "corporate",
@@ -90,7 +90,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop",
+      src: "https://images.unspash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop",
       alt: "Luxury Garden Wedding Reception",
       eventType: "Wedding Celebrations",
       category: "weddings",
@@ -106,7 +106,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 6,
-      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+      src: "https://images.unspash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
       alt: "Children\'s Safari-Themed Birthday Party",
       eventType: "Birthday Celebrations",
       category: "birthdays",
@@ -122,7 +122,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 7,
-      src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
+      src: "https://images.unspash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
       alt: "Executive Board Dinner",
       eventType: "Private Events",
       category: "private",
@@ -138,7 +138,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 8,
-      src: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=800&h=600&fit=crop",
+      src: "https://images.unspash.com/photo-1505236858219-8359eb29e329?w=800&h=600&fit=crop",
       alt: "University Graduation Celebration",
       eventType: "Milestone Celebrations",
       category: "milestones",
@@ -154,7 +154,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 9,
-      src: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop",
+      src: "https://images.unplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop",
       alt: "Family Reunion Picnic",
       eventType: "Family Celebrations",
       category: "family",
@@ -170,7 +170,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 10,
-      src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop",
+      src: "https://images.unslash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop",
       alt: "Cultural Heritage Festival",
       eventType: "Private Events",
       category: "private",
@@ -186,7 +186,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 11,
-      src: "https://images.unsplash.com/photo-1464207687429-7505649dae38?w=800&h=600&fit=crop",
+      src: "https://images.unspash.com/photo-1464207687429-7505649dae38?w=800&h=600&fit=crop",
       alt: "Retirement Celebration Dinner",
       eventType: "Milestone Celebrations",
       category: "milestones",
@@ -202,7 +202,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 12,
-      src: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&h=600&fit=crop",
+      src: "https://images.unslash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&h=600&fit=crop",
       alt: "Baby Shower Garden Party",
       eventType: "Family Celebrations",
       category: "family",
@@ -227,7 +227,7 @@ const PortfolioGallery = () => {
       location: "Nairobi Serena Hotel",
       date: "March 15, 2024",
       guestCount: "300",
-      heroImage: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&h=600&fit=crop",
+      heroImage: "https://images.unsplah.com/photo-1519167758481-83f550bb49b3?w=800&h=600&fit=crop",
       description: `A spectacular evening celebrating excellence in telecommunications, featuring award presentations, 
       gourmet dining, and world-class entertainment. The event showcased corporate achievements while maintaining 
       an atmosphere of elegance and sophistication.`,
@@ -243,10 +243,10 @@ const PortfolioGallery = () => {
         role: "Corporate Events Manager, Safaricom"
       },
       galleryImages: [
-        "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1464207687429-7505649dae38?w=400&h=300&fit=crop"
+        "https://images.unslash.com/photo-1519167758481-83f550bb49b3?w=400&h=300&fit=crop",
+        "https://images.unslash.com/photo-1511795409834-ef04bbd61622?w=400&h=300&fit=crop",
+        "https://images.unslash.com/photo-1492684223066-81342ee5ff30?w=400&h=300&fit=crop",
+        "https://images.unplash.com/photo-1464207687429-7505649dae38?w=400&h=300&fit=crop"
       ]
     },
     {
@@ -256,7 +256,7 @@ const PortfolioGallery = () => {
       location: "Karen Country Club",
       date: "February 20, 2024",
       guestCount: "150",
-      heroImage: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800&h=600&fit=crop",
+      heroImage: "https://images.unsplsh.com/photo-1606800052052-a08af7148866?w=800&h=600&fit=crop",
       description: `A beautiful fusion of traditional Kikuyu customs with contemporary luxury, creating an unforgettable 
       celebration that honored cultural heritage while embracing modern elegance. The ceremony featured authentic 
       rituals, traditional music, and exquisite décor.`,
@@ -272,10 +272,10 @@ const PortfolioGallery = () => {
         role: "Wedding Couple"
       },
       galleryImages: [
-        "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=400&h=300&fit=crop"
+        "https://images.unspash.com/photo-1606800052052-a08af7148866?w=400&h=300&fit=crop",
+        "https://images.unslash.com/photo-1464366400600-7168b8af9bc3?w=400&h=300&fit=crop",
+        "https://images.unplash.com/photo-1519741497674-611481863552?w=400&h=300&fit=crop",
+        "https://images.usplash.com/photo-1533174072545-7a4b6ad7a6c3?w=400&h=300&fit=crop"
       ]
     }
   ];

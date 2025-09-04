@@ -5,7 +5,7 @@ const StatsSection = () => {
   const stats = [
     {
       icon: 'Calendar',
-      number: '500+',
+      number: '50+',
       label: 'Events Executed',
       description: 'Successful celebrations across Kenya'
     },
@@ -23,7 +23,7 @@ const StatsSection = () => {
     },
     {
       icon: 'Award',
-      number: '15+',
+      number: '5+',
       label: 'Industry Awards',
       description: 'Recognition for excellence'
     }

@@ -55,10 +55,10 @@ const CompanyStory = () => {
             
             {/* Founder Info Card */}
             <div className="absolute bottom-6 left-6 right-6 bg-background/95 backdrop-blur-sm p-4 rounded-3xl luxury-shadow-modal">
-              <h4 className="font-semibold text-primary">Sarah Wanjiku</h4>
+              <h4 className="font-semibold text-primary">Ian Gichora</h4>
               <p className="text-sm text-secondary font-medium">Founder & CEO</p>
               <p className="text-xs text-muted-foreground mt-1">
-                15+ years in luxury hospitality & event management
+                5+ years in luxury hospitality & event management
               </p>
             </div>
           </div>
