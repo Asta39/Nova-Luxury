@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
+// The static Icon component is no longer needed for the main stats,
+// but we'll keep it for the "Additional Achievements" section.
 import Icon from '../../../components/AppIcon';
 
 const CompanyStatistics = () => {
@@ -12,30 +14,55 @@ const CompanyStatistics = () => {
   
   const sectionRef = useRef(null);
 
+  // --- MODIFIED DATA STRUCTURE FOR ANIMATED ICONS ---
+  // Define the icon color for consistency
+  const iconSecondaryColor = "#b8860b";
+
   const statistics = [
     {
-      icon: "Calendar",
-      value: 50,
+      // Replaced 'icon: "Calendar"' with lord-icon properties
+      lordIcon: {
+        src: "https://cdn.lordicon.com/uphbloed.json", // Calendar icon
+        trigger: "loop",
+        state: "loop-oscillate",
+      },
+      value: 480,
       suffix: "+",
       label: "Successful Events",
       description: "Luxury celebrations delivered with excellence"
     },
     {
-      icon: "Users",
-      value: 250,
+      // Replaced 'icon: "Users"' with lord-icon properties
+      lordIcon: {
+        src: "https://cdn.lordicon.com/fqbvgezn.json", // Users icon
+        trigger: "loop",
+        state: "loop-oscillate",
+      },
+      value: 465,
       suffix: "+",
       label: "Happy Clients",
       description: "Families and corporations who trust us"
     },
     {
-      icon: "Clock",
-      value: 5,
+      // Replaced 'icon: "Clock"' with lord-icon properties
+      lordIcon: {
+        src: "https://cdn.lordicon.com/warimioc.json", // Clock icon
+        trigger: "loop",
+        state: "loop-oscillate",
+      },
+      value: 7,
       suffix: "",
       label: "Years Experience",
       description: "Building luxury event experiences"
     },
     {
-      icon: "Star",
+      // Replaced 'icon: "Star"' with lord-icon properties
+      lordIcon: {
+        src: "https://cdn.lordicon.com/fozsorqm.json", // Rating icon
+        trigger: "loop",
+        //delay: "1500",
+        state: "loop-oscillate",
+      },
       value: 98,
       suffix: "%",
       label: "Client Satisfaction",
@@ -119,13 +146,17 @@ const CompanyStatistics = () => {
               key={index}
               className="text-center p-8 bg-background rounded-3xl luxury-shadow-card border border-border hover:luxury-shadow-modal luxury-transition group"
             >
-              {/* Icon */}
+              {/* --- ICON HAS BEEN REPLACED HERE --- */}
               <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-secondary/20 luxury-transition">
-                <Icon 
-                  name={stat?.icon} 
-                  size={32} 
-                  className="text-secondary group-hover:scale-110 luxury-transition" 
-                />
+                <lord-icon
+                  src={stat.lordIcon.src}
+                  trigger={stat.lordIcon.trigger}
+                  state={stat.lordIcon.state}
+                  delay={stat.lordIcon.delay}
+                  colors={`primary:#121331,secondary:${iconSecondaryColor}`}
+                  style={{ width: '68px', height: '68px' }}
+                >
+                </lord-icon>
               </div>
 
               {/* Animated Number */}
@@ -162,7 +193,7 @@ const CompanyStatistics = () => {
           ))}
         </div>
 
-        {/* Additional Achievements */}
+        {/* Additional Achievements (using the static icons) */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="text-center p-6 bg-background rounded-3xl luxury-shadow-card border border-border">
             <Icon name="Award" size={24} className="text-secondary mx-auto mb-3" />

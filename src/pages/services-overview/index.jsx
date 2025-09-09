@@ -29,7 +29,8 @@ const ServicesOverview = () => {
       id: 'corporate',
       title: 'Corporate Events',
       description: 'Professional event management for conferences, product launches, AGMs, team building activities, awards ceremonies, and executive dinners that elevate your brand presence.',
-      icon: 'Building2',
+      // --- CHANGE: Replaced 'icon' with 'image' ---
+      image: './assets/corporate-events.jpg', // Replace with your actual image path
       category: 'corporate',
       offerings: [
         'Conference & seminar planning',
@@ -46,7 +47,8 @@ const ServicesOverview = () => {
       id: 'wedding',
       title: 'Wedding Celebrations',
       description: 'Luxury wedding planning services including traditional ceremonies, receptions, bridal events, anniversaries, and destination weddings crafted to perfection.',
-      icon: 'Heart',
+      // --- CHANGE: Replaced 'icon' with 'image' ---
+      image: './assets/wedding-celebrations.jpg', // Replace with your actual image path
       category: 'wedding',
       offerings: [
         'Complete wedding planning',
@@ -63,7 +65,8 @@ const ServicesOverview = () => {
       id: 'birthday',
       title: 'Birthday Celebrations',
       description: 'Memorable birthday celebrations for all ages including milestone parties, themed children\'s events, adult celebrations, and surprise coordination with custom packages.',
-      icon: 'Gift',
+      // --- CHANGE: Replaced 'icon' with 'image' ---
+      image: './assets/birthday-celebrations.jpg', // Replace with your actual image path
       category: 'private',
       offerings: [
         'Milestone birthday parties',
@@ -80,7 +83,8 @@ const ServicesOverview = () => {
       id: 'private',
       title: 'Private Luxury Events',
       description: 'Exclusive private gatherings including VIP parties, cultural ceremonies, religious celebrations, holiday parties, and intimate dinners for discerning clients.',
-      icon: 'Crown',
+      // --- CHANGE: Replaced 'icon' with 'image' ---
+      image: './assets/private-luxury.jpg', // Replace with your actual image path
       category: 'private',
       offerings: [
         'Exclusive VIP gatherings',
@@ -97,7 +101,8 @@ const ServicesOverview = () => {
       id: 'milestone',
       title: 'Milestone Celebrations',
       description: 'Life\'s significant moments including graduations, retirements, anniversaries, achievements, coming of age ceremonies, and memorial services handled with care.',
-      icon: 'Trophy',
+      // --- CHANGE: Replaced 'icon' with 'image' ---
+      image: './assets/milestone-celebrations.jpg', // Replace with your actual image path
       category: 'milestone',
       offerings: [
         'Graduation celebrations',
@@ -114,7 +119,8 @@ const ServicesOverview = () => {
       id: 'family',
       title: 'Family & Social Events',
       description: 'Warm family gatherings including baby showers, housewarmings, engagements, family reunions, picnics, and holiday celebrations that bring loved ones together.',
-      icon: 'Users',
+      // --- CHANGE: Replaced 'icon' with 'image' ---
+      image: './assets/family-events.jpg', // Replace with your actual image path
       category: 'family',
       offerings: [
         'Baby shower coordination',
@@ -134,7 +140,8 @@ const ServicesOverview = () => {
       id: 'venue',
       title: 'Venue Sourcing',
       description: 'Expert venue selection and booking services across Nairobi and Kenya.',
-      icon: 'MapPin',
+      // --- CHANGE: Replaced 'icon' with 'image' ---
+      image: './assets/venue-sourcing.jpg', // Replace with your actual image path
       category: 'specialized',
       offerings: ['Premium venue partnerships', 'Site visits & negotiations', 'Contract management'],
       ctaText: 'Find Venues',
@@ -144,7 +151,8 @@ const ServicesOverview = () => {
       id: 'catering',
       title: 'Catering Coordination',
       description: 'Luxury catering services with top chefs and diverse menu options.',
-      icon: 'ChefHat',
+      // --- CHANGE: Replaced 'icon' with 'image' ---
+      image: './assets/catering.jpg', // Replace with your actual image path
       category: 'specialized',
       offerings: ['Gourmet menu planning', 'Dietary accommodations', 'Service staff coordination'],
       ctaText: 'Explore Catering',
@@ -154,7 +162,8 @@ const ServicesOverview = () => {
       id: 'av',
       title: 'AV Production',
       description: 'Professional audio-visual setup and technical production services.',
-      icon: 'Mic',
+      // --- CHANGE: Replaced 'icon' with 'image' ---
+      image: './assets/av-production.jpg', // Replace with your actual image path
       category: 'specialized',
       offerings: ['Sound system setup', 'Lighting design', 'Live streaming services'],
       ctaText: 'View AV Services',
@@ -164,7 +173,8 @@ const ServicesOverview = () => {
       id: 'guest',
       title: 'Guest Management',
       description: 'Comprehensive guest coordination and hospitality services.',
-      icon: 'UserCheck',
+      // --- CHANGE: Replaced 'icon' with 'image' ---
+      image: './assets/guest-management.jpg', // Replace with your actual image path
       category: 'specialized',
       offerings: ['RSVP management', 'Guest registration', 'VIP coordination'],
       ctaText: 'Manage Guests',
@@ -172,6 +182,7 @@ const ServicesOverview = () => {
     }
   ];
 
+  // ... rest of the component remains the same ...
   const testimonials = [
     {
       name: 'Sarah Wanjiku',
@@ -197,7 +208,7 @@ const ServicesOverview = () => {
     } else {
       setFilteredServices(primaryServices?.filter(service => service?.category === activeFilter));
     }
-  }, [activeFilter]);
+  }, [activeFilter, primaryServices]);
 
   return (
     <>

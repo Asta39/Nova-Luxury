@@ -44,8 +44,8 @@ const CorporateServicesSection = () => {
     <section className="bg-surface py-16 md:py-24">
       <div className="w-full max-w-7xl mx-auto px-6 lg:px-12">
         {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-4">
             End-to-End Corporate Solutions
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -53,24 +53,32 @@ const CorporateServicesSection = () => {
           </p>
         </div>
 
-        {/* Services Roadmap */}
+        {/* Services Roadmap Container */}
         <div className="relative">
-          {/* Vertical line */}
-          <div className="absolute left-1/2 -translate-x-1/2 top-0 h-full w-0.5 bg-border" aria-hidden="true"></div>
+          {/* Vertical line: On the left for mobile, centered for desktop */}
+          <div className="absolute top-0 h-full w-0.5 bg-border left-6 md:left-1/2 md:-translate-x-1/2" aria-hidden="true"></div>
 
           <div className="space-y-12">
             {services.map((service, index) => (
-              <div key={index} className="relative flex items-center">
+              <div key={index} className="relative flex items-center md:grid md:grid-cols-2 md:gap-x-12">
+                
                 {/* Icon Circle */}
-                <div className="absolute left-1/2 -translate-x-1/2 bg-white border-2 border-border rounded-full p-3 z-10">
+                <div className="absolute left-6 -translate-x-1/2 bg-white border-2 border-border rounded-full p-3 z-10 md:left-1/2">
                   {service.icon}
                 </div>
 
                 {/* Content Card */}
-                <div className={`w-[calc(50%-2.5rem)] p-6 bg-card rounded-lg shadow-md ${index % 2 === 0 ? 'mr-auto' : 'ml-auto'}`}>
-                  <h3 className="text-xl font-bold text-primary mb-2">{service.title}</h3>
-                  <p className="text-base text-muted-foreground">{service.description}</p>
+                {/* This div handles positioning: it places the card on the correct side for desktop */}
+                <div className={`
+                  w-full pl-16 md:pl-0
+                  ${index % 2 === 0 ? 'md:col-start-1' : 'md:col-start-2'}
+                `}>
+                  <div className="p-6 bg-card rounded-lg shadow-md border border-border/50">
+                    <h3 className="text-xl font-bold text-primary mb-2">{service.title}</h3>
+                    <p className="text-base text-muted-foreground">{service.description}</p>
+                  </div>
                 </div>
+
               </div>
             ))}
           </div>

@@ -1,35 +1,70 @@
 import React from 'react';
+// Icon component is still needed for the quote at the bottom
 import Icon from '../../../components/AppIcon';
 
 const CompanyValues = () => {
+  // Define the icon color for consistency
+  const iconSecondaryColor = "#b8860b";
+
+  // --- MODIFIED DATA STRUCTURE FOR ANIMATED ICONS ---
   const values = [
     {
-      icon: "Crown",
+      // Replaced icon: "Crown"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/apmrcxtj.json",
+        trigger: "loop",
+        state: "loop-osscilate",
+      },
       title: "Luxury Excellence",
       description: "We maintain the highest standards in every aspect of event planning, from initial consultation to final execution, ensuring an unparalleled luxury experience."
     },
     {
-      icon: "Heart",
+      // Replaced icon: "Heart"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/nvsfzbop.json",
+        trigger: "loop",
+        state: "loop-osscilate",
+      },
       title: "Cultural Integration",
       description: "We celebrate Kenya's rich cultural diversity by seamlessly blending traditional customs with modern luxury, creating authentic and meaningful celebrations."
     },
     {
-      icon: "Users",
+      // Replaced icon: "Users"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/vqhlecvy.json",
+        trigger: "loop",
+        state: "loop-osscilate",
+      },
       title: "Client Satisfaction",
-      description: "Our clients\' happiness is our ultimate measure of success. We go above and beyond to exceed expectations and create lasting memories."
+      description: "Our clients' happiness is our ultimate measure of success. We go above and beyond to exceed expectations and create lasting memories."
     },
     {
-      icon: "Shield",
+      // Replaced icon: "Shield"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/sjoccsdj.json",
+        trigger: "loop",
+        state: "loop-osscilate",
+      },
       title: "Trust & Reliability",
       description: "We build lasting relationships through transparency, reliability, and consistent delivery of exceptional results that our clients can depend on."
     },
     {
-      icon: "Lightbulb",
+      // Replaced icon: "Lightbulb"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/uyvoksqr.json",
+        trigger: "loop",
+        state: "loop-cycle",
+      },
       title: "Creative Innovation",
       description: "We continuously push creative boundaries, incorporating the latest trends and technologies to deliver fresh, innovative event experiences."
     },
     {
-      icon: "Globe",
+      // Replaced icon: "Globe"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/rpviwvwn.json",
+        trigger: "loop",
+        state: "loop-rotate",
+      },
       title: "Global Standards",
       description: "We apply international best practices while maintaining deep respect for local traditions, delivering world-class events with authentic Kenyan hospitality."
     }
@@ -55,13 +90,16 @@ const CompanyValues = () => {
               key={index}
               className="group bg-surface p-8 rounded-3xl luxury-shadow-card hover:luxury-shadow-modal luxury-transition border border-border hover:border-secondary/20"
             >
-              {/* Icon */}
+              {/* --- ICON REPLACED HERE --- */}
               <div className="w-16 h-16 bg-secondary/10 rounded-3xl flex items-center justify-center mb-6 group-hover:bg-secondary/20 luxury-transition">
-                <Icon 
-                  name={value?.icon} 
-                  size={28} 
-                  className="text-secondary group-hover:scale-110 luxury-transition" 
-                />
+                <lord-icon
+                  src={value.lordIcon.src}
+                  trigger={value.lordIcon.trigger}
+                  state={value.lordIcon.state}
+                  colors={`primary:#121331,secondary:${iconSecondaryColor}`}
+                  style={{ width: '62px', height: '62px' }}
+                >
+                </lord-icon>
               </div>
 
               {/* Content */}
@@ -80,7 +118,7 @@ const CompanyValues = () => {
           ))}
         </div>
 
-        {/* Values Statement */}
+        {/* Values Statement (This section remains unchanged) */}
         <div className="mt-16 text-center">
           <div className="bg-accent p-8 lg:p-12 rounded-3xl border border-border max-w-4xl mx-auto">
             <Icon name="Quote" size={32} className="text-secondary mx-auto mb-6" />

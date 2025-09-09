@@ -1,8 +1,12 @@
 import React from 'react';
 import Image from '../../../components/AppImage';
-import Icon from '../../../components/AppIcon';
+// The static Icon component is no longer needed in this file
+// import Icon from '../../../components/AppIcon';
 
 const CompanyStory = () => {
+  // Define the icon color for consistency
+  const iconSecondaryColor = "#b8860b";
+
   return (
     <section className="py-16 bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -18,11 +22,11 @@ const CompanyStory = () => {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Founded in 2020 by Ian Gichora, Nova Luxury Events emerged from a passion for creating extraordinary celebrations that honor both modern sophistication and Kenya's rich cultural heritage. What started as a boutique wedding planning service has evolved into Kenya's premier luxury event management company.
+                Founded in 2020, Nova Luxury Events emerged from a passion for creating extraordinary celebrations that honor both modern sophistication and Kenya's rich cultural heritage. What started as a boutique wedding planning service has evolved into Kenya's premier luxury event management company.
               </p>
               
               <p>
-                Ian's vision was simple yet ambitious: to establish an event planning company that could seamlessly blend international luxury standards with authentic Kenyan traditions. Having worked in hospitality management across Europe and East Africa, he recognized the unique opportunity to create something truly special in Nairobi's growing luxury market.
+                Nova's vision was simple yet ambitious: to establish an event planning company that could seamlessly blend international luxury standards with authentic Kenyan traditions. Having worked in hospitality management across Europe and East Africa, our team recognized the unique opportunity to create something truly special in Nairobi's growing luxury market.
               </p>
               
               <p>
@@ -33,7 +37,15 @@ const CompanyStory = () => {
             {/* Mission Statement */}
             <div className="bg-accent p-6 rounded-3xl border border-border">
               <h3 className="text-lg font-semibold text-primary mb-3 flex items-center">
-                <Icon name="Target" size={20} className="text-secondary mr-2" />
+                {/* --- ICON REPLACED HERE --- */}
+                <lord-icon
+                    src="https://cdn.lordicon.com/weqkkuwt.json"
+                    trigger="loop"
+                    state="loop-osscilate"
+                    colors={`primary:#121331,secondary:${iconSecondaryColor}`}
+                    // Added marginRight to replicate the 'mr-2' class
+                    style={{ width: '52px', height: '52px', marginRight: '0.5rem' }}>
+                </lord-icon>
                 Our Mission
               </h3>
               <p className="text-muted-foreground">
@@ -46,7 +58,7 @@ const CompanyStory = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-3xl luxury-shadow-card">
               <Image
-                src="https://images.unspla.com/photo-1573496359142-b8d87734a5a2?w=600&h=700&fit=crop&crop=face"
+                src="https://images.unplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=700&fit=crop&crop=face"
                 alt="Sarah Wanjiku - Founder & CEO of Nova Luxury Events"
                 className="w-full h-[500px] object-cover"
               />
@@ -55,10 +67,9 @@ const CompanyStory = () => {
             
             {/* Founder Info Card */}
             <div className="absolute bottom-6 left-6 right-6 bg-background/95 backdrop-blur-sm p-4 rounded-3xl luxury-shadow-modal">
-              <h4 className="font-semibold text-primary">Ian Gichora</h4>
-              <p className="text-sm text-secondary font-medium">Founder & CEO</p>
+              <h4 className="font-semibold text-primary">The Nova Team</h4>
               <p className="text-xs text-muted-foreground mt-1">
-                5+ years in luxury hospitality & event management
+                7+ years in luxury hospitality & event management
               </p>
             </div>
           </div>

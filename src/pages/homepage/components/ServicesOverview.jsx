@@ -1,13 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// Icon component is still needed for the checkmarks in the feature list
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
 
 const ServicesOverview = () => {
+  // Define the icon color for consistency
+  const iconSecondaryColor = "#b8860b";
+
+  // --- MODIFIED DATA STRUCTURE FOR ANIMATED ICONS ---
   const services = [
     {
       id: 1,
-      icon: "Building2",
+      // Replaced icon: "Building2"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/gitajdzc.json",
+        trigger: "loop",
+        state: "loop-osscilation",
+      },
       title: "Corporate Events",
       description: "Professional conferences, product launches, AGMs, and executive dinners that elevate your brand presence.",
       features: ["Conference Planning", "Product Launches", "Team Building", "Awards Ceremonies"],
@@ -15,7 +25,12 @@ const ServicesOverview = () => {
     },
     {
       id: 2,
-      icon: "Heart",
+      // Replaced icon: "Heart"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/nvsfzbop.json",
+        trigger: "loop",
+        state: "loop-osscilation",
+      },
       title: "Wedding Celebrations",
       description: "Luxury wedding planning from traditional ceremonies to destination weddings with impeccable attention to detail.",
       features: ["Traditional Ceremonies", "Luxury Receptions", "Destination Weddings", "Bridal Events"],
@@ -23,15 +38,25 @@ const ServicesOverview = () => {
     },
     {
       id: 3,
-      icon: "Gift",
+      // Replaced icon: "Gift"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/kezeezyg.json",
+        trigger: "loop",
+        state: "loop-osscilation",
+      },
       title: "Birthday Celebrations",
       description: "Memorable birthday parties for all ages, from intimate gatherings to grand milestone celebrations.",
-      features: ["Milestone Parties", "Children\'s Themes", "Surprise Coordination", "Custom Packages"],
+      features: ["Milestone Parties", "Children's Themes", "Surprise Coordination", "Custom Packages"],
       link: "/individual-service-pages?service=birthday"
     },
     {
       id: 4,
-      icon: "Crown",
+      // Replaced icon: "Crown"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/apmrcxtj.json",
+        trigger: "loop",
+        state: "loop-osscilation",
+      },
       title: "Private Luxury Events",
       description: "Exclusive VIP gatherings, cultural ceremonies, and intimate dinners crafted for discerning clients.",
       features: ["VIP Gatherings", "Cultural Ceremonies", "Holiday Parties", "Intimate Dinners"],
@@ -39,7 +64,12 @@ const ServicesOverview = () => {
     },
     {
       id: 5,
-      icon: "Trophy",
+      // Replaced icon: "Trophy"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/vttzorhw.json",
+        trigger: "loop",
+        state: "loop-osscilation",
+      },
       title: "Milestone Celebrations",
       description: "Honor life's achievements with elegant graduations, retirements, and anniversary celebrations.",
       features: ["Graduations", "Retirements", "Anniversaries", "Achievement Awards"],
@@ -47,7 +77,12 @@ const ServicesOverview = () => {
     },
     {
       id: 6,
-      icon: "Users",
+      // Replaced icon: "Users"
+      lordIcon: {
+        src: "https://cdn.lordicon.com/vqhlecvy.json",
+        trigger: "loop",
+        state: "loop-osscilation",
+      },
       title: "Family & Social Events",
       description: "Warm family gatherings, baby showers, and social celebrations that bring loved ones together.",
       features: ["Baby Showers", "Family Reunions", "Engagements", "Housewarmings"],
@@ -73,12 +108,17 @@ const ServicesOverview = () => {
               key={service?.id}
               className="bg-card p-8 rounded-2xl luxury-shadow-card hover:luxury-shadow-modal luxury-transition group"
             >
+              {/* --- ICON REPLACED HERE --- */}
               <div className="w-16 h-16 bg-secondary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-secondary/20 luxury-transition">
-                <Icon 
-                  name={service?.icon} 
-                  size={32} 
-                  className="text-secondary" 
-                />
+                <lord-icon
+                  src={service.lordIcon.src}
+                  trigger={service.lordIcon.trigger}
+                  state={service.lordIcon.state}
+                  delay={service.lordIcon.delay}
+                  colors={`primary:#121331,secondary:${iconSecondaryColor}`}
+                  style={{ width: '60px', height: '60px' }}
+                >
+                </lord-icon>
               </div>
 
               <h3 className="text-xl font-bold text-primary mb-3">

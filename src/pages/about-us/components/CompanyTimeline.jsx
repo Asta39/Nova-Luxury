@@ -91,8 +91,9 @@ const CompanyTimeline = () => {
                   <Icon name={milestone?.icon} size={16} />
                 </div>
 
-                {/* Content Card */}
-                <div className={`w-full lg:w-5/12 ml-16 lg:ml-0 ${
+                {/* Content Card - THE FIX IS HERE */}
+                {/* The 'w-full' class was removed to prevent overflow on mobile */}
+                <div className={`lg:w-5/12 ml-16 lg:ml-0 ${
                   index % 2 === 0 ? 'lg:mr-8' : 'lg:ml-8'
                 }`}>
                   <div className={`p-6 rounded-lg luxury-shadow-card border ${

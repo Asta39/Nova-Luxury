@@ -43,9 +43,9 @@ const CallToAction = () => {
               iconName="Phone"
               iconPosition="left"
               className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-              onClick={() => window.location.href = 'tel:+254700000000'}
+              onClick={() => window.location.href = 'tel:+254703334359'}
             >
-              Call Now: +254 700 000 000
+              Call Now: +254 703 334359
             </Button>
           </div>
 
@@ -65,7 +65,7 @@ const CallToAction = () => {
                 iconName="MessageCircle"
                 iconPosition="left"
                 className="text-secondary hover:text-secondary-foreground hover:bg-secondary/20"
-                onClick={() => window.open('https://wa.me/254700000000', '_blank')}
+                onClick={() => window.open('https://wa.me/254703334359', '_blank')}
               >
                 Chat on WhatsApp
               </Button>
@@ -125,11 +125,11 @@ const CallToAction = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Award" size={16} className="text-secondary" />
-                <span>5+ Years Experience</span>
+                <span>7+ Years Experience</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Users" size={16} className="text-secondary" />
-                <span>50+ Happy Clients</span>
+                <span>+ 465+ Happy Clients</span>
               </div>
             </div>
           </div>

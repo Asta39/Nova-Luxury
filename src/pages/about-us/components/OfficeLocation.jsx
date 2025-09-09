@@ -5,13 +5,13 @@ import Button from '../../../components/ui/Button';
 const OfficeLocation = () => {
   const officeInfo = {
     address: "Westlands Business Center, 5th Floor\nWaiyaki Way, Westlands\nNairobi, Kenya",
-    phone: "+254 700 000 000",
+    phone: "+254 703 334359",
     email: "info@novaluxuryevents.com",
-    coordinates: { lat: -1.2634, lng: 36.8084 }
+    coordinates: { lat: -1.2299560317794829, lng: 36.864651643044745 }
   };
 
   const businessHours = [
-    { day: "Monday - Friday", hours: "8:00 AM - 6:00 PM" },
+    { day: "Monday - Friday", hours: "8:00 AM - 5:00 PM" },
     { day: "Saturday", hours: "9:00 AM - 4:00 PM" },
     { day: "Sunday", hours: "By Appointment Only" }
   ];
@@ -20,6 +20,9 @@ const OfficeLocation = () => {
     const url = `https://www.google.com/maps/dir/?api=1&destination=${officeInfo?.coordinates?.lat},${officeInfo?.coordinates?.lng}`;
     window.open(url, '_blank');
   };
+
+  // Define the icon color for consistency
+  const iconSecondaryColor = "#b8860b";
 
   return (
     <section className="py-16 bg-surface">
@@ -30,7 +33,7 @@ const OfficeLocation = () => {
           </h2>
           <div className="w-16 h-1 bg-secondary rounded-full mx-auto mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Located in the heart of Nairobi's business district, our office is designed to inspire 
+            Located in the serene Garden Estate area, our office is designed to inspire
             and showcase the luxury experiences we create for our clients.
           </p>
         </div>
@@ -72,7 +75,7 @@ const OfficeLocation = () => {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Icon name="Phone" size={16} className="text-muted-foreground" />
-                  <a 
+                  <a
                     href={`tel:${officeInfo?.phone}`}
                     className="text-muted-foreground hover:text-primary luxury-transition"
                   >
@@ -81,7 +84,7 @@ const OfficeLocation = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Icon name="Mail" size={16} className="text-muted-foreground" />
-                  <a 
+                  <a
                     href={`mailto:${officeInfo?.email}`}
                     className="text-muted-foreground hover:text-primary luxury-transition"
                   >
@@ -90,13 +93,13 @@ const OfficeLocation = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Icon name="MessageCircle" size={16} className="text-muted-foreground" />
-                  <a 
-                    href="https://wa.me/254700000000"
+                  <a
+                    href="https://wa.me/254703334359"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary luxury-transition"
                   >
-                    WhatsApp: +254 700 000 000
+                    WhatsApp: +254 703 334359
                   </a>
                 </div>
               </div>
@@ -138,13 +141,13 @@ const OfficeLocation = () => {
                 className="border-0"
               />
             </div>
-            
+
             {/* Map Overlay Info */}
             <div className="p-4 bg-background border-t border-border">
               <div className="flex items-center justify-between">
                 <div>
                   <h4 className="font-medium text-primary">Nova Luxury Events</h4>
-                  <p className="text-sm text-muted-foreground">Westlands, Nairobi</p>
+                  <p className="text-sm text-muted-foreground">Garden Estate, Nairobi</p>
                 </div>
                 <Button
                   variant="outline"
@@ -163,23 +166,46 @@ const OfficeLocation = () => {
         {/* Additional Information */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="text-center p-6 bg-background rounded-lg luxury-shadow-card border border-border">
-            <Icon name="Car" size={32} className="text-secondary mx-auto mb-4" />
-            <h4 className="font-semibold text-primary mb-2">Parking Available</h4>
+<div className="w-full flex justify-center mb-4">
+            <lord-icon
+    src="https://cdn.lordicon.com/njpauqoc.json"
+    trigger="loop"
+    colors={`primary:#121331,secondary:${iconSecondaryColor}`}
+                style={{ width: '60px', height: '60px' }}>
+</lord-icon>
+            </div>           
+             <h4 className="font-semibold text-primary mb-2">Parking Available</h4>
             <p className="text-sm text-muted-foreground">
               Complimentary parking for all client consultations
             </p>
           </div>
-          
+
+          {/* --- CORRECTED THIS BLOCK --- */}
           <div className="text-center p-6 bg-background rounded-lg luxury-shadow-card border border-border">
-            <Icon name="Coffee" size={32} className="text-secondary mx-auto mb-4" />
+            <div className="w-full flex justify-center mb-4">
+              <lord-icon
+                src="https://cdn.lordicon.com/pwbcwjje.json"
+                trigger="loop"
+                colors={`primary:#121331,secondary:${iconSecondaryColor}`}
+                style={{ width: '60px', height: '60px' }}>
+              </lord-icon>
+            </div>
             <h4 className="font-semibold text-primary mb-2">Consultation Lounge</h4>
             <p className="text-sm text-muted-foreground">
               Comfortable meeting spaces with refreshments
             </p>
           </div>
-          
+
+          {/* --- CORRECTED THIS BLOCK --- */}
           <div className="text-center p-6 bg-background rounded-lg luxury-shadow-card border border-border">
-            <Icon name="Wifi" size={32} className="text-secondary mx-auto mb-4" />
+            <div className="w-full flex justify-center mb-4">
+              <lord-icon
+                src="https://cdn.lordicon.com/jezazvlx.json"
+                trigger="loop"
+                colors={`primary:#121331,secondary:${iconSecondaryColor}`}
+                style={{ width: '60px', height: '60px' }}>
+              </lord-icon>
+            </div>
             <h4 className="font-semibold text-primary mb-2">Modern Facilities</h4>
             <p className="text-sm text-muted-foreground">
               High-speed internet and presentation equipment

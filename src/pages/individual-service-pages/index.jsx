@@ -862,7 +862,7 @@ const IndividualServicePages = () => {
         <meta property="og:description" content={currentService?.heroDescription} />
         <meta property="og:image" content={currentService?.heroImage} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href={`https://novaluxuryevents.com/individual-service-pages?service=${serviceType}`} />
+        <link rel="canonical" href={`https://novaluxuryeventske.com/individual-service-pages?service=${serviceType}`} />
       </Helmet>
       
       <div className="min-h-screen bg-background">

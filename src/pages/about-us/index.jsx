@@ -56,15 +56,15 @@ const AboutUs = () => {
               {/* Quick Stats */}
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-secondary mb-2">50+</div>
+                  <div className="text-3xl font-bold text-secondary mb-2">480+</div>
                   <div className="text-sm text-muted-foreground">Events Delivered</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-secondary mb-2">5</div>
+                  <div className="text-3xl font-bold text-secondary mb-2">7</div>
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-secondary mb-2">250+</div>
+                  <div className="text-3xl font-bold text-secondary mb-2">465+</div>
                   <div className="text-sm text-muted-foreground">Happy Clients</div>
                 </div>
                 <div className="text-center">
@@ -104,8 +104,8 @@ const AboutUs = () => {
         {/* Company Values Section */}
         <CompanyValues />
 
-        {/* Team Profiles Section */}
-        <TeamProfiles />
+        {/* Team Profiles Section  <TeamProfiles /> */}
+        
 
         {/* Company Statistics Section */}
         <CompanyStatistics />
@@ -116,8 +116,8 @@ const AboutUs = () => {
         {/* Cultural Integration Section */}
         <CulturalIntegration />
 
-        {/* Professional Certifications Section */}
-        <ProfessionalCertifications />
+        {/* Professional Certifications Section  <ProfessionalCertifications /> */}
+        
 
         {/* Office Location Section */}
         <OfficeLocation />
@@ -159,7 +159,7 @@ const AboutUs = () => {
             <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Icon name="Phone" size={16} className="text-secondary" />
-                <span>+254 700 000 000</span>
+                <span>+254 703 334359</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Mail" size={16} className="text-secondary" />
@@ -167,7 +167,7 @@ const AboutUs = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="MapPin" size={16} className="text-secondary" />
-                <span>Westlands, Nairobi</span>
+                <span>Garden Estate, Nairobi</span>
               </div>
             </div>
           </div>

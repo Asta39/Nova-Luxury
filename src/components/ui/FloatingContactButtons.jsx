@@ -1,25 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import Icon from '../AppIcon'; // Make sure this path is correct for your project structure
+import Icon from '../AppIcon'; // This is still needed for the mobile view and expanded cards
 
 const FloatingContactButtons = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
-  // This effect handles the component's visibility based on scroll position
   useEffect(() => {
     const toggleVisibility = () => {
-      // Show the button after scrolling down 500px (adjust as needed)
       if (window.scrollY > 500) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
-        setIsOpen(false); // Also close the menu when scrolling back to the top
+        setIsOpen(false);
       }
     };
 
     window.addEventListener('scroll', toggleVisibility);
-
-    // Cleanup function to remove the event listener
     return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
 
@@ -36,7 +32,7 @@ const FloatingContactButtons = () => {
     {
       label: 'WhatsApp',
       value: phoneNumber,
-      icon: 'MessageCircle', // Using a relevant icon for WhatsApp
+      icon: 'MessageCircle',
       href: `https://wa.me/${phoneNumber}`
     },
     {
@@ -80,18 +76,29 @@ const FloatingContactButtons = () => {
             </div>
           )}
 
-          {/* Main Floating Action Button (FAB) */}
+          {/* --- MODIFIED Main Floating Action Button (FAB) --- */}
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="w-16 h-16 bg-red-800 text-white rounded-full shadow-xl flex items-center justify-center transition-transform duration-300 hover:scale-110"
             aria-label="Toggle contact options"
           >
-            <Icon name="X" size={28} className={`transition-transform duration-300 ${isOpen ? 'rotate-0' : '-rotate-45 scale-75'}`} />
+            {isOpen ? (
+              // When OPEN, show a static 'X' icon
+              <Icon name="X" size={28} className="transition-transform duration-300" />
+            ) : (
+              // When CLOSED, show the animated 'plus' icon
+              <lord-icon
+                  src="https://cdn.lordicon.com/bsmnglum.json"
+                  trigger="loop"
+                  colors="primary:#ffffff" // Set icon color to white
+                  style={{ width: '56px', height: '56px' }}>
+              </lord-icon>
+            )}
           </button>
         </div>
       </div>
 
-      {/* --- MOBILE VIEW --- */}
+      {/* --- MOBILE VIEW (Unchanged) --- */}
       <div className={`md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white shadow-[0_-2px_10px_rgba(0,0,0,0.1)] transition-all duration-300 ${visibilityClasses}`}>
         <div className="flex justify-around items-center h-16">
           {contactLinks.map((link) => (

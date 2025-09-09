@@ -1,33 +1,58 @@
 import React from 'react';
+// We still need Icon for the certifications at the bottom
 import Icon from '../../../components/AppIcon';
 
 const TrustIndicators = () => {
+  // Define the icon color for consistency
+  const iconSecondaryColor = "#b8860b";
+
+  // --- MODIFIED DATA STRUCTURE FOR ANIMATED ICONS ---
   const stats = [
     {
       id: 1,
-      icon: "Users",
-      number: "50+",
+      // Replaced 'icon: "Users"'
+      lordIcon: {
+        src: "https://cdn.lordicon.com/fqbvgezn.json", // Users icon
+        trigger: "loop",
+        state: "loop-osscilation",
+      },
+      number: "465+",
       label: "Happy Clients",
       description: "Satisfied customers across Kenya"
     },
     {
       id: 2,
-      icon: "Calendar",
-      number: "120+",
+      // Replaced 'icon: "Calendar"'
+      lordIcon: {
+        src: "https://cdn.lordicon.com/uphbloed.json", // Calendar icon
+        trigger: "loop",
+        state: "loop-osscilation",
+      },
+      number: "480+",
       label: "Events Planned",
       description: "Successful events delivered"
     },
     {
       id: 3,
-      icon: "Star",
-      number: "4.9/5",
+      // Replaced 'icon: "Star"'
+      lordIcon: {
+        src: "https://cdn.lordicon.com/fozsorqm.json", // Rating icon
+        trigger: "loop",
+        state: "loop-osscilation",
+      },
+      number: "4.8/5",
       label: "Client Rating",
       description: "Average satisfaction score"
     },
     {
       id: 4,
-      icon: "Award",
-      number: "5+",
+      // Replaced 'icon: "Award"'
+      lordIcon: {
+        src: "https://cdn.lordicon.com/jdgfsfzr.json", // Award icon
+        trigger: "loop",
+        state: "loop-osscilation",
+      },
+      number: "7+",
       label: "Years Experience",
       description: "Industry expertise and trust"
     }
@@ -51,12 +76,18 @@ const TrustIndicators = () => {
               key={stat?.id}
               className="bg-card p-6 rounded-lg luxury-shadow-card text-center hover:luxury-shadow-modal luxury-transition"
             >
-              <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Icon 
-                  name={stat?.icon} 
-                  size={24} 
-                  className="text-secondary" 
-                />
+              {/* --- ICON CONTAINER UPDATED & ICON REPLACED --- */}
+              {/* Increased container size from w-12 h-12 to w-20 h-20 for better spacing */}
+              <div className="w-20 h-20 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <lord-icon
+                  src={stat.lordIcon.src}
+                  trigger={stat.lordIcon.trigger}
+                  state={stat.lordIcon.state}
+                  colors={`primary:#121331,secondary:${iconSecondaryColor}`}
+                  // Increased icon size as requested
+                  style={{ width: '60px', height: '60px' }}
+                >
+                </lord-icon>
               </div>
               
               <div className="text-3xl font-bold text-primary mb-2">
@@ -74,7 +105,7 @@ const TrustIndicators = () => {
           ))}
         </div>
 
-        {/* Certifications */}
+        {/* Certifications (This section remains unchanged) */}
         <div className="mt-12 pt-8 border-t border-border">
           <div className="text-center">
             <p className="text-sm text-muted-foreground mb-6">

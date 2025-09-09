@@ -3,7 +3,7 @@ import Icon from '../../../components/AppIcon';
 
 const ProfessionalCertifications = () => {
   const certifications = [
-    {
+   {
       title: "ISO 9001:2015",
       subtitle: "Quality Management System",
       description: "International standard for quality management systems, ensuring consistent service delivery.",

@@ -38,12 +38,12 @@ const TeamProfiles = () => {
       specialties: ["Event Logistics", "Vendor Management", "Timeline Coordination"],
       contact: "daisy@novaluxuryevents.com"
     },
-    /*
+    
     {
       id: 4,
       name: "David Kiprotich",
       role: "Client Relations Manager",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      image: "https://images.unsplah.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
       shortBio: "Dedicated to exceptional client experiences",
       fullBio: `David is the heart of our client relationships, ensuring every interaction exceeds expectations. With his background in luxury hospitality and natural ability to understand client needs, he guides families and corporations through their event journey with care and professionalism. David speaks five languages and specializes in international client services.`,
       specialties: ["Client Consultation", "International Relations", "Cultural Integration"],
@@ -53,7 +53,7 @@ const TeamProfiles = () => {
       id: 5,
       name: "Amina Hassan",
       role: "Cultural Events Specialist",
-      image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=400&fit=crop&crop=face",
+      image: "https://images.unspash.com/photo-1594736797933-d0401ba2fe65?w=400&h=400&fit=crop&crop=face",
       shortBio: "Expert in traditional and cultural celebrations",
       fullBio: `Amina brings deep knowledge of Kenya's diverse cultural traditions to our team. With a degree in Cultural Studies and years of experience organizing traditional ceremonies, she ensures authentic representation while maintaining luxury standards. Amina's expertise spans across various Kenyan communities and Islamic traditions.`,
       specialties: ["Traditional Ceremonies", "Cultural Consulting", "Religious Events"],
@@ -63,12 +63,12 @@ const TeamProfiles = () => {
       id: 6,
       name: "Michael Ochieng",
       role: "Technical Director",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=face",
+      image: "https://images.unplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=face",
       shortBio: "AV production and technical event specialist",
       fullBio: `Michael leads our technical team, ensuring flawless audio-visual experiences at every event. With certifications in professional AV systems and lighting design, he transforms venues with cutting-edge technology. Michael's expertise includes live streaming, interactive displays, and complex staging requirements for large-scale corporate events.`,
       specialties: ["AV Production", "Lighting Design", "Live Streaming"],
       contact: "michael@novaluxuryevents.com"
-    }*/
+    }
   ];
 
   const toggleExpanded = (memberId) => {
