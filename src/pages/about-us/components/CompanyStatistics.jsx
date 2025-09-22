@@ -203,13 +203,13 @@ const CompanyStatistics = () => {
             </p>
           </div>
           
-          <div className="text-center p-6 bg-background rounded-3xl luxury-shadow-card border border-border">
+          {/* <div className="text-center p-6 bg-background rounded-3xl luxury-shadow-card border border-border">
             <Icon name="Shield" size={24} className="text-secondary mx-auto mb-3" />
             <h4 className="font-semibold text-primary mb-2">ISO Certified</h4>
             <p className="text-sm text-muted-foreground">
               Quality Management System Certified
             </p>
-          </div>
+          </div> */}
           
           <div className="text-center p-6 bg-background rounded-3xl luxury-shadow-card border border-border">
             <Icon name="Leaf" size={24} className="text-secondary mx-auto mb-3" />

@@ -16,11 +16,11 @@ const ContactSidebar = ({ service }) => {
   });
 
   const budgetOptions = [
-    { value: '50000-100000', label: 'KES 50,000 - 100,000' },
-    { value: '100000-250000', label: 'KES 100,000 - 250,000' },
-    { value: '250000-500000', label: 'KES 250,000 - 500,000' },
-    { value: '500000-1000000', label: 'KES 500,000 - 1,000,000' },
-    { value: '1000000+', label: 'KES 1,000,000+' }
+    { value: '1000-2500', label: '$ 1,000 - 2,500' },
+    { value: '2500-5000', label: '$ 2,500 - 5,000' },
+    { value: '5000-10000', label: '$ 5,000 - 10,000' },
+    { value: '10000-25000', label: '$ 10,000 - 25,000' },
+    { value: '25000+', label: '$ 25,000+' }
   ];
 
   const eventTypeOptions = service ? [
@@ -147,7 +147,7 @@ const ContactSidebar = ({ service }) => {
             </div>
             <div>
               <div className="font-medium text-foreground">Call Us</div>
-              <div className="text-sm text-muted-foreground">+254 700 000 000</div>
+              <div className="text-sm text-muted-foreground">+254 703 334359</div>
             </div>
           </div>
           
@@ -157,7 +157,7 @@ const ContactSidebar = ({ service }) => {
             </div>
             <div>
               <div className="font-medium text-foreground">Email Us</div>
-              <div className="text-sm text-muted-foreground">info@novaluxuryevents.com</div>
+              <div className="text-sm text-muted-foreground">info@novaluxuryeventske.com</div>
             </div>
           </div>
           
@@ -167,7 +167,7 @@ const ContactSidebar = ({ service }) => {
             </div>
             <div>
               <div className="font-medium text-foreground">WhatsApp</div>
-              <div className="text-sm text-muted-foreground">+254 700 000 000</div>
+              <div className="text-sm text-muted-foreground">+254 703 334359</div>
             </div>
           </div>
           
@@ -178,7 +178,7 @@ const ContactSidebar = ({ service }) => {
             <div>
               <div className="font-medium text-foreground">Visit Us</div>
               <div className="text-sm text-muted-foreground">
-                Westlands, Nairobi<br />
+                Garden Estate, Nairobi<br />
                 Kenya
               </div>
             </div>
@@ -190,7 +190,7 @@ const ContactSidebar = ({ service }) => {
           <div className="space-y-1 text-sm">
             <div className="flex justify-between">
               <span className="text-foreground">Monday - Friday</span>
-              <span className="text-muted-foreground">8:00 AM - 6:00 PM</span>
+              <span className="text-muted-foreground">8:00 AM - 5:00 PM</span>
             </div>
             <div className="flex justify-between">
               <span className="text-foreground">Saturday</span>

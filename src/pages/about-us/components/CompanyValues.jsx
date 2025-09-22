@@ -127,7 +127,7 @@ const CompanyValues = () => {
               Our values ensure that each story we help create is authentic, beautiful, and unforgettable."
             </blockquote>
             <cite className="text-secondary font-semibold">
-              - Ian Gichora, Founder & CEO
+              - Ian Gichora, Managing Partner
             </cite>
           </div>
         </div>

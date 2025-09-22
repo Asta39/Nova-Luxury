@@ -7,35 +7,35 @@ const ContactInfo = () => {
     {
       icon: 'Phone',
       label: 'Call Us',
-      value: '+254 700 000 000',
-      action: () => window.location.href = 'tel:+254700000000',
+      value: '+254 703 334359',
+      action: () => window.location.href = 'tel:+254703334359',
       description: 'Available 24/7 for urgent events'
     },
     {
       icon: 'Mail',
       label: 'Email Us',
       value: 'info@novaluxuryevents.com',
-      action: () => window.location.href = 'mailto:info@novaluxuryevents.com',
+      action: () => window.location.href = 'mailto:info@novaluxuryeventske.com',
       description: 'Response within 2 hours'
     },
     {
       icon: 'MessageCircle',
       label: 'WhatsApp',
-      value: '+254 700 000 000',
-      action: () => window.open('https://wa.me/254700000000?text=Hello, I would like to inquire about your luxury event planning services.', '_blank'),
+      value: '+254 703 334359',
+      action: () => window.open('https://wa.me/254703334359?text=Hello, I would like to inquire about your luxury event planning services.', '_blank'),
       description: 'Instant messaging support'
     }
   ];
 
   const businessHours = [
-    { day: 'Monday - Friday', hours: '8:00 AM - 8:00 PM' },
-    { day: 'Saturday', hours: '9:00 AM - 6:00 PM' },
-    { day: 'Sunday', hours: '10:00 AM - 4:00 PM' }
+    { day: 'Monday - Friday', hours: '8:00 AM - 5:00 PM' },
+    { day: 'Saturday', hours: '9:00 AM - 4:00 PM' },
+    { day: 'Sunday', hours: 'Appointment only' }
   ];
 
   const socialLinks = [
     { name: 'Facebook', icon: 'Facebook', url: 'https://facebook.com/novaluxuryevents' },
-    { name: 'Instagram', icon: 'Instagram', url: 'https://instagram.com/novaluxuryevents' },
+    { name: 'Instagram', icon: 'Instagram', url: 'https://www.instagram.com/novaluxuryeventske/' },
     { name: 'Twitter', icon: 'Twitter', url: 'https://twitter.com/novaluxuryevents' },
     { name: 'LinkedIn', icon: 'Linkedin', url: 'https://linkedin.com/company/novaluxuryevents' }
   ];

@@ -4,9 +4,9 @@ import Button from '../../../components/ui/Button';
 
 const LocationMap = () => {
   const officeLocation = {
-    lat: -1.2236267598742192,
-    lng: 36.8654509674709,
-    address: "Westlands Business District, Nairobi, Kenya"
+    lat: -1.2299560317794829,
+    lng: 36.864651643044745,
+    address: "Garden Estate, Nairobi, Kenya"
   };
 
   const nearbyLandmarks = [
@@ -119,7 +119,7 @@ const LocationMap = () => {
             <div>
               <h4 className="font-medium text-primary">By Car</h4>
               <p className="text-sm text-muted-foreground">
-                Ample parking available. Take Waiyaki Way to Westlands roundabout, then follow signs to Westlands Business District.
+                Ample parking available. Take Thika Road to Garden Estate Road exit, then follow Garden Estate Road for about 2km to reach our location.
               </p>
             </div>
           </div>
@@ -129,7 +129,7 @@ const LocationMap = () => {
             <div>
               <h4 className="font-medium text-primary">Public Transport</h4>
               <p className="text-sm text-muted-foreground">
-                Multiple matatu routes serve Westlands. Alight at Westlands roundabout and walk 3 minutes to our office.
+                Multiple matatu routes serve Garden Estate Road. Alight at Garden Estate Road stage near Roasters and walk 5 minutes to our office. Routes from CBD and Thika Road are available.
               </p>
             </div>
           </div>
@@ -139,7 +139,7 @@ const LocationMap = () => {
             <div>
               <h4 className="font-medium text-primary">Ride-Hailing</h4>
               <p className="text-sm text-muted-foreground">
-                Uber, Bolt, and Little Cab are readily available. Search for "Westlands Business District" as your destination.
+                Uber, Bolt, and Little Cab are readily available. Search for "Garden Estate Road" as your destination.
               </p>
             </div>
           </div>

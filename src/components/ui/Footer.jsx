@@ -60,10 +60,10 @@ const Footer = () => {
               <div className="flex items-center space-x-3 text-sm">
                 <Icon name="Phone" size={16} className="text-secondary" />
                 <a 
-                  href="tel:+254700000000" 
+                  href="tel:+254703334359" 
                   className="text-muted-foreground hover:text-primary luxury-transition"
                 >
-                  +254 700 000 000
+                  +254 703 334359
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-sm">
@@ -72,7 +72,7 @@ const Footer = () => {
                   href="mailto:info@novaluxuryevents.com" 
                   className="text-muted-foreground hover:text-primary luxury-transition"
                 >
-                  info@novaluxuryevents.com
+                  info@novaluxuryeventske.com
                 </a>
               </div>
               <div className="flex items-start space-x-3 text-sm">

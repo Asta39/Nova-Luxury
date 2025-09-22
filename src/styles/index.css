@@ -10,3 +10,48 @@ body {
   font-family: inherit;
   margin: unset;
 }
+
+/* Add these styles to your global CSS file (e.g., src/index.css) */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------- Marquee Animation Styles ---------------- */
+.marquee-container {
+  /* This creates the fading effect at the top and bottom */
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+}
+
+.marquee-inner {
+  display: flex;
+  flex-direction: column;
+  /* The animation will be applied here */
+  animation: marquee-scroll var(--duration, 30s) linear infinite;
+}
+
+/* Define the keyframes for the scrolling animation */
+@keyframes marquee-scroll {
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+/* A utility to reverse the animation direction for the second column */
+.animation-reverse {
+  animation-direction: reverse;
+}
+/* -------------------------------------------------------- */

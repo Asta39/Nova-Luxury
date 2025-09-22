@@ -2,14 +2,26 @@ import React from 'react';
 import Icon from '../../../components/AppIcon';
 import Image from '../../../components/AppImage';
 
-
 const ServiceOverview = ({ service }) => {
-  if (!service) return null;
+  // --- FIX: Moved the logic inside the component and made it safer ---
+  // We use optional chaining (?.) and a nullish coalescing operator (??)
+  // This says: "Try to get service.overviewImages, but if it's null or undefined, use an empty array [] instead."
+  // This prevents the .filter() method from ever being called on `undefined`.
+  const allImages = service?.overviewImages ?? [];
+  
+  const column1Images = allImages.filter((_, index) => index % 2 === 0);
+  const column2Images = allImages.filter((_, index) => index % 2 !== 0);
+
+  // The original safety check is still useful for when the entire service object is missing.
+  if (!service) {
+    return null;
+  }
 
   return (
     <section className="py-16 bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* --- Left Column: Service Details (Unchanged) --- */}
           <div>
             <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
               {service?.overviewTitle}
@@ -31,16 +43,35 @@ const ServiceOverview = ({ service }) => {
             </div>
           </div>
           
-          <div className="grid grid-cols-2 gap-4">
-            {service?.overviewImages?.map((image, index) => (
-              <div key={index} className="aspect-square overflow-hidden rounded-lg luxury-shadow-card">
-                <Image
-                  src={image?.src}
-                  alt={image?.alt}
-                  className="w-full h-full object-cover hover:scale-105 luxury-transition"
-                />
-              </div>
-            ))}
+          {/* --- Right Column: Animated Image Marquee --- */}
+          <div className="h-[500px] overflow-hidden relative grid grid-cols-2 gap-4 marquee-container">
+            {/* Column 1: Scrolls Up */}
+            <div className="marquee-inner space-y-4 [--duration:30s]">
+              {/* Duplicate images for a seamless loop */}
+              {[...column1Images, ...column1Images].map((image, index) => (
+                <div key={`col1-${index}`} className="aspect-square overflow-hidden rounded-lg luxury-shadow-card">
+                  <Image
+                    src={image?.src}
+                    alt={image?.alt}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+            
+            {/* Column 2: Scrolls Down */}
+            <div className="marquee-inner space-y-4 animation-reverse [--duration:30s]">
+              {/* Duplicate images for a seamless loop */}
+              {[...column2Images, ...column2Images].map((image, index) => (
+                <div key={`col2-${index}`} className="aspect-square overflow-hidden rounded-lg luxury-shadow-card">
+                  <Image
+                    src={image?.src}
+                    alt={image?.alt}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

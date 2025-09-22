@@ -118,7 +118,7 @@ const TrustIndicators = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Award" size={20} className="text-secondary" />
-                <span className="text-sm font-medium">ISO 9001 Certified</span>
+                <span className="text-sm font-medium">Client Verified</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="CheckCircle" size={20} className="text-secondary" />

@@ -128,7 +128,7 @@ const CulturalIntegration = () => {
             
             <div className="relative">
               <Image
-                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=400&fit=crop"
+                src="/images/cultural-celebration.jpg"
                 alt="Traditional Kenyan cultural celebration"
                 className="w-full h-80 object-cover rounded-lg luxury-shadow-card"
               />

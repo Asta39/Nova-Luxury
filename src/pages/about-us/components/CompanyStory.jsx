@@ -58,8 +58,8 @@ const CompanyStory = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-3xl luxury-shadow-card">
               <Image
-                src="https://images.unplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=700&fit=crop&crop=face"
-                alt="Sarah Wanjiku - Founder & CEO of Nova Luxury Events"
+                src="/assets/Nova-logo-05.png"
+                alt="Nova Luxury Events Logo"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>

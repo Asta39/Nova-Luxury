@@ -42,14 +42,14 @@ const ServicePortfolio = ({ service }) => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
           {service?.portfolioImages?.map((image, index) => (
             <div
               key={index}
-              className="aspect-square overflow-hidden rounded-lg luxury-shadow-card cursor-pointer group"
+              className="aspect-square rounded-lg luxury-shadow-card cursor-pointer group relative"
               onClick={() => openLightbox(image, index)}
             >
-              <div className="relative w-full h-full">
+              <div className="absolute inset-0">
                 <Image
                   src={image?.src}
                   alt={image?.alt}
@@ -69,7 +69,15 @@ const ServicePortfolio = ({ service }) => {
 
         {/* Lightbox Modal */}
         {selectedImage && (
-          <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4">
+          <div 
+            className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+            onClick={(e) => {
+              // Close lightbox when clicking the backdrop
+              if (e.target === e.currentTarget) {
+                closeLightbox();
+              }
+            }}
+          >
             <div className="relative max-w-4xl max-h-full">
               <button
                 onClick={closeLightbox}

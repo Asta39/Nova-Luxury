@@ -4,53 +4,53 @@ import Icon from '../../../components/AppIcon';
 const CompanyTimeline = () => {
   const milestones = [
     {
-      year: "2020",
+      year: "2023",
       title: "Nova Luxury Events Founded",
       description: "Sarah Wanjiku establishes Nova with a vision to blend international luxury standards with Kenyan cultural authenticity.",
       icon: "Rocket",
       highlight: true
     },
     {
-      year: "2021",
+      year: "2023",
       title: "First Major Corporate Contract",
       description: "Secured partnership with leading multinational corporation for annual events, establishing credibility in corporate market.",
       icon: "Building"
     },
     {
-      year: "2021",
-      title: "Pandemic Adaptation & Growth",
-      description: "Successfully pivoted to virtual and hybrid events, maintaining client relationships and expanding digital capabilities.",
+      year: "2024",
+      title: "Strategic Partnerships",
+      description: "Formed key alliances with luxury venues, premium suppliers, and international event networks to deliver unparalleled service quality.",
       icon: "Monitor"
     },
     {
-      year: "2021",
+      year: "2024",
       title: "Cultural Events Specialization",
       description: "Launched dedicated cultural events division, becoming Kenya's premier provider of authentic traditional ceremonies.",
       icon: "Users"
     },
     {
-      year: "2022",
-      title: "Industry Recognition",
+      year: "2024",
+      title: "Industry Recognition", 
       description: "Won 'Best Luxury Event Planner' at Kenya Events Industry Awards and achieved ISO certification for quality management.",
       icon: "Award"
     },
     {
-      year: "2023",
-      title: "International Expansion",
-      description: "Established partnerships across East Africa and began serving international destination events in Kenya.",
-      icon: "Globe"
-    },
-    {
       year: "2024",
-      title: "Sustainability Initiative",
-      description: "Launched eco-luxury event services, becoming the first certified sustainable luxury event planner in Kenya.",
-      icon: "Leaf"
+      title: "Digital Transformation",
+      description: "Introduced virtual venue tours and interactive planning platforms, revolutionizing the client experience.",
+      icon: "Monitor"
     },
     {
       year: "2025",
-      title: "Technology Integration",
-      description: "Implementing AI-powered event planning tools and virtual reality venue previews for enhanced client experience.",
-      icon: "Zap",
+      title: "Regional Market Entry",
+      description: "Successfully expanded operations into Tanzania and Uganda, establishing Nova as a regional luxury events leader.",
+      icon: "Globe"
+    },
+    {
+      year: "2025",
+      title: "Sustainable Events Pioneer",
+      description: "Launched comprehensive eco-friendly event solutions and achieved carbon-neutral certification.",
+      icon: "Leaf",
       future: true
     }
   ];

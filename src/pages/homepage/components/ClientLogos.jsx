@@ -5,43 +5,43 @@ const ClientLogos = () => {
   const clients = [
     {
       id: 1,
-      name: "Safaricom",
-      logo: "https://images.unspash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      name: "Adede Advocates",
+      logo: "/assets/images/advocates.jpg"
     },
     {
       id: 2,
-      name: "Kenya Airways",
-      logo: "https://images.unspash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      name: "Apex",
+      logo: "/assets/images/apex.webp"
     },
     {
       id: 3,
-      name: "Equity Bank",
-      logo: "https://images.unspash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      name: "IUCN",
+      logo: "/assets/images/IUCN.webp"
     },
     {
       id: 4,
-      name: "East African Breweries",
-      logo: "https://images.unspash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      name: "Kenya Wildlife Services",
+      logo: "/assets/images/KWS.webp"
     },
     {
       id: 5,
-      name: "Nation Media Group",
-      logo: "https://images.unslash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      name: "Luna Graphics",
+      logo: "/assets/images/luna.png"
     },
     {
       id: 6,
-      name: "KCB Group",
-      logo: "https://images.unslash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      name: "Kenya wildlife research institute",
+      logo: "/assets/images/research.webp"
     },
     {
       id: 7,
-      name: "Bamburi Cement",
-      logo: "https://images..com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      name: "Wildlife Direct",
+      logo: "/assets/images/Wilddirect.png"
     },
     {
       id: 8,
-      name: "Standard Chartered",
-      logo: "https://images.unslash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+      name: "WIldlife",
+      logo: "/assets/images/Wildlife.webp"
     }
   ];
 
