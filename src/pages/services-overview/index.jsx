@@ -30,7 +30,7 @@ const ServicesOverview = () => {
       title: 'Corporate Events',
       description: 'Professional event management for conferences, product launches, AGMs, team building activities, awards ceremonies, and executive dinners that elevate your brand presence.',
       // --- CHANGE: Replaced 'icon' with 'image' ---
-      image: './assets/corporate-events.jpg', // Replace with your actual image path
+      image: './assets/images/stage4.jpeg', // Replace with your actual image path
       category: 'corporate',
       offerings: [
         'Conference & seminar planning',
@@ -48,7 +48,7 @@ const ServicesOverview = () => {
       title: 'Wedding Celebrations',
       description: 'Luxury wedding planning services including traditional ceremonies, receptions, bridal events, anniversaries, and destination weddings crafted to perfection.',
       // --- CHANGE: Replaced 'icon' with 'image' ---
-      image: './assets/wedding-celebrations.jpg', // Replace with your actual image path
+      image: './assets/images/tent5.jpeg', // Replace with your actual image path
       category: 'wedding',
       offerings: [
         'Complete wedding planning',
@@ -66,7 +66,7 @@ const ServicesOverview = () => {
       title: 'Birthday Celebrations',
       description: 'Memorable birthday celebrations for all ages including milestone parties, themed children\'s events, adult celebrations, and surprise coordination with custom packages.',
       // --- CHANGE: Replaced 'icon' with 'image' ---
-      image: './assets/birthday-celebrations.jpg', // Replace with your actual image path
+      image: './assets/images/stage9.jpeg', // Replace with your actual image path
       category: 'private',
       offerings: [
         'Milestone birthday parties',
@@ -84,7 +84,7 @@ const ServicesOverview = () => {
       title: 'Private Luxury Events',
       description: 'Exclusive private gatherings including VIP parties, cultural ceremonies, religious celebrations, holiday parties, and intimate dinners for discerning clients.',
       // --- CHANGE: Replaced 'icon' with 'image' ---
-      image: './assets/private-luxury.jpg', // Replace with your actual image path
+      image: './assets/images/tent6.jpeg', // Replace with your actual image path
       category: 'private',
       offerings: [
         'Exclusive VIP gatherings',
@@ -102,7 +102,7 @@ const ServicesOverview = () => {
       title: 'Milestone Celebrations',
       description: 'Life\'s significant moments including graduations, retirements, anniversaries, achievements, coming of age ceremonies, and memorial services handled with care.',
       // --- CHANGE: Replaced 'icon' with 'image' ---
-      image: './assets/milestone-celebrations.jpg', // Replace with your actual image path
+      image: './assets/images/stage8.jpeg', // Replace with your actual image path
       category: 'milestone',
       offerings: [
         'Graduation celebrations',
@@ -120,7 +120,7 @@ const ServicesOverview = () => {
       title: 'Family & Social Events',
       description: 'Warm family gatherings including baby showers, housewarmings, engagements, family reunions, picnics, and holiday celebrations that bring loved ones together.',
       // --- CHANGE: Replaced 'icon' with 'image' ---
-      image: './assets/family-events.jpg', // Replace with your actual image path
+      image: './assets/images/seats2.jpeg', // Replace with your actual image path
       category: 'family',
       offerings: [
         'Baby shower coordination',
@@ -141,7 +141,7 @@ const ServicesOverview = () => {
       title: 'Venue Sourcing',
       description: 'Expert venue selection and booking services across Nairobi and Kenya.',
       // --- CHANGE: Replaced 'icon' with 'image' ---
-      image: './assets/venue-sourcing.jpg', // Replace with your actual image path
+      image: './assets/images/stage1.jpeg', // Replace with your actual image path
       category: 'specialized',
       offerings: ['Premium venue partnerships', 'Site visits & negotiations', 'Contract management'],
       ctaText: 'Find Venues',
@@ -152,7 +152,7 @@ const ServicesOverview = () => {
       title: 'Catering Coordination',
       description: 'Luxury catering services with top chefs and diverse menu options.',
       // --- CHANGE: Replaced 'icon' with 'image' ---
-      image: './assets/catering.jpg', // Replace with your actual image path
+      image: './assets/images/seats11.jpeg', // Replace with your actual image path
       category: 'specialized',
       offerings: ['Gourmet menu planning', 'Dietary accommodations', 'Service staff coordination'],
       ctaText: 'Explore Catering',
@@ -163,7 +163,7 @@ const ServicesOverview = () => {
       title: 'AV Production',
       description: 'Professional audio-visual setup and technical production services.',
       // --- CHANGE: Replaced 'icon' with 'image' ---
-      image: './assets/av-production.jpg', // Replace with your actual image path
+      image: './assets/images/stage5.jpeg', // Replace with your actual image path
       category: 'specialized',
       offerings: ['Sound system setup', 'Lighting design', 'Live streaming services'],
       ctaText: 'View AV Services',
@@ -174,7 +174,7 @@ const ServicesOverview = () => {
       title: 'Guest Management',
       description: 'Comprehensive guest coordination and hospitality services.',
       // --- CHANGE: Replaced 'icon' with 'image' ---
-      image: './assets/guest-management.jpg', // Replace with your actual image path
+      image: './assets/images/stage3.jpeg', // Replace with your actual image path
       category: 'specialized',
       offerings: ['RSVP management', 'Guest registration', 'VIP coordination'],
       ctaText: 'Manage Guests',
@@ -185,19 +185,19 @@ const ServicesOverview = () => {
   // ... rest of the component remains the same ...
   const testimonials = [
     {
-      name: 'Sarah Wanjiku',
-      role: 'CEO',
-      company: 'Safaricom Foundation',
-      content: 'Nova Luxury Events transformed our annual gala into an unforgettable experience. Their attention to detail and cultural sensitivity made all the difference.',
-      avatar: 'https://images.unslash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face',
+      name: 'Emily Wangari',
+      role: 'Events Director',
+      company: 'Africa Wildlife Foundation',
+      content: 'Nova Luxury Events helped us organize our annual conservation gala with exceptional attention to sustainability and environmental consciousness. The event perfectly aligned with our mission.',
+      avatar: 'https://images.unsplas.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face',
       rating: 5
     },
     {
-      name: 'James Mwangi',
-      role: 'Managing Director',
-      company: 'Equity Bank',
-      content: 'The team\'s professionalism and creativity exceeded our expectations. Our product launch was flawlessly executed and generated incredible buzz.',
-      avatar: 'https://images.unspash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
+      name: 'Catherine & David',
+      role: 'Newlyweds',
+      company: 'Wedding Clients',
+      content: 'Our destination wedding in Diani was absolutely magical. Nova Luxury Events handled every detail perfectly, from the beachfront ceremony to the reception. It was truly the wedding of our dreams!',
+      avatar: 'https://images.unsplah.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
       rating: 5
     }
   ];
@@ -219,7 +219,7 @@ const ServicesOverview = () => {
         <meta property="og:title" content="Premium Event Planning Services | Nova Luxury Events Kenya" />
         <meta property="og:description" content="Discover Nova Luxury Events' comprehensive event planning services in Kenya. From corporate events to luxury weddings, we create extraordinary experiences." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://novaluxuryevents.com/services-overview" />
+        <link rel="canonical" href="https://novaluxuryeventske.com/services-overview" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
@@ -253,9 +253,9 @@ const ServicesOverview = () => {
                     size="lg"
                     iconName="Phone"
                     iconPosition="left"
-                    onClick={() => window.location.href = 'tel:+254700000000'}
+                    onClick={() => window.location.href = 'tel:+254703334359'}
                   >
-                    Call +254 700 000 000
+                    Call +254 703 334359
                   </Button>
                 </div>
               </div>

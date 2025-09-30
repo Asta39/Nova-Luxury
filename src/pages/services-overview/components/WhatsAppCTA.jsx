@@ -3,7 +3,7 @@ import Button from '../../../components/ui/Button';
 
 const WhatsAppCTA = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "254700000000";
+    const phoneNumber = "254703334359";
     const message = encodeURIComponent("Hi! I'm interested in learning more about Nova Luxury Events services. Could you please provide more information?");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappUrl, '_blank');

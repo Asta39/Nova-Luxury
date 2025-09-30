@@ -9,7 +9,7 @@ const BlogInsights = () => {
       id: 1,
       title: "2024 Wedding Trends: Incorporating Kenyan Cultural Elements",
       excerpt: "Discover how modern couples are blending traditional Kenyan customs with contemporary luxury wedding planning to create truly unique celebrations.",
-      image: "https://images.unsplsh.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/assets/images/tent1.jpeg",
       category: "Wedding Planning",
       readTime: "5 min read",
       publishDate: "2024-08-25",
@@ -19,7 +19,7 @@ const BlogInsights = () => {
       id: 2,
       title: "Corporate Event Planning: Creating Memorable Brand Experiences",
       excerpt: "Learn the essential strategies for planning corporate events that not only impress attendees but also strengthen your brand identity and business relationships.",
-      image: "https://images.unsplah.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/assets/images/seats8.jpeg",
       category: "Corporate Events",
       readTime: "7 min read",
       publishDate: "2024-08-22",
@@ -29,42 +29,42 @@ const BlogInsights = () => {
       id: 3,
       title: "Sustainable Event Planning: Eco-Friendly Luxury Celebrations",
       excerpt: "Explore how to create stunning luxury events while maintaining environmental responsibility through sustainable practices and local sourcing.",
-      image: "https://images.unsplah.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/assets/images/seats4.jpeg",
       category: "Sustainability",
       readTime: "6 min read",
       publishDate: "2024-08-20",
       author: "Diana Mutua"
     },
-  {
-    id: 4,
-title: "Venue Selection Guide: Finding the Perfect Location in Nairobi",
-excerpt: "A comprehensive guide to selecting the ideal venue for your event, featuring Nairobi's most prestigious locations and hidden gems.",
-image: "https://images.unspash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-category: "Venue Planning",
-readTime: "8 min read",
-publishDate: "2024-08-18",
-author: "James Kariuki"
-},
-{
-id: 5,
-title: "Budget Planning for Luxury Events: Maximizing Value",
-excerpt: "Professional tips on how to allocate your event budget effectively while maintaining the luxury experience your guests expect.",
-image: "https://images.unspash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-category: "Budget Planning",
-readTime: "4 min read",
-publishDate: "2024-08-15",
-author: "Patricia Njeri"
-},
-{
-id: 6,
-title: "Cultural Celebrations: Honoring Traditions in Modern Events",
-excerpt: "How to respectfully incorporate traditional Kenyan cultural elements into contemporary celebrations while maintaining authenticity.",
-image: "https://images.unsplsh.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-category: "Cultural Events",
-readTime: "6 min read",
-publishDate: "2024-08-12",
-author: "Samuel Mwangi"
-}
+    {
+      id: 4,
+      title: "Venue Selection Guide: Finding the Perfect Location in Nairobi",
+      excerpt: "A comprehensive guide to selecting the ideal venue for your event, featuring Nairobi's most prestigious locations and hidden gems.",
+      image: "/assets/images/tent6.jpeg",
+      category: "Venue Planning",
+      readTime: "8 min read",
+      publishDate: "2024-08-18",
+      author: "James Kariuki"
+    },
+    {
+      id: 5,
+      title: "Budget Planning for Luxury Events: Maximizing Value",
+      excerpt: "Professional tips on how to allocate your event budget effectively while maintaining the luxury experience your guests expect.",
+      image: "/assets/images/seats5.jpeg",
+      category: "Budget Planning",
+      readTime: "4 min read",
+      publishDate: "2024-08-15",
+      author: "Patricia Njeri"
+    },
+    {
+      id: 6,
+      title: "Cultural Celebrations: Honoring Traditions in Modern Events",
+      excerpt: "How to respectfully incorporate traditional Kenyan cultural elements into contemporary celebrations while maintaining authenticity.",
+      image: "/assets/images/tent11.jpeg",
+      category: "Cultural Events",
+      readTime: "6 min read",
+      publishDate: "2024-08-12",
+      author: "Samuel Mwangi"
+    }
   ];
 
   const formatDate = (dateString) => {

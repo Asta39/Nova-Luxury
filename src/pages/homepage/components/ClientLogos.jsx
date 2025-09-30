@@ -42,6 +42,11 @@ const ClientLogos = () => {
       id: 8,
       name: "WIldlife",
       logo: "/assets/images/Wildlife.webp"
+    },
+        {
+      id: 8,
+      name: "Nordel",
+      logo: "/assets/images/nordel.jpeg"
     }
   ];
 
@@ -93,10 +98,9 @@ const ClientLogos = () => {
         {/* Client Testimonial Quote */}
         <div className="mt-12 text-center">
           <blockquote className="text-lg italic text-muted-foreground max-w-3xl mx-auto">
-            "Nova Luxury Events transformed our annual conference into an unforgettable experience. Their attention to detail and professional execution exceeded all expectations."
-          </blockquote>
+"Good evening team Nova - Thank you so much for the great work to make our event a success. Your hardwork, professionalism and friendly teamwork enabled us to shine all week. Tumeshukuru sana."          </blockquote>
           <cite className="block mt-4 text-sm font-semibold text-primary">
-            — Sarah Kimani, Corporate Events Manager
+            — IUCN East Africa
           </cite>
         </div>
       </div>

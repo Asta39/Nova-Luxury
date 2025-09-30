@@ -7,7 +7,7 @@ const OfficeLocation = () => {
     address: "Westlands Business Center, 5th Floor\nWaiyaki Way, Westlands\nNairobi, Kenya",
     phone: "+254 703 334359",
     email: "info@novaluxuryevents.com",
-    coordinates: { lat: -1.2299560317794829, lng: 36.864651643044745 }
+    coordinates: { lat: -1.2299560317794829, lng: 36.864651643044745 } 
   };
 
   const businessHours = [

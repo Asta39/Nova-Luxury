@@ -5,33 +5,33 @@ import { Star, CheckCircle } from 'lucide-react';
 const testimonials = [
   // Row 1
   [
-    { name: "Jasmine & Leo", event: "Destination Wedding", review: "An absolutely magical experience from start to finish. Nova's team handled everything with such grace and precision. Our guests were blown away." },
-    { name: "KenTech Solutions", event: "Annual Tech Summit", review: "The most seamless and professional corporate event we've ever hosted. The branding integration was flawless and the logistics were impeccable." },
-    { name: "The Mwangi Family", event: "50th Anniversary Gala", review: "They turned our parents' golden anniversary into a storybook evening. The attention to detail and personal touches were extraordinary." }
+    { name: "Emmanuel & Mwende", event: "Destination Wedding", review: " Hello Daisy & Ian. Hope all is well. We'd like to express our gratitude for the excellent job, really appreciate your service delivery as well as the thoughtful gift which we'll hang in our walls forever. May God bless you." },
+    { name: "IUCN East Africa", event: "African Conservation Forum 2024", review: "Good evening team Nova - Thank you so much for the great work to make our event a success. Your hardwork, professionalism and friendly teamwork enabled us to shine all week. Tumeshukuru sana." },
+    { name: "Wildlife Conservation Network", event: "Pan-African Conservation Gala", review: "The team created an impactful environment for our crucial discussions on African wildlife preservation. Their production excellence helped amplify our conservation message perfectly." }
   ],
   // Row 2
   [
-    { name: "Aarav Sharma", event: "Product Launch", review: "Exceptional execution. The team captured our brand's essence perfectly, creating an immersive and high-impact launch event." },
-    { name: "Chloe Williams", event: "Charity Ball", review: "Their creativity and dedication are unmatched. They helped us exceed our fundraising goals while hosting a truly elegant and memorable night." },
-    { name: "Baraka Foundation", event: "Fundraising Gala", review: "Professional, creative, and incredibly organized. Nova Luxury Events made our annual gala a resounding success." }
+    { name: "Mac & Mwende", event: "Wedding", review: "Dear Ian & Daisy, Hope you're well, we'd like to extend our heartfelt gratitude for the exceptional work you did in planning our traditional wedding. Every detail was thoughtfully executed, and your professionalism and dedication were evident from start to finsih. You understood our vision and went above and beyond to ensure that our day was nothing short of perfect. We will cherish these memories forever and we are so greatful to have had you by our side. Thank you." },
+    { name: "Chloe Williams", event: "Charity Ball", review: "Nova Luxury's meticulous planning ensured our charity event ran flawlessly. Their coordination skills helped us exceed our fundraising goals." },
+    { name: "Baraka Foundation", event: "Fundraising Gala", review: "The team's innovative production approach and problem-solving abilities made our gala a resounding success. Truly professional execution." }
   ],
   // Row 3
   [
-    { name: "Fatima Al-Jamil", event: "Cultural Celebration", review: "They honored our traditions with elegance and respect, blending them beautifully with modern luxury. It was a perfect celebration of our heritage." },
-    { name: "David Chen", event: "Private Investor Dinner", review: "A discreet, sophisticated, and flawlessly executed event. The ambiance was perfect for high-level networking. I highly recommend their services." },
-    { name: "Isabella Rossi", event: "Luxury Brand Showcase", review: "Their understanding of luxury and brand experience is second to none. The event was a true reflection of our brand's prestige." }
+    { name: "Alleytia", event: "Wedding", review: "Dear Daisy & Ian, Thank you again for your attention to detail, support through the day and for being part of such a beautiful day for us both. We really enjoyed working with you and appreciate your insights and expertise." },
+    { name: "David Chen", event: "Private Investor Dinner", review: "Nova Luxury's elegant design and impeccable coordination created the perfect atmosphere for our high-level networking event." },
+    { name: "Isabella Rossi", event: "Luxury Brand Showcase", review: "The Nova team's technical expertise and production excellence perfectly captured our brand's prestige. A truly world-class experience." }
   ],
   // Row 4
   [
-    { name: "The Omondi Twins", event: "21st Birthday Bash", review: "The most epic birthday party ever! Every detail was cool, stylish, and so much fun. Our friends are still talking about it." },
-    { name: "Nairobi Art Collective", event: "Gallery Opening", review: "They created a chic and sophisticated atmosphere that perfectly complemented the art. A truly professional and artistic approach to event planning." },
-    { name: "Global Exports Inc.", event: "Annual Awards Ceremony", review: "Our awards ceremony was elevated to a new level of prestige. The production quality and seamless flow were world-class." }
+    { name: "The Omondi Twins", event: "21st Birthday Bash", review: "Darren and Ian worked together brilliantly to create the most amazing birthday celebration. Their energy and creativity made it unforgettable." },
+    { name: "Nairobi Art Collective", event: "Gallery Opening", review: "Daisy's artistic vision perfectly complemented our exhibition. Her design choices enhanced the entire gallery experience." },
+    { name: "Global Exports Inc.", event: "Annual Awards Ceremony", review: "Nova Luxury's production and technical expertise created a prestigious atmosphere that perfectly captured the significance of our awards ceremony." }
   ],
   // Row 5
   [
-    { name: "Dr. Evelyn Kariuki", event: "Medical Conference", review: "From attendee registration to the final keynote, the entire conference was managed with incredible efficiency and professionalism. A flawless event." },
-    { name: "Liam & Aisha", event: "Intimate Elopement", review: "They made our elopement feel as grand and special as any large wedding. The attention to romantic detail was simply breathtaking." },
-    { name: "Safari Adventures Ltd.", event: "Corporate Retreat", review: "Our team retreat in the Mara was an unforgettable experience, thanks to Nova. They balanced business with luxury adventure perfectly." }
+    { name: "Dr. Evelyn Kariuki", event: "Medical Conference", review: "Nova Luxury's organizational skills ensured our conference ran seamlessly. Their attention to detail made the complex event management look effortless." },
+    { name: "Liam & Aisha", event: "Intimate Elopement", review: "Ian and Daisy made our intimate celebration feel incredibly special. Their personal touches and attention to detail were simply perfect." },
+    { name: "Safari Adventures Ltd.", event: "Corporate Retreat", review: "The entire team, especially Darren and Frank, created an unforgettable experience that perfectly balanced luxury and adventure." }
   ]
 ];
 

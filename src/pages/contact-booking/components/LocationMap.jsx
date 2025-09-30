@@ -95,8 +95,9 @@ const LocationMap = () => {
           </div>
         </div>
       </div>
-      {/* Nearby Landmarks */}
-      <div className="bg-card border border-border rounded-lg p-6 luxury-shadow-card">
+      {/* Nearby Landmarks
+      
+            <div className="bg-card border border-border rounded-lg p-6 luxury-shadow-card">
         <h3 className="text-lg font-semibold text-primary mb-4">Nearby Landmarks</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {nearbyLandmarks?.map((landmark, index) => (
@@ -110,6 +111,8 @@ const LocationMap = () => {
           ))}
         </div>
       </div>
+      */}
+
       {/* Transportation Info */}
       <div className="bg-surface border border-border rounded-lg p-6">
         <h3 className="text-lg font-semibold text-primary mb-4">Getting Here</h3>

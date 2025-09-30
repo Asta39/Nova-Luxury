@@ -62,11 +62,11 @@ const ServiceFAQ = ({ service }) => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="inline-flex items-center space-x-2 text-secondary hover:text-secondary/80 luxury-transition">
               <Icon name="Phone" size={16} />
-              <span>Call us at +254 700 000 000</span>
+              <span>Call us at +254 703 334 359</span>
             </button>
             <button className="inline-flex items-center space-x-2 text-secondary hover:text-secondary/80 luxury-transition">
               <Icon name="Mail" size={16} />
-              <span>Email info@novaluxuryevents.com</span>
+              <span>Email info@novaluxuryeventske.com</span>
             </button>
           </div>
         </div>

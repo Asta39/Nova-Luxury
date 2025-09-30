@@ -20,7 +20,7 @@ const TestimonialsPage = () => {
           name="keywords"
           content="Nova Luxury Events testimonials, client reviews Kenya, wedding testimonials Nairobi, event planning reviews, customer feedback luxury events"
         />
-        <link rel="canonical" href="https://novaluxuryevents.com/testimonials" />
+        <link rel="canonical" href="https://novaluxuryeventske.com/testimonials" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

@@ -23,7 +23,7 @@ const StatsSection = () => {
     },
     {
       icon: 'Award',
-      number: '5+',
+      number: '7+',
       label: 'Industry Awards',
       description: 'Recognition for excellence'
     }

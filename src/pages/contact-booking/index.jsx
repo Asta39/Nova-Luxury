@@ -134,7 +134,7 @@ const ContactBooking = () => {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="tel:+254700000000"
+                  href="tel:+254703334359"
                   className="inline-flex items-center justify-center space-x-2 bg-secondary hover:bg-secondary/90 text-secondary-foreground px-6 py-3 rounded-lg font-semibold luxury-transition"
                 >
                   {/* --- PHONE ICON REPLACED --- */}
@@ -149,7 +149,7 @@ const ContactBooking = () => {
                 </a>
                 
                 <a
-                  href="https://wa.me/254700000000?text=URGENT: I need immediate event planning assistance."
+                  href="https://wa.me/254703334359?text=URGENT: I need immediate event planning assistance."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center space-x-2 bg-transparent border-2 border-primary-foreground hover:bg-primary-foreground hover:text-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold luxury-transition"

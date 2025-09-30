@@ -40,7 +40,7 @@ const IndividualServicePages = () => {
     wedding: {
       name: "Wedding Celebrations",
       category: "Luxury Weddings",
-      heroImage: "/assets/images/wedding/hero.jpg",
+      heroImage: "/assets/images/tent1.jpeg",
       heroDescription: "Create the wedding of your dreams with our comprehensive luxury planning services. From intimate ceremonies to grand celebrations, we orchestrate every detail to perfection.",
       overviewTitle: "Luxury Wedding Planning Excellence",
       overviewDescription: `Transform your special day into an unforgettable celebration with Nova Luxury Events. Our expert wedding planners specialize in creating bespoke experiences that reflect your unique love story. From traditional Kenyan ceremonies to modern destination weddings, we handle every aspect with meticulous attention to detail.\n\nOur comprehensive approach ensures seamless coordination from engagement to honeymoon, allowing you to focus on what matters most - celebrating your love.`,
@@ -53,15 +53,15 @@ const IndividualServicePages = () => {
         "Photography and videography coordination"
       ],
       overviewImages: [
-        { src: "/assets/images/wedding/ceremony-1.jpg" },
-        { src: "/assets/images/wedding/reception-1.jpg" },
-        { src: "/assets/images/wedding/flowers-1.jpg" },
-        { src: "/assets/images/wedding/cake-1.jpg" }
+        { src: "/assets/images/seats3.jpeg" },
+        { src: "/assets/images/seats4.jpeg" },
+        { src: "/assets/images/stage7.jpeg" },
+        { src: "/assets/images/stage6.jpeg" }
       ],
       offerings: [
         { title: "Traditional Ceremonies", description: "Honor your heritage with authentic traditional wedding ceremonies that celebrate your cultural roots while incorporating modern luxury elements.", image: "https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?w=600&h=400&fit=crop", features: ["Cultural ceremony coordination", "Traditional attire consultation", "Authentic décor elements", "Elder and family integration", "Custom ritual planning", "Heritage photography"] },
         { title: "Modern Celebrations", description: "Contemporary wedding experiences featuring cutting-edge design, innovative technology, and personalized touches that reflect your modern love story.", image: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&h=400&fit=crop", features: ["Modern venue styling", "Technology integration", "Contemporary entertainment", "Innovative catering concepts", "Social media coordination", "Luxury transportation"] },
-        { title: "Destination Weddings", description: "Exotic destination weddings in Kenya's most breathtaking locations, from coastal resorts to safari lodges, creating unforgettable experiences.", image: "https://images.pixabay.com/photo/2016/11/21/16/01/beach-1846040_1280.jpg?w=600&h=400&fit=crop", features: ["Location scouting", "Travel coordination", "Accommodation management", "Local vendor partnerships", "Guest experience planning", "Legal documentation support"] }
+        { title: "Destination Weddings", description: "Exotic destination weddings in Kenya's most breathtaking locations, from coastal resorts to safari lodges, creating unforgettable experiences.", image: "/assets/images/tent2.jpeg", features: ["Location scouting", "Travel coordination", "Accommodation management", "Local vendor partnerships", "Guest experience planning", "Legal documentation support"] }
       ],
       planningProcess: [
         { icon: "Users", title: "Initial Consultation", description: "Meet with our wedding specialists to discuss your vision, preferences, and requirements for your perfect day." },
@@ -71,16 +71,16 @@ const IndividualServicePages = () => {
         { icon: "Book", title: "The Exit Meeting", description: "A comprehensive review of your wedding celebration, gathering feedback and providing final documentation while sharing cherished memories of your special day." }
       ],
       portfolioImages: [
-        { src: "/assets/images/wedding/wedding-1.jpg" },
-        { src: "/assets/images/wedding/wedding-2.jpg" },
-        { src: "/assets/images/wedding/wedding-3.jpg" },
-        { src: "/assets/images/wedding/wedding-4.jpg" },
-        { src: "/assets/images/wedding/wedding-5.jpg" },
-        { src: "/assets/images/wedding/wedding-6.jpg" }
+        { src: "/assets/images/stage6.jpeg" },
+        { src: "/assets/images/stage7.jpeg" },
+        { src: "/assets/images/seats10.jpeg" },
+        { src: "/assets/images/seats8.jpeg" },
+        { src: "/assets/images/seats.jpeg" },
+        { src: "/assets/images/seats2.jpeg" }
       ],
       testimonials: [
-        { name: "Sarah & James Mwangi", event: "Traditional & Modern Wedding", date: "December 2024", rating: 5, content: "Nova Luxury Events made our dream wedding a reality. They seamlessly blended our traditional Kikuyu ceremony with a modern reception. Every detail was perfect, and our guests are still talking about it!", avatar: "https://randomuser.me/api/portraits/women/32.jpg" },
-        { name: "Priya & David Ochieng", event: "Destination Wedding", date: "November 2024", rating: 5, content: "Planning a destination wedding in Diani was stress-free with Nova's team. They coordinated everything from guest accommodations to the beachside ceremony. Absolutely magical experience!", avatar: "https://randomuser.me/api/portraits/women/45.jpg" }
+        { name: "Sarah & James Mwangi", event: "Traditional & Modern Wedding", date: "December 2024", rating: 5, content: "Nova Luxury Events made our dream wedding a reality. They seamlessly blended our traditional Kikuyu ceremony with a modern reception. Every detail was perfect, and our guests are still talking about it!", avatar: "https://randomuser.me/api/portraitsomen/32.jpg" },
+        { name: "Priya & David Ochieng", event: "Destination Wedding", date: "November 2024", rating: 5, content: "Planning a destination wedding in Diani was stress-free with Nova's team. They coordinated everything from guest accommodations to the beachside ceremony. Absolutely magical experience!", avatar: "https://randomuser.me/api/portraitwomen/45.jpg" }
       ],
       faqs: [
         { question: "How far in advance should we book your wedding planning services?", answer: "We recommend booking our services 6-12 months in advance for optimal planning time. However, we can accommodate shorter timelines depending on availability and your specific requirements." },
@@ -91,7 +91,7 @@ const IndividualServicePages = () => {
     corporate: {
       name: "Corporate Events",
       category: "Business Excellence", 
-      heroImage: "/assets/images/corporate/hero.jpg",
+      heroImage: "/assets/images/stage2.jpeg",
       heroDescription: "Elevate your business presence with professionally executed corporate events that inspire, engage, and deliver results. From conferences to product launches, we create impactful experiences.",
       overviewTitle: "Professional Corporate Event Management",
       overviewDescription: `Transform your business objectives into memorable experiences with Nova Luxury Events' corporate division. We tell authentic, visually compelling stories for organizations. Stories rooted in our land, told for the world to feel. From documenting the groundbreaking work of institutions like the Wrti to capturing the human heartbeat behind corporate missions, we help brands and organizations connect deeply with their audiences. Every project is more than just visuals; it's about meaning, impact, and truth that resonates.`,
@@ -140,21 +140,21 @@ const IndividualServicePages = () => {
     birthday: {
       name: "Birthday Celebrations",
       category: "Life Celebrations",
-      heroImage: "/assets/images/birthday/hero.jpg",
+      heroImage: "/assets/images/stage9.jpeg",
       heroDescription: "Make every birthday unforgettable with personalized celebrations that capture the joy and uniqueness of your special day. From intimate gatherings to grand parties, we create magical moments.",
       overviewTitle: "Personalized Birthday Celebration Planning",
       overviewDescription: `Celebrate life's milestones with Nova Luxury Events' birthday planning expertise. Whether it's a child's themed party, a milestone adult celebration, or a surprise gathering, we create personalized experiences that reflect the birthday person's personality and preferences.\n\nOur creative team specializes in transforming venues into magical spaces that create lasting memories for guests of all ages, ensuring every birthday celebration is as unique as the person being celebrated.`,
       keyFeatures: ["Custom theme development and design", "Age-appropriate entertainment and activities", "Personalized décor and styling", "Recommend Catering for all dietary preferences", "Recommend Photography and videography coordination", "Surprise element planning and execution"],
       overviewImages: [
-        { src: "/assets/images/birthday/birthday-1.jpg" },
-        { src: "/assets/images/birthday/birthday-2.jpg" },
-        { src: "/assets/images/birthday/birthday-3.jpg" },
-        { src: "/assets/images/birthday/birthday-4.jpg" }
+        { src: "/assets/images/stage9.jpeg" },
+        { src: "/assets/images/birth-hero.jpg" },
+        { src: "/assets/images/birth-1.jpg" },
+        { src: "/assets/images/birth-5.jpg" }
       ],
       offerings: [
-        { title: "Children's Themed Parties", description: "Magical themed birthday parties for children featuring beloved characters, interactive entertainment, and age-appropriate activities that create wonder and excitement.", image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=600&h=400&fit=crop", features: ["Mascots & Clown Perfomance", "Interactive games and activities", "Themed decorations and props", "Kid-friendly catering options", "Character appearence and entertainment", "Safety-focused planning"] },
-        { title: "Milestone Celebrations", description: "Sophisticated celebrations for significant birthdays like 18th, 21st, 30th, 50th, and beyond, designed to honor life achievements and create memorable experiences.", image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop", features: ["Elegant venue styling", "Sophisticated entertainment", "Premium catering and bar service", "Memory lane displays", "Professional photography"] },
-        { title: "Surprise Parties", description: "Expertly coordinated surprise celebrations that create unforgettable moments of joy and amazement for the birthday person and their loved ones.", image: "https://images.pexels.com/photos/1729931/pexels-photo-1729931.jpeg?w=600&h=400&fit=crop", features: ["Secret planning coordination", "Guest communication management", "Venue preparation timing", "Surprise reveal planning", "Backup contingency plans", "Moment capture coordination"] }
+        { title: "Children's Themed Parties", description: "Magical themed birthday parties for children featuring beloved characters, interactive entertainment, and age-appropriate activities that create wonder and excitement.", image: "/assets/images/birth-12.jpg", features: ["Mascots & Clown Performance", "Interactive games and activities", "Themed decorations and props", "Kid-friendly catering options", "Character appearance and entertainment", "Safety-focused planning"] },
+        { title: "Milestone Celebrations", description: "Sophisticated celebrations for significant birthdays like 18th, 21st, 30th, 50th, and beyond, designed to honor life achievements and create memorable experiences.", image: "/assets/images/birth-13.jpg", features: ["Elegant venue styling", "Sophisticated entertainment", "Premium catering and bar service", "Memory lane displays", "Professional photography"] },
+        { title: "Surprise Parties", description: "Expertly coordinated surprise celebrations that create unforgettable moments of joy and amazement for the birthday person and their loved ones.", image: "/assets/images/birth-11.jpg", features: ["Secret planning coordination", "Guest communication management", "Venue preparation timing", "Surprise reveal planning", "Backup contingency plans", "Moment capture coordination"] }
       ],
       planningProcess: [
         { icon: "Heart", title: "Personal Consultation", description: "Understand the birthday person's interests, preferences, and dream celebration vision to create a personalized plan."},
@@ -164,16 +164,18 @@ const IndividualServicePages = () => {
 
       ],
       portfolioImages: [
-        { src: "/assets/images/birthday/birthday-1.jpg" },
-        { src: "/assets/images/birthday/birthday-2.jpg" },
-        { src: "/assets/images/birthday/birthday-3.jpg" },
-        { src: "/assets/images/birthday/birthday-4.jpg" },
-        { src: "/assets/images/birthday/birthday-5.jpg" },
-        { src: "/assets/images/birthday/birthday-6.jpg" }
+        { src: "/assets/images/birth-2.jpg" },
+        { src: "/assets/images/birth-4.jpg" },
+        { src: "/assets/images/birth-5.jpg" },
+        { src: "/assets/images/birth-6.jpg" },
+        { src: "/assets/images/birth-7.jpg" },
+        { src: "/assets/images/birth-9.jpg" },
+        { src: "/assets/images/birth-12.jpg" },
+        { src: "/assets/images/birth-8.jpg" }
       ],
       testimonials: [
-        { name: "Mary Njeri", event: "Daughter's 7th Birthday", date: "January 2025", rating: 5, content: "Nova created the most magical princess party for my daughter. The attention to detail was incredible, and seeing her face light up made it all worth it. The children had an amazing time!", avatar: "https://randomuser.me/api/portraits/women/29.jpg" },
-        { name: "John Mutua", event: "50th Milestone Birthday", date: "December 2024", rating: 5, content: "My 50th birthday celebration was beyond my expectations. Nova perfectly captured my personality in the theme and created an elegant evening that my friends and family will never forget.", avatar: "https://randomuser.me/api/portraits/men/48.jpg" }
+        { name: "Mary Njeri", event: "Daughter's 7th Birthday", date: "January 2025", rating: 5, content: "Nova created the most magical princess party for my daughter. The attention to detail was incredible, and seeing her face light up made it all worth it. The children had an amazing time!", avatar: "https://randomuer.me/api/portraits/women/29.jpg" },
+        { name: "John Mutua", event: "50th Milestone Birthday", date: "December 2024", rating: 5, content: "My 50th birthday celebration was beyond my expectations. Nova perfectly captured my personality in the theme and created an elegant evening that my friends and family will never forget.", avatar: "https://ranomuser.me/api/portraits/men/48.jpg" }
       ],
       faqs: [
         { question: "What age groups do you cater to for birthday celebrations?", answer: "We plan birthday celebrations for all ages, from toddler parties to milestone adult celebrations. Our team customizes themes, entertainment, and activities appropriate for each age group." },
@@ -186,21 +188,21 @@ const IndividualServicePages = () => {
     private: {
       name: "Private Luxury Events",
       category: "Exclusive Experiences",
-      heroImage: "/assets/images/private/hero.jpg",
+      heroImage: "/assets/images/priv-hero.jpeg",
       heroDescription: "Create exclusive, intimate experiences with our private luxury event planning. From VIP gatherings to cultural ceremonies, we craft bespoke celebrations that reflect sophistication and elegance.",
       overviewTitle: "Exclusive Private Event Experiences",
       overviewDescription: `Elevate your private gatherings with Nova Luxury Events' exclusive planning services. We specialize in creating intimate, sophisticated experiences that cater to discerning clients seeking privacy, elegance, and personalized attention.\n\nOur private event expertise encompasses cultural ceremonies, religious celebrations, VIP gatherings, and exclusive parties, all executed with the highest level of discretion and luxury service standards.`,
       keyFeatures: ["Exclusive venue access and privacy", "Bespoke event design and styling", "Premium catering and beverage service", "Discreet and professional service staff", "Cultural and religious ceremony expertise", "VIP guest management and security"],
       overviewImages: [
-        { src: "/assets/images/birthday/birthday-1.jpg" },
-        { src: "/assets/images/birthday/birthday-2.jpg" },
-        { src: "/assets/images/birthday/birthday-3.jpg" },
-        { src: "/assets/images/birthday/birthday-4.jpg" }
+        { src: "/assets/images/priv-6.jpeg" },
+        { src: "/assets/images/priv-12.jpeg" },
+        { src: "/assets/images/priv-9.jpeg" },
+        { src: "/assets/images/priv-10.jpeg" }
       ],
       offerings: [
-        { title: "VIP Exclusive Gatherings", description: "Ultra-exclusive gatherings for high-profile clients requiring privacy, security, and impeccable service in sophisticated settings.", image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=400&fit=crop", features: ["Private venue exclusivity", "Security and privacy management", "Luxury transportation coordination", "Premium hospitality service", "Confidentiality agreements", "Bespoke experience design"] },
-        { title: "Cultural Ceremonies", description: "Authentic cultural and traditional ceremonies honoring heritage while incorporating modern luxury elements and professional coordination.", image: "https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop", features: ["Cultural authenticity consultation", "Traditional element coordination", "Elder and family integration", "Ceremonial logistics management", "Heritage documentation", "Modern luxury integration"] },
-        { title: "Religious Celebrations", description: "Sacred religious celebrations and ceremonies planned with deep respect for traditions while ensuring seamless logistics and meaningful experiences.", image: "https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?w=600&h=400&fit=crop", features: ["Religious protocol adherence", "Sacred space preparation", "Clergy coordination", "Ritual element management", "Community integration", "Spiritual atmosphere creation"] }
+        { title: "VIP Exclusive Gatherings", description: "Ultra-exclusive gatherings for high-profile clients requiring privacy, security, and impeccable service in sophisticated settings.", image: "/assets/images/vip-1.jpeg", features: ["Private venue exclusivity", "Security and privacy management", "Luxury transportation coordination", "Premium hospitality service", "Confidentiality agreements", "Bespoke experience design"] },
+        { title: "Cultural Ceremonies", description: "Authentic cultural and traditional ceremonies honoring heritage while incorporating modern luxury elements and professional coordination.", image: "/assets/images/vip-2.jpeg", features: ["Cultural authenticity consultation", "Traditional element coordination", "Elder and family integration", "Ceremonial logistics management", "Heritage documentation", "Modern luxury integration"] },
+        { title: "Religious Celebrations", description: "Sacred religious celebrations and ceremonies planned with deep respect for traditions while ensuring seamless logistics and meaningful experiences.", image: "/assets/images/vip-3.jpeg", features: ["Religious protocol adherence", "Sacred space preparation", "Clergy coordination", "Ritual element management", "Community integration", "Spiritual atmosphere creation"] }
       ],
       planningProcess: [
         { icon: "Shield", title: "Confidential Consultation", description: "Private consultation to understand your vision, requirements, and privacy needs with complete confidentiality assurance." },
@@ -210,16 +212,18 @@ const IndividualServicePages = () => {
         { icon: "Book", title: "The Exit Meeting", description: "A comprehensive review of your private party, gathering memories and feedback from guests while providing keepsake documentation of your exclusive event." }
       ],
       portfolioImages: [
-        { src: "/assets/images/private-1.jpg" },
-        { src: "/assets/images/private-2.jpg" },
-        { src: "/assets/images/private-3.jpg" }, 
-        { src: "/assets/images/private-4.jpg" },
-        { src: "/assets/images/private-5.jpg" },
-        { src: "/assets/images/private-6.jpg" }
+        { src: "/assets/images/priv-1.jpeg" },
+        { src: "/assets/images/priv-2.jpeg" },
+        { src: "/assets/images/priv-3.jpeg" }, 
+        { src: "/assets/images/priv-4.jpeg" },
+        { src: "/assets/images/priv-12.jpeg" },
+        { src: "/assets/images/priv-7.jpeg" },
+        { src: "/assets/images/priv-8.jpeg" },
+        { src: "/assets/images/priv-5.jpeg" }
       ],
       testimonials: [
-        { name: "Ambassador Patricia Kones", event: "Private Cultural Ceremony", date: "December 2024", rating: 5, content: "Nova handled our traditional ceremony with exceptional cultural sensitivity and luxury service. The discretion and attention to detail were exactly what we needed for this important family celebration.", avatar: "https://randomuser.me/api/portraits/women/52.jpg" },
-        { name: "Dr. Samuel Kiprotich", event: "VIP Religious Celebration", date: "November 2024", rating: 5, content: "The religious celebration organized by Nova was both spiritually meaningful and elegantly executed. They understood the sacred nature of our event while providing luxury service.", avatar: "https://randomuser.me/api/portraits/men/55.jpg" }
+        { name: "Ambassador Patricia Kones", event: "Private Cultural Ceremony", date: "December 2024", rating: 5, content: "Nova handled our traditional ceremony with exceptional cultural sensitivity and luxury service. The discretion and attention to detail were exactly what we needed for this important family celebration.", avatar: "https://randomuse.me/api/portraits/women/52.jpg" },
+        { name: "Dr. Samuel Kiprotich", event: "VIP Religious Celebration", date: "November 2024", rating: 5, content: "The religious celebration organized by Nova was both spiritually meaningful and elegantly executed. They understood the sacred nature of our event while providing luxury service.", avatar: "https://randomuser.me/api/potraits/men/55.jpg" }
       ],
       faqs: [
         { question: "What types of private events do you specialize in?", answer: "We specialize in VIP gatherings, cultural ceremonies, religious celebrations, exclusive parties, intimate dinners, and private milestone celebrations. All events are planned with complete discretion and luxury service." },
@@ -232,21 +236,21 @@ const IndividualServicePages = () => {
     milestone: {
       name: "Milestone Celebrations",
       category: "Life Achievements",
-      heroImage: "/assets/images/milestone/hero.jpg",
+      heroImage: "/assets/images/mile-hero.jpg",
       heroDescription: "Honor life's significant moments with elegant milestone celebrations that capture the importance of your achievements and create lasting memories for you and your loved ones.",
       overviewTitle: "Meaningful Milestone Celebrations",
       overviewDescription: `Celebrate life's most significant moments with Nova Luxury Events' milestone celebration expertise. From graduations to retirements, anniversaries to achievements, we create meaningful experiences that honor your journey and accomplishments.\n\nOur thoughtful approach ensures every milestone celebration reflects the significance of the occasion while creating an atmosphere of joy, reflection, and anticipation for the future.`,
       keyFeatures: ["Personalized celebration design", "Memory and achievement showcase", "Recommend Professional documentation services", "Cultural and traditional elements"],
       overviewImages: [
-        { src: "/assets/images/birthday/birthday-1.jpg" },
-        { src: "/assets/images/birthday/birthday-2.jpg" },
-        { src: "/assets/images/birthday/birthday-3.jpg" },
-        { src: "/assets/images/birthday/birthday-4.jpg" }
+        { src: "/assets/images/mile-2.jpg" },
+        { src: "/assets/images/mile-1.jpg" },
+        { src: "/assets/images/mile-5.jpg" },
+        { src: "/assets/images/mile-6.jpg" }
       ],
       offerings: [
-        { title: "Academic Achievements", description: "Celebrate educational milestones with graduations, academic honors, and scholarship celebrations that recognize hard work and achievement.", image: "https://images.unsplash.com/photo-1523050854058-8df90110c9d1?w=600&h=400&fit=crop", features: ["Graduation ceremony coordination", "Academic honor celebrations", "Scholarship award ceremonies", "Educational milestone parties", "Family gathering coordination", "Achievement documentation"] },
-        { title: "Career Milestones", description: "Honor professional achievements with retirement parties, promotion celebrations, and career recognition events that acknowledge dedication and success.", image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&h=400&fit=crop", features: ["Retirement celebration planning", "Promotion recognition events", "Career achievement honors", "Professional networking events", "Legacy project showcases", "Colleague coordination"] },
-        { title: "Life Transitions", description: "Mark significant life transitions with coming of age ceremonies, anniversary celebrations, and personal achievement recognition events.", image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&h=400&fit=crop", features: ["Coming of age ceremonies", "Anniversary celebrations", "Personal achievement recognition", "Life transition ceremonies", "Family tradition planning", "Cultural ceremony integration"] }
+        { title: "Academic Achievements", description: "Celebrate educational milestones with graduations, academic honors, and scholarship celebrations that recognize hard work and achievement.", image: "/assets/images/mile-15.jpg", features: ["Graduation ceremony coordination", "Academic honor celebrations", "Scholarship award ceremonies", "Educational milestone parties", "Family gathering coordination", "Achievement documentation"] },
+        { title: "Career Milestones", description: "Honor professional achievements with retirement parties, promotion celebrations, and career recognition events that acknowledge dedication and success.", image: "/assets/images/mile-10.jpg", features: ["Retirement celebration planning", "Promotion recognition events", "Career achievement honors", "Professional networking events", "Legacy project showcases", "Colleague coordination"] },
+        { title: "Life Transitions", description: "Mark significant life transitions with coming of age ceremonies, anniversary celebrations, and personal achievement recognition events.", image: "/assets/images/mile-7.jpg", features: ["Coming of age ceremonies", "Anniversary celebrations", "Personal achievement recognition", "Life transition ceremonies", "Family tradition planning", "Cultural ceremony integration"] }
       ],
       planningProcess: [
         { icon: "Award", title: "Achievement Recognition", description: "Understand the significance of the milestone and plan a celebration that honors the achievement appropriately." },
@@ -257,12 +261,12 @@ const IndividualServicePages = () => {
         
       ],
       portfolioImages: [
-        { src: "/assets/images/milestone-1.jpg" },
-        { src: "/assets/images/milestone-2.jpg" },
-        { src: "/assets/images/milestone-3.jpg" },
-        { src: "/assets/images/milestone-4.jpg" },
-        { src: "/assets/images/milestone-5.jpg" },
-        { src: "/assets/images/milestone-6.jpg" }
+        { src: "/assets/images/mile-1.jpg" },
+        { src: "/assets/images/mile-8.jpg" },
+        { src: "/assets/images/mile-11.jpg" },
+        { src: "/assets/images/mile-12.jpg" },
+        { src: "/assets/images/mile-13.jpg" },
+        { src: "/assets/images/mile-14.jpg" }
       ],
       testimonials: [
         { name: "Dr. Grace Kamau", event: "PhD Graduation Celebration", date: "December 2024", rating: 5, content: "Nova made my PhD graduation celebration incredibly meaningful. They understood the significance of this achievement and created a beautiful ceremony that honored my academic journey.", avatar: "https://randomuser.me/api/portraits/women/41.jpg" },
@@ -277,21 +281,22 @@ const IndividualServicePages = () => {
     family: {
       name: "Family & Social Events",
       category: "Family Gatherings",
-      heroImage: "/assets/images/family/hero.jpg",
+      heroImage: "/assets/images/fam-hero.jpg",
       heroDescription: "Create warm, welcoming family gatherings that bring loved ones together. From baby showers to family reunions, we specialize in events that celebrate family bonds and create cherished memories.",
       overviewTitle: "Heartwarming Family Celebrations",
       overviewDescription: `Strengthen family bonds with Nova Luxury Events' family-focused celebration planning. We understand that family events are about connection, love, and creating memories that last a lifetime. Our approach emphasizes warmth, inclusivity, and personal touches that make every family member feel special.\n\nWhether it's welcoming a new family member, celebrating achievements, or simply bringing everyone together, we create environments where families can connect, laugh, and create lasting memories.`,
       keyFeatures: ["Multi-generational event planning", "Child-friendly activity coordination", "Cultural tradition incorporation", "Recommend Family-style catering and dining", "Memory-making activities and games", "Comfortable and inclusive atmospheres"],
       overviewImages: [
-        { src: "/assets/images/corporate/conf-1.jpg" },
-        { src: "/assets/images/corporate/conf-2.jpg" },
-        { src: "/assets/images/corporate/conf-3.jpg" },
-        { src: "/assets/images/corporate/conf-4.jpg" }
+        { src: "/assets/images/fam-11.jpg" },
+        { src: "/assets/images/fam-12.jpg" },
+        { src: "/assets/images/fam-13.jpg" },
+        { src: "/assets/images/fam-5.jpg" }
       ],
-      offerings: [
-        { title: "Baby & Family Celebrations", description: "Welcome new family members with baby showers, naming ceremonies, and first birthday parties that celebrate new beginnings and family joy.", image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop", features: ["Baby shower celebrations", "Naming ceremony planning", "First birthday celebrations", "Baptism events", "Gender reveal parties", "Baby blessing ceremonies"] },
-        { title: "Family Reunions", description: "Bring families together with reunions that accommodate multiple generations, celebrate family history, and create new memories for years to come.", image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&h=400&fit=crop", features: ["Multi-day reunion planning", "Activity coordination for all ages", "Family history presentations", "Traditional family games", "Memory preservation activities"] },
-        { title: "Holiday & Seasonal Gatherings", description: "Create magical holiday celebrations and seasonal gatherings that honor traditions while making new ones for your family to treasure.", image: "https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?w=600&h=400&fit=crop", features: ["Holiday dinner coordination", "Seasonal celebration planning", "Recommend Traditional meal preparation", "Bespoke Holiday decoration and styling", "Gift exchange coordination", "House warming events"] }
+      offerings: [        
+        { title: "Baby & Family Celebrations", description: "Welcome new family members with baby showers, naming ceremonies, and first birthday parties that celebrate new beginnings and family joy.", image: "/assets/images/fam-14.jpg", features: ["Baby shower celebrations", "Naming ceremony planning", "First birthday celebrations", "Baptism events", "Gender reveal parties", "Baby blessing ceremonies"] },
+
+        { title: "Family Reunions", description: "Bring families together with reunions that accommodate multiple generations, celebrate family history, and create new memories for years to come.", image: "/assets/images/fam-6.jpg", features: ["Multi-day reunion planning", "Activity coordination for all ages", "Family history presentations", "Traditional family games", "Memory preservation activities"] },
+        { title: "Holiday & Seasonal Gatherings", description: "Create magical holiday celebrations and seasonal gatherings that honor traditions while making new ones for your family to treasure.", image: "/assets/images/fam-8.jpg", features: ["Holiday dinner coordination", "Seasonal celebration planning", "Recommend Traditional meal preparation", "Bespoke Holiday decoration and styling", "Gift exchange coordination", "House warming events"] }
       ],
       planningProcess: [
         { icon: "Heart", title: "Family Vision", description: "Understand your family dynamics, traditions, and vision for bringing everyone together in a meaningful way.", duration: "1 hour" },
@@ -300,16 +305,16 @@ const IndividualServicePages = () => {
         { icon: "Camera", title: "Memory Making", description: "Execute the celebration with special attention to creating and capturing moments that families will treasure forever.", duration: "Event day" }
       ],
       portfolioImages: [
-        { src: "/assets/images/family-1.jpg" },
-        { src: "/assets/images/family-2.jpg" },
-        { src: "/assets/images/family-3.jpg" },
-        { src: "/assets/images/family-4.jpg" },
-        { src: "/assets/images/family-5.jpg" },
-        { src: "/assets/images/family-6.jpg" }
+        { src: "/assets/images/fam-1.jpg" },
+        { src: "/assets/images/fam-2.jpg" },
+        { src: "/assets/images/fam-3.jpg" },
+        { src: "/assets/images/fam-4.jpg" },
+        { src: "/assets/images/fam-9.jpg" },
+        { src: "/assets/images/fam-6.jpg" }
       ],
       testimonials: [
-        { name: "Margaret Wanjiru", event: "Three-Generation Reunion", date: "December 2024", rating: 5, content: "Nova brought our entire extended family together for the first time in years. They managed to coordinate activities that entertained both the grandchildren and great-grandparents. It was magical!", avatar: "https://randomuser.me/api/portraits/women/67.jpg" },
-        { name: "Peter & Mary Kimani", event: "Baby Shower", date: "January 2025", rating: 5, content: "Our baby shower was perfect! Nova created such a warm, loving atmosphere and made sure every family member felt special. The attention to detail was incredible.", avatar: "https://randomuser.me/api/portraits/women/31.jpg" }
+        { name: "Margaret Wanjiru", event: "Three-Generation Reunion", date: "December 2024", rating: 5, content: "Nova brought our entire extended family together for the first time in years. They managed to coordinate activities that entertained both the grandchildren and great-grandparents. It was magical!", avatar: "https://randmuser.me/api/portraits/women/67.jpg" },
+        { name: "Peter & Mary Kimani", event: "Baby Shower", date: "January 2025", rating: 5, content: "Our baby shower was perfect! Nova created such a warm, loving atmosphere and made sure every family member felt special. The attention to detail was incredible.", avatar: "https://randomuser.me/api/prtraits/women/31.jpg" }
       ],
       faqs: [
         { question: "How do you accommodate multiple generations at family events?", answer: "We plan activities and arrangements suitable for all ages, provide comfortable seating options, offer diverse entertainment, and create spaces where different generations can interact naturally while also having age-appropriate options." },
