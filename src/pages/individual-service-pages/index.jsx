@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import emailjs from '@emailjs/browser'; // 1. IMPORT EMAILJS
+// import emailjs from '@emailjs/browser'; // --- 1. COMMENTED OUT EMAILJS IMPORT ---
 
 import Header from '../../components/ui/Header';
 import Footer from '../../components/ui/Footer';
@@ -21,7 +21,6 @@ const IndividualServicePages = () => {
   const serviceType = searchParams?.get('service') || 'wedding';
   const [currentService, setCurrentService] = useState(null);
 
-  // --- 2. STATES FOR FORM HANDLING ---
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [contactFormData, setContactFormData] = useState({
@@ -31,11 +30,10 @@ const IndividualServicePages = () => {
     eventDate: '',
     eventType: '',
     budget: '',
-    howHeard: '', // Added field
+    howHeard: '',
     message: ''
   });
 
-  // --- COMPLETE SERVICES DATA WITH CORRECTED URLS ---
   const servicesData = {
     wedding: {
       name: "Wedding Celebrations",
@@ -79,8 +77,8 @@ const IndividualServicePages = () => {
         { src: "/assets/images/seats2.jpeg" }
       ],
       testimonials: [
-        { name: "Sarah & James Mwangi", event: "Traditional & Modern Wedding", date: "December 2024", rating: 5, content: "Nova Luxury Events made our dream wedding a reality. They seamlessly blended our traditional Kikuyu ceremony with a modern reception. Every detail was perfect, and our guests are still talking about it!", avatar: "https://randomuser.me/api/portraitsomen/32.jpg" },
-        { name: "Priya & David Ochieng", event: "Destination Wedding", date: "November 2024", rating: 5, content: "Planning a destination wedding in Diani was stress-free with Nova's team. They coordinated everything from guest accommodations to the beachside ceremony. Absolutely magical experience!", avatar: "https://randomuser.me/api/portraitwomen/45.jpg" }
+        { name: "Sarah & James Mwangi", event: "Traditional & Modern Wedding", date: "December 2024", rating: 5, content: "Nova Luxury Events made our dream wedding a reality. They seamlessly blended our traditional Kikuyu ceremony with a modern reception. Every detail was perfect, and our guests are still talking about it!", avatar: "https://ranuser.me/api/portraits/women/32.jpg" },
+        { name: "Priya & David Ochieng", event: "Destination Wedding", date: "November 2024", rating: 5, content: "Planning a destination wedding in Diani was stress-free with Nova's team. They coordinated everything from guest accommodations to the beachside ceremony. Absolutely magical experience!", avatar: "https://randomume/api/portraits/women/45.jpg" }
       ],
       faqs: [
         { question: "How far in advance should we book your wedding planning services?", answer: "We recommend booking our services 6-12 months in advance for optimal planning time. However, we can accommodate shorter timelines depending on availability and your specific requirements." },
@@ -103,9 +101,9 @@ const IndividualServicePages = () => {
         { src: "/assets/images/Nova 4.jpg", alt: "Corporate gala dinner" }
       ],
       offerings: [
-        { title: "Conferences & Seminars", description: "Professional conferences and seminars that educate, inspire, and connect your audience with cutting-edge content and seamless execution.", image: "/assets/images/corporate/conference-2.jpg", features: ["Venue selection and setup", "Speaker coordination", "AV and technology management", "Registration and check-in", "Networking facilitation", "Content documentation"] },
-        { title: "Product Launches", description: "Create buzz and excitement around your new products with strategically planned launch events that capture attention and drive market adoption.", image: "/assets/images/corporate/product-launch-2.jpg", features: ["Launch strategy development", "Media and PR coordination", "Interactive product displays", "Influencer management", "Live streaming capabilities", "Social media integration"] },
-        { title: "Team Building & Retreats", description: "Strengthen team bonds and boost morale with engaging team building activities and corporate retreats in inspiring locations.", image: "/assets/images/corporate/team-building-1.jpg", features: ["Activity planning and coordination", "Venue sourcing and booking", "Team challenge design", "Accommodation management", "Catering and dining", "Transportation logistics"] }
+        { title: "Conferences & Seminars", description: "Professional conferences and seminars that educate, inspire, and connect your audience with cutting-edge content and seamless execution.", image: "/assets/images/conf.jpg", features: ["Venue selection and setup", "Speaker coordination", "AV and technology management", "Registration and check-in", "Networking facilitation", "Content documentation"] },
+        { title: "Product Launches", description: "Create buzz and excitement around your new products with strategically planned launch events that capture attention and drive market adoption.", image: "/assets/images/launch.jpg", features: ["Launch strategy development", "Media and PR coordination", "Interactive product displays", "Influencer management", "Live streaming capabilities", "Social media integration"] },
+        { title: "Team Building & Retreats", description: "Strengthen team bonds and boost morale with engaging team building activities and corporate retreats in inspiring locations.", image: "/assets/images/team.jpg", features: ["Activity planning and coordination", "Venue sourcing and booking", "Team challenge design", "Accommodation management", "Catering and dining", "Transportation logistics"] }
       ],
       planningProcess: [
         { icon: "Target", title: "Objective Setting", description: "Define clear event objectives, target audience, and success metrics aligned with your business goals."},
@@ -126,8 +124,8 @@ const IndividualServicePages = () => {
         { src: "/assets/images/Nova 3.jpg" }
       ],
       testimonials: [
-        { name: "Robert Kimani", event: "Annual Conference 2024", date: "January 2025", rating: 5, content: "Nova delivered an exceptional conference experience for our 500+ attendees. The seamless coordination and professional execution exceeded our expectations. Highly recommended for corporate events.", avatar: "https://randomuser.me/api/portraits/men/42.jpg" },
-        { name: "Linda Wanjiku", event: "Product Launch", date: "December 2024", rating: 5, content: "Our product launch was a huge success thanks to Nova's strategic planning and flawless execution. The media coverage and attendee engagement were outstanding.", avatar: "https://randomuser.me/api/portraits/women/38.jpg" }
+        { name: "Robert Kimani", event: "Annual Conference 2024", date: "January 2025", rating: 5, content: "Nova delivered an exceptional conference experience for our 500+ attendees. The seamless coordination and professional execution exceeded our expectations. Highly recommended for corporate events.", avatar: "https://randuser.me/api/portraits/men/42.jpg" },
+        { name: "Linda Wanjiku", event: "Product Launch", date: "December 2024", rating: 5, content: "Our product launch was a huge success thanks to Nova's strategic planning and flawless execution. The media coverage and attendee engagement were outstanding.", avatar: "https://randomuser.me/api/porits/women/38.jpg" }
       ],
       faqs: [
         { question: "What types of corporate events do you specialize in?", answer: "We specialize in conferences, seminars, product launches, team building retreats, corporate galas, AGMs, awards ceremonies, and executive meetings. Our team has experience across all corporate event categories." },
@@ -161,7 +159,6 @@ const IndividualServicePages = () => {
         { icon: "Palette", title: "Bespoke Event Design & Styling", description: "Create unique and personalized event designs with custom themes, color palettes, and styling elements that bring your vision to life."},
         { icon: "Users", title: "Coordination & Setup", description: "Manage all vendors, entertainment, and logistics while coordinating with family and friends for seamless execution."},
         { icon: "Gift", title: "Celebration Day & Analysis", description: "Execute the perfect birthday celebration with on-site coordination ensuring every moment is magical and memorable.", duration: "Event day" },
-
       ],
       portfolioImages: [
         { src: "/assets/images/birth-2.jpg" },
@@ -174,8 +171,8 @@ const IndividualServicePages = () => {
         { src: "/assets/images/birth-8.jpg" }
       ],
       testimonials: [
-        { name: "Mary Njeri", event: "Daughter's 7th Birthday", date: "January 2025", rating: 5, content: "Nova created the most magical princess party for my daughter. The attention to detail was incredible, and seeing her face light up made it all worth it. The children had an amazing time!", avatar: "https://randomuer.me/api/portraits/women/29.jpg" },
-        { name: "John Mutua", event: "50th Milestone Birthday", date: "December 2024", rating: 5, content: "My 50th birthday celebration was beyond my expectations. Nova perfectly captured my personality in the theme and created an elegant evening that my friends and family will never forget.", avatar: "https://ranomuser.me/api/portraits/men/48.jpg" }
+        { name: "Mary Njeri", event: "Daughter's 7th Birthday", date: "January 2025", rating: 5, content: "Nova created the most magical princess party for my daughter. The attention to detail was incredible, and seeing her face light up made it all worth it. The children had an amazing time!", avatar: "https://randomuser.me/api/portraits/women/29.jpg" },
+        { name: "John Mutua", event: "50th Milestone Birthday", date: "December 2024", rating: 5, content: "My 50th birthday celebration was beyond my expectations. Nova perfectly captured my personality in the theme and created an elegant evening that my friends and family will never forget.", avatar: "https://randomuser.me/api/portraits/men/48.jpg" }
       ],
       faqs: [
         { question: "What age groups do you cater to for birthday celebrations?", answer: "We plan birthday celebrations for all ages, from toddler parties to milestone adult celebrations. Our team customizes themes, entertainment, and activities appropriate for each age group." },
@@ -222,8 +219,8 @@ const IndividualServicePages = () => {
         { src: "/assets/images/priv-5.jpeg" }
       ],
       testimonials: [
-        { name: "Ambassador Patricia Kones", event: "Private Cultural Ceremony", date: "December 2024", rating: 5, content: "Nova handled our traditional ceremony with exceptional cultural sensitivity and luxury service. The discretion and attention to detail were exactly what we needed for this important family celebration.", avatar: "https://randomuse.me/api/portraits/women/52.jpg" },
-        { name: "Dr. Samuel Kiprotich", event: "VIP Religious Celebration", date: "November 2024", rating: 5, content: "The religious celebration organized by Nova was both spiritually meaningful and elegantly executed. They understood the sacred nature of our event while providing luxury service.", avatar: "https://randomuser.me/api/potraits/men/55.jpg" }
+        { name: "Ambassador Patricia Kones", event: "Private Cultural Ceremony", date: "December 2024", rating: 5, content: "Nova handled our traditional ceremony with exceptional cultural sensitivity and luxury service. The discretion and attention to detail were exactly what we needed for this important family celebration.", avatar: "https://ranmuser.me/api/portraits/women/52.jpg" },
+        { name: "Dr. Samuel Kiprotich", event: "VIP Religious Celebration", date: "November 2024", rating: 5, content: "The religious celebration organized by Nova was both spiritually meaningful and elegantly executed. They understood the sacred nature of our event while providing luxury service.", avatar: "https://randuser.me/api/portraits/men/55.jpg" }
       ],
       faqs: [
         { question: "What types of private events do you specialize in?", answer: "We specialize in VIP gatherings, cultural ceremonies, religious celebrations, exclusive parties, intimate dinners, and private milestone celebrations. All events are planned with complete discretion and luxury service." },
@@ -258,7 +255,6 @@ const IndividualServicePages = () => {
         { icon: "Users", title: "Community Coordination", description: "Coordinate with family, friends, colleagues, and community members to create a meaningful gathering."},
         { icon: "Camera", title: "Memory Creation", description: "Execute the celebration with professional documentation to preserve memories of this significant moment.", duration: "Event day" },
         { icon: "Book", title: "The Exit Meeting", description: "A comprehensive review of your birthday celebration, gathering memories and feedback from guests while providing keepsake documentation of your special day." }
-        
       ],
       portfolioImages: [
         { src: "/assets/images/mile-1.jpg" },
@@ -269,8 +265,8 @@ const IndividualServicePages = () => {
         { src: "/assets/images/mile-14.jpg" }
       ],
       testimonials: [
-        { name: "Dr. Grace Kamau", event: "PhD Graduation Celebration", date: "December 2024", rating: 5, content: "Nova made my PhD graduation celebration incredibly meaningful. They understood the significance of this achievement and created a beautiful ceremony that honored my academic journey.", avatar: "https://randomuser.me/api/portraits/women/41.jpg" },
-        { name: "Professor James Wanjiku", event: "Retirement Celebration", date: "November 2024", rating: 5, content: "After 40 years in education, Nova created the perfect retirement celebration that honored my career while bringing together colleagues, students, and family. It was truly special.", avatar: "https://randomuser.me/api/portraits/men/58.jpg" }
+        { name: "Dr. Grace Kamau", event: "PhD Graduation Celebration", date: "December 2024", rating: 5, content: "Nova made my PhD graduation celebration incredibly meaningful. They understood the significance of this achievement and created a beautiful ceremony that honored my academic journey.", avatar: "https://randuser.me/api/portraits/women/41.jpg" },
+        { name: "Professor James Wanjiku", event: "Retirement Celebration", date: "November 2024", rating: 5, content: "After 40 years in education, Nova created the perfect retirement celebration that honored my career while bringing together colleagues, students, and family. It was truly special.", avatar: "https://randomus.me/api/portraits/men/58.jpg" }
       ],
       faqs: [
         { question: "What types of milestone celebrations do you plan?", answer: "We plan graduations, retirements, career achievements, anniversaries, coming of age ceremonies, academic honors, and other significant life milestones that deserve special recognition." },
@@ -294,7 +290,6 @@ const IndividualServicePages = () => {
       ],
       offerings: [        
         { title: "Baby & Family Celebrations", description: "Welcome new family members with baby showers, naming ceremonies, and first birthday parties that celebrate new beginnings and family joy.", image: "/assets/images/fam-14.jpg", features: ["Baby shower celebrations", "Naming ceremony planning", "First birthday celebrations", "Baptism events", "Gender reveal parties", "Baby blessing ceremonies"] },
-
         { title: "Family Reunions", description: "Bring families together with reunions that accommodate multiple generations, celebrate family history, and create new memories for years to come.", image: "/assets/images/fam-6.jpg", features: ["Multi-day reunion planning", "Activity coordination for all ages", "Family history presentations", "Traditional family games", "Memory preservation activities"] },
         { title: "Holiday & Seasonal Gatherings", description: "Create magical holiday celebrations and seasonal gatherings that honor traditions while making new ones for your family to treasure.", image: "/assets/images/fam-8.jpg", features: ["Holiday dinner coordination", "Seasonal celebration planning", "Recommend Traditional meal preparation", "Bespoke Holiday decoration and styling", "Gift exchange coordination", "House warming events"] }
       ],
@@ -313,8 +308,8 @@ const IndividualServicePages = () => {
         { src: "/assets/images/fam-6.jpg" }
       ],
       testimonials: [
-        { name: "Margaret Wanjiru", event: "Three-Generation Reunion", date: "December 2024", rating: 5, content: "Nova brought our entire extended family together for the first time in years. They managed to coordinate activities that entertained both the grandchildren and great-grandparents. It was magical!", avatar: "https://randmuser.me/api/portraits/women/67.jpg" },
-        { name: "Peter & Mary Kimani", event: "Baby Shower", date: "January 2025", rating: 5, content: "Our baby shower was perfect! Nova created such a warm, loving atmosphere and made sure every family member felt special. The attention to detail was incredible.", avatar: "https://randomuser.me/api/prtraits/women/31.jpg" }
+        { name: "Margaret Wanjiru", event: "Three-Generation Reunion", date: "December 2024", rating: 5, content: "Nova brought our entire extended family together for the first time in years. They managed to coordinate activities that entertained both the grandchildren and great-grandparents. It was magical!", avatar: "https://randoser.me/api/portraits/women/67.jpg" },
+        { name: "Peter & Mary Kimani", event: "Baby Shower", date: "January 2025", rating: 5, content: "Our baby shower was perfect! Nova created such a warm, loving atmosphere and made sure every family member felt special. The attention to detail was incredible.", avatar: "https://randoser.me/api/portraits/women/31.jpg" }
       ],
       faqs: [
         { question: "How do you accommodate multiple generations at family events?", answer: "We plan activities and arrangements suitable for all ages, provide comfortable seating options, offer diverse entertainment, and create spaces where different generations can interact naturally while also having age-appropriate options." },
@@ -358,6 +353,48 @@ const IndividualServicePages = () => {
     setContactFormData(prev => ({ ...prev, [name]: value }));
   };
 
+  // --- 3. UPDATED SUBMIT HANDLER TO USE WHATSAPP ---
+  const handleContactFormSubmit = (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    const whatsappNumber = "254703334359";
+    const { name, email, phone, eventDate, eventType, budget, howHeard, message } = contactFormData;
+    const serviceName = currentService?.name || 'General Inquiry';
+
+    const whatsappMessage = `
+*New Inquiry for ${serviceName}*
+
+*Personal Details:*
+- *Name:* ${name}
+- *Email:* ${email}
+- *Phone:* ${phone}
+
+*Event Details:*
+- *Event Date:* ${eventDate}
+- *Service Type:* ${eventType}
+- *Budget:* ${budget}
+
+*Vision & Message:*
+${message || 'No specific message provided.'}
+
+*Source:*
+- *Heard via:* ${howHeard || 'Not specified'}
+    `;
+
+    const encodedMessage = encodeURIComponent(whatsappMessage.trim());
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+    window.open(whatsappUrl, '_blank');
+
+    setTimeout(() => {
+      setIsSubmitting(false);
+      setIsSubmitted(true);
+    }, 1000);
+  };
+
+  /*
+  // --- 4. COMMENTED OUT ORIGINAL EMAILJS SUBMIT HANDLER ---
   const handleContactFormSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -381,6 +418,7 @@ const IndividualServicePages = () => {
       setIsSubmitting(false);
     }
   };
+  */
 
   if (!currentService) {
     return (
@@ -427,7 +465,7 @@ const IndividualServicePages = () => {
                   <p className="text-xl lg:text-2xl text-white/90 mb-8 leading-relaxed">{currentService.heroDescription}</p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Button variant="default" size="lg" iconName="Calendar" iconPosition="left"><a href="#contact-form">Start Planning</a></Button>
-                    <Button variant="outline" size="lg" iconName="Phone" iconPosition="left" onClick={() => window.location.href = 'tel:+254 703 334359'} className="bg-white/10 border-white/20 text-white hover:bg-white/20">Call +254 703 334359</Button>
+                    <Button variant="outline" size="lg" iconName="Phone" iconPosition="left" onClick={() => window.location.href = 'tel:+254703334359'} className="bg-white/10 border-white/20 text-white hover:bg-white/20">Call +254 703 334359</Button>
                   </div>
                 </div>
               </div>
@@ -461,9 +499,14 @@ const IndividualServicePages = () => {
                   {isSubmitted ? (
                     <div className="text-center py-12 flex flex-col items-center justify-center">
                       <lord-icon src="https://cdn.lordicon.com/rhmbrqqg.json" trigger="loop" state="loop-clapping" colors="primary:#121331,secondary:#b8860b" style={{ width: '120px', height: '120px' }}></lord-icon>
-                      <h3 className="text-2xl font-bold text-primary mt-4 mb-4">Thank You!</h3>
-                      <p className="text-muted-foreground mb-6 max-w-md">Your inquiry has been sent successfully. Our team will get back to you within 24 hours.</p>
-                      <Button variant="outline" onClick={() => setIsSubmitted(false)}>Send Another Message</Button>
+                      <h3 className="text-2xl font-bold text-primary mt-4 mb-4">Ready to Send!</h3>
+                      <p className="text-muted-foreground mb-6 max-w-md">Your inquiry is ready. Please press "Send" in WhatsApp to submit your message to our team.</p>
+                      <Button variant="outline" onClick={() => {
+                        setIsSubmitted(false);
+                        setContactFormData({ name: '', email: '', phone: '', eventDate: '', eventType: '', budget: '', howHeard: '', message: '' });
+                      }}>
+                        Send Another Message
+                      </Button>
                     </div>
                   ) : (
                     <form onSubmit={handleContactFormSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -477,7 +520,7 @@ const IndividualServicePages = () => {
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">Phone Number *</label>
-                        <input name="phone" type="tel" value={contactFormData.phone} onChange={handleContactFormChange} placeholder="+254 700 000 000" className="w-full px-4 py-3 border border-border rounded-lg bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent" required />
+                        <input name="phone" type="tel" value={contactFormData.phone} onChange={handleContactFormChange} placeholder="+254 703 334359" className="w-full px-4 py-3 border border-border rounded-lg bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent" required />
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">Event Date *</label>
@@ -513,8 +556,8 @@ const IndividualServicePages = () => {
                         <textarea name="message" value={contactFormData.message} onChange={handleContactFormChange} placeholder="Describe your event vision, special requirements, or any questions you have..." rows={6} className="w-full px-4 py-3 border border-border rounded-lg bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent resize-none" />
                       </div>
                       <div className="md:col-span-2">
-                        <Button type="submit" variant="default" size="lg" fullWidth disabled={isSubmitting} iconName={isSubmitting ? "Loader2" : "Send"} iconPosition="left" className="bg-secondary hover:bg-secondary/90">
-                          {isSubmitting ? 'Sending Request...' : 'Send Consultation Request'}
+                        <Button type="submit" variant="default" size="lg" fullWidth disabled={isSubmitting} iconName={isSubmitting ? "Loader2" : "MessageCircle"} iconPosition="left" className="bg-secondary hover:bg-secondary/90">
+                          {isSubmitting ? 'Redirecting...' : 'Send via WhatsApp'}
                         </Button>
                       </div>
                     </form>
@@ -580,7 +623,7 @@ const IndividualServicePages = () => {
                           <div className="w-12 h-12 bg-secondary/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Icon name="MapPin" size={20} className="text-secondary" /></div>
                           <div>
                             <div className="font-semibold text-primary mb-1">Visit Our Office</div>
-                            <div className="text-foreground">Westlands, Nairobi</div>
+                            <div className="text-foreground"> Garden Estate, Nairobi</div>
                             <div className="text-foreground">Kenya</div>
                           </div>
                         </div>

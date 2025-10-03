@@ -1,3 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+# Point all crawlers to the XML Sitemap for page discovery.
+Sitemap: https://www.novaluxuryeventske.com/sitemap.xml

@@ -6,7 +6,7 @@ const CompanyTimeline = () => {
     {
       year: "2023",
       title: "Nova Luxury Events Founded",
-      description: "Sarah Wanjiku establishes Nova with a vision to blend international luxury standards with Kenyan cultural authenticity.",
+      description: "A passionate team of Kenyan event specialists establishes Nova with a shared vision to blend international luxury standards with Kenyan cultural authenticity.",
       icon: "Rocket",
       highlight: true
     },

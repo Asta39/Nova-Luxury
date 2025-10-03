@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser'; // --- 1. COMMENTED OUT EMAILJS IMPORT ---
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
 import Input from '../../../components/ui/Input';
@@ -111,6 +111,61 @@ const BookingForm = () => {
     return Object.keys(newErrors).length === 0;
   };
 
+  // --- 2. MODIFIED handleSubmit to use WhatsApp ---
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!validateForm()) return;
+    setIsSubmitting(true);
+
+    const whatsappNumber = "254703334359";
+    const { 
+      inquiryType, fullName, email, phone, howHeard, eventType, eventDate,
+      guestCount, budgetRange, venue, venueRecommendation, requirements, preferredTime, language
+    } = formData;
+
+    const whatsappMessage = `
+*New Website Consultation Request*
+
+*Inquiry Type:* ${inquiryType}
+
+*Personal Details:*
+- *Name:* ${fullName}
+- *Email:* ${email}
+- *Phone:* ${phone}
+- *Language:* ${language}
+
+*Event Details:*
+- *Event Type:* ${eventType}
+- *Event Date:* ${eventDate}
+- *Guest Count:* ${guestCount || 'Not specified'}
+- *Budget Range:* ${budgetRange || 'Not specified'}
+
+*Venue Information:*
+- *Preferred Venue:* ${venue || 'Not specified'}
+- *Recommendation Area:* ${venueRecommendation || 'Not specified'}
+
+*Consultation & Vision:*
+- *Preferred Time:* ${preferredTime || 'Not specified'}
+- *Requirements:*
+${requirements || 'No message provided.'}
+
+*Source:*
+- *Heard via:* ${howHeard || 'Not specified'}
+    `;
+
+    const encodedMessage = encodeURIComponent(whatsappMessage.trim());
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+    window.open(whatsappUrl, '_blank');
+
+    setTimeout(() => {
+        setIsSubmitting(false);
+        setIsSubmitted(true);
+    }, 1000);
+  };
+
+  /*
+  // --- 3. COMMENTED OUT ORIGINAL EMAILJS handleSubmit ---
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!validateForm()) return;
@@ -135,6 +190,7 @@ const BookingForm = () => {
       setIsSubmitting(false);
     }
   };
+  */
 
   const getTomorrowDate = () => {
     const tomorrow = new Date();
@@ -145,7 +201,6 @@ const BookingForm = () => {
   if (isSubmitted) {
     return (
       <div className="bg-card border border-border rounded-lg p-6 lg:p-8 luxury-shadow-card text-center flex flex-col items-center justify-center min-h-[500px]">
-        {/* --- ICON UPDATED HERE --- */}
         <lord-icon
             src="https://cdn.lordicon.com/rhmbrqqg.json"
             trigger="loop"
@@ -153,12 +208,19 @@ const BookingForm = () => {
             colors="primary:#121331,secondary:#b8860b"
             style={{ width: '100px', height: '100px' }}>
         </lord-icon>
-        <h2 className="text-2xl font-semibold text-primary mt-4">Thank You!</h2>
+        <h2 className="text-2xl font-semibold text-primary mt-4">Ready to Send!</h2>
         <p className="text-muted-foreground mt-2 max-w-md">
-          Your consultation request has been received. Our team will contact you within the next 2 business hours to confirm your appointment.
+          Your consultation request is ready. Please press "Send" in WhatsApp to submit your inquiry to our team.
         </p>
         <Button 
-          onClick={() => setIsSubmitted(false)} 
+          onClick={() => {
+            setIsSubmitted(false);
+            setFormData({
+              inquiryType: 'general', fullName: '', email: '', phone: '', howHeard: '', eventType: '',
+              eventDate: '', guestCount: '', budgetRange: '', venue: '', venueRecommendation: '',
+              requirements: '', preferredTime: '', language: 'english', newsletter: false, terms: false
+            });
+          }} 
           className="mt-6"
           type="button"
         >
@@ -234,7 +296,7 @@ const BookingForm = () => {
               name="phone"
               value={formData.phone}
               onChange={handleInputChange}
-              placeholder="+254 700 000 000"
+              placeholder="+254 703 334359"
               error={errors.phone}
               required
             />
@@ -277,7 +339,6 @@ const BookingForm = () => {
               onChange={(value) => handleSelectChange('guestCount', value)}
               placeholder="Select guest count"
               error={errors.guestCount}
-              required
             />
           </div>
           <Select
@@ -287,7 +348,6 @@ const BookingForm = () => {
             onChange={(value) => handleSelectChange('budgetRange', value)}
             placeholder="Select your budget range"
             error={errors.budgetRange}
-            required
           />
           <Input
             label="Preferred Venue"
@@ -366,15 +426,15 @@ const BookingForm = () => {
             size="lg"
             loading={isSubmitting}
             disabled={isSubmitting}
-            iconName="Calendar"
+            iconName="MessageCircle"
             iconPosition="left"
             fullWidth
           >
-            {isSubmitting ? 'Scheduling Consultation...' : 'Schedule Free Consultation'}
+            {isSubmitting ? 'Redirecting...' : 'Send via WhatsApp'}
           </Button>
           <div className="mt-4 flex items-center justify-center space-x-2 text-sm text-muted-foreground">
             <Icon name="Clock" size={16} />
-            <span>Response within 2 hours • Free consultation • No obligation</span>
+            <span>Response within 1 hour • Free consultation • No obligation</span>
           </div>
         </div>
       </form>

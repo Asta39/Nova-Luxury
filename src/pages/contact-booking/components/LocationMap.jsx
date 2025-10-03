@@ -21,7 +21,7 @@ const LocationMap = () => {
       <div>
         <h2 className="text-2xl font-semibold text-primary mb-2">Visit Our Office</h2>
         <p className="text-muted-foreground">
-          Located in the heart of Westlands, our office is easily accessible and surrounded by premium venues we work with regularly.
+          Located in Garden Estate, our office is easily accessible and surrounded by premium venues we work with regularly.
         </p>
       </div>
       {/* Interactive Map */}

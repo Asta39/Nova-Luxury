@@ -103,8 +103,8 @@ const ContactBooking = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-primary mb-4">Visit Our Office</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Located in the prestigious Westlands district, our office is at the heart of Nairobi's business center, surrounded by the finest venues we work with.
-              </p>
+                Located in the prestigious Garden Estate, our office is at the heart of Nairobi's business center, surrounded by the finest venues we work with.
+                </p>
             </div>
             <LocationMap />
           </div>

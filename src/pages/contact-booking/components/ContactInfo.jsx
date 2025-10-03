@@ -99,7 +99,7 @@ const ContactInfo = () => {
             <Icon name="MapPin" size={20} className="text-secondary mt-1" />
             <div>
               <p className="font-medium text-primary">Nova Luxury Events</p>
-              <p className="text-muted-foreground">Westlands Business District</p>
+              <p className="text-muted-foreground">Garden Estate</p>
               <p className="text-muted-foreground">Nairobi, Kenya</p>
             </div>
           </div>

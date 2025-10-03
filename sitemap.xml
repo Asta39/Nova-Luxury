@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Manually Generated Sitemap for Nova Luxury Events -->
+
+<!-- 1. Main Homepage (Highest Priority) -->
+<url>
+  <loc>https://novaluxuryeventske.com/</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+
+<!-- 2. Core Pages -->
+<url>
+  <loc>https://novaluxuryeventske.com/about-us</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaluxuryeventske.com/services-overview</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://novaluxuryeventske.com/portfolio-gallery</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaluxuryeventske.com/testimonials</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaluxuryeventske.com/contact-booking</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.70</priority>
+</url>
+
+<!-- 3. Individual Service Pages (High Priority) -->
+<url>
+  <loc>https://novaluxuryeventske.com/individual-service-pages?service=wedding</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://novaluxuryeventske.com/individual-service-pages?service=corporate</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://novaluxuryeventske.com/individual-service-pages?service=birthday</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://novaluxuryeventske.com/individual-service-pages?service=private</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://novaluxuryeventske.com/individual-service-pages?service=milestone</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://novaluxuryeventske.com/individual-service-pages?service=family</loc>
+  <lastmod>2025-10-03T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+</urlset>

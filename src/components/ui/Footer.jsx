@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Icon from '../AppIcon';
 import Button from './Button';
-
+import PolicyModal from './PolicyModal'; 
+import { termsContent, privacyContent } from '../../data/legalContent';
 const Footer = () => {
   const currentYear = new Date()?.getFullYear();
 
@@ -166,12 +167,13 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-sm text-muted-foreground">
               <span>© {currentYear} Nova Luxury Events. All rights reserved.</span>
               <div className="flex space-x-4">
-                <Link to="/privacy" className="hover:text-primary luxury-transition">
-                  Privacy Policy
-                </Link>
-                <Link to="/terms" className="hover:text-primary luxury-transition">
-                  Terms of Service
-                </Link>
+                <PolicyModal triggerText="Privacy Policy" title="Privacy Policy">
+              {privacyContent}
+            </PolicyModal>
+            <div className="h-4 w-px bg-border"></div> {/* Separator */}
+            <PolicyModal triggerText="Terms of Service" title="Terms of Service">
+              {termsContent}
+            </PolicyModal>
               </div>
             </div>
             

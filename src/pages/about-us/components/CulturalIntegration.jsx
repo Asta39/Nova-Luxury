@@ -7,25 +7,25 @@ const CulturalIntegration = () => {
     {
       title: "Traditional Kenyan Weddings",
       description: "Authentic ceremonies honoring diverse tribal customs including Kikuyu, Luo, Luhya, Kalenjin, and Maasai traditions.",
-      image: "https://images.unslash.com/photo-1583939003579-730e3918a45a?w=400&h=300&fit=crop",
+      image: "/assets/images/stage7.jpeg",
       features: ["Traditional attire coordination", "Cultural music & dance", "Ceremonial rituals", "Elder blessings"]
     },
     {
       title: "Corporate Cultural Events",
       description: "Professional events that celebrate Kenya's heritage while maintaining international business standards.",
-      image: "https://images.unslash.com/photo-1511578314322-379afb476865?w=400&h=300&fit=crop",
+      image: "/assets/images/tent10.jpeg",
       features: ["Cultural performances", "Traditional cuisine", "Heritage showcases", "Unity celebrations"]
     },
     {
       title: "Religious Celebrations",
       description: "Respectful coordination of Christian, Islamic, Hindu, and traditional spiritual ceremonies.",
-      image: "https://images.unplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+      image: "/assets/images/seats1.jpeg",
       features: ["Multi-faith expertise", "Sacred space setup", "Religious protocols", "Community integration"]
     },
     {
       title: "International Fusion",
       description: "Seamlessly blending Kenyan traditions with international customs for expatriate and multicultural celebrations.",
-      image: "https://images.unslash.com/photo-1464366400600-7168b8af9bc3?w=400&h=300&fit=crop",
+      image: "/assets/images/IUCN4.jpeg",
       features: ["Cross-cultural ceremonies", "Language integration", "Fusion cuisine", "Global traditions"]
     }
   ];
@@ -128,7 +128,7 @@ const CulturalIntegration = () => {
             
             <div className="relative">
               <Image
-                src="/images/cultural-celebration.jpg"
+                src="/assets/images/priv-6.jpeg"
                 alt="Traditional Kenyan cultural celebration"
                 className="w-full h-80 object-cover rounded-lg luxury-shadow-card"
               />

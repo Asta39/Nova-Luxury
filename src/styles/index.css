@@ -55,3 +55,25 @@ body {
   animation-direction: reverse;
 }
 /* -------------------------------------------------------- */
+
+/* --- Client Logo Scrolling Animation --- */
+@keyframes scroll-logos {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    /* We scroll the exact width of one full set of logos */
+    transform: translateX(calc(-1 * var(--logo-strip-width)));
+  }
+}
+
+.animate-scroll-logos {
+  /* --logo-count is passed from JSX to calculate the width */
+  /* 8rem is w-32 and 3rem is space-x-12 from your Tailwind classes */
+  --logo-strip-width: calc(8rem * var(--logo-count) + 3rem * var(--logo-count));
+  animation: scroll-logos 40s linear infinite;
+}
+
+.animate-scroll-logos:hover {
+  animation-play-state: paused;
+}

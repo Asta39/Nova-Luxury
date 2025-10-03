@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from '@emailjs/browser'; // Import EmailJS
+// import emailjs from '@emailjs/browser'; // --- 1. COMMENTED OUT EMAILJS IMPORT ---
 
 import Button from '../../../components/ui/Button';
 import Input from '../../../components/ui/Input';
@@ -12,7 +12,7 @@ const ContactForm = ({ service }) => {
     name: '',
     email: '',
     phone: '',
-    howHeard: '', // --- ADDED: New field for radio buttons
+    howHeard: '',
     eventDate: '',
     guestCount: '',
     venue: '',
@@ -24,7 +24,6 @@ const ContactForm = ({ service }) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
 
-  // --- ADDED: Options for the new radio button group ---
   const howHeardOptions = [
     'Social Media',
     'Google Search',
@@ -52,13 +51,58 @@ const ContactForm = ({ service }) => {
     { value: 'over-500', label: 'Over 500 guests' }
   ];
 
-
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
     setFormData(prev => ({ ...prev, [name]: type === 'checkbox' ? checked : value }));
   };
 
-  // --- MODIFIED: handleSubmit now sends email via EmailJS ---
+  // --- 2. MODIFIED handleSubmit to use WhatsApp ---
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    const whatsappNumber = "254703334359";
+    const { name, email, phone, howHeard, eventDate, guestCount, venue, budget, message } = formData;
+    const serviceName = service?.name || 'General Inquiry';
+
+    // Create the formatted WhatsApp message
+    const whatsappMessage = `
+*New Event Inquiry: ${serviceName}*
+
+*Personal Details:*
+- *Name:* ${name}
+- *Email:* ${email}
+- *Phone:* ${phone}
+
+*Event Details:*
+- *Event Date:* ${eventDate || 'Not specified'}
+- *Guest Count:* ${guestCount || 'Not specified'}
+- *Budget:* ${budget || 'Not specified'}
+- *Venue:* ${venue || 'Not specified'}
+
+*Vision & Message:*
+${message || 'No message provided.'}
+
+*Source:*
+- *Heard via:* ${howHeard || 'Not specified'}
+    `;
+
+    // Encode the message for the URL and open WhatsApp
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+    // Open WhatsApp in a new tab
+    window.open(whatsappUrl, '_blank');
+
+    // Reset the form and show the success message after a brief delay
+    setTimeout(() => {
+        setIsSubmitting(false);
+        setShowSuccess(true);
+    }, 1000); // 1-second delay to allow the new tab to open
+  };
+
+  /* 
+  // --- 3. COMMENTED OUT ORIGINAL EMAILJS handleSubmit ---
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -83,8 +127,8 @@ const ContactForm = ({ service }) => {
       setIsSubmitting(false);
     }
   };
+  */
 
-  // --- MODIFIED: The success message now uses an animated icon ---
   if (showSuccess) {
     return (
       <div className="text-center py-12 flex flex-col items-center justify-center">
@@ -95,15 +139,22 @@ const ContactForm = ({ service }) => {
             colors="primary:#121331,secondary:#b8860b"
             style={{ width: '120px', height: '120px' }}>
         </lord-icon>
-        <h3 className="text-2xl font-bold text-primary mt-4 mb-4">Thank You!</h3>
+        <h3 className="text-2xl font-bold text-primary mt-4 mb-4">Ready to Send!</h3>
         <p className="text-muted-foreground mb-6 max-w-md">
-          We've received your inquiry for **{service?.name}**. Our team will contact you within 24 hours to discuss your event details.
+          Your message has been prepared. Please press "Send" in WhatsApp to submit your inquiry.
         </p>
         <Button
             variant="outline"
-            onClick={() => setShowSuccess(false)}
+            onClick={() => {
+                setShowSuccess(false);
+                // Optionally reset the form here if you want it cleared
+                setFormData({
+                    name: '', email: '', phone: '', howHeard: '', eventDate: '',
+                    guestCount: '', venue: '', budget: '', message: '', subscribe: false
+                });
+            }}
           >
-            Send Another Inquiry
+            Submit Another Inquiry
         </Button>
       </div>
     );
@@ -152,8 +203,6 @@ const ContactForm = ({ service }) => {
           <label className="block text-sm font-medium text-primary mb-2">Preferred Venue (Optional)</label>
           <Input type="text" name="venue" value={formData.venue} onChange={handleInputChange} placeholder="Do you have a venue in mind?" className="w-full" />
         </div>
-
-        {/* --- ADDED: "How did you hear about us?" section --- */}
         <div>
           <label className="block text-sm font-medium text-primary mb-2">How did you hear about us?</label>
           <div className="grid grid-cols-2 gap-4">
@@ -172,7 +221,6 @@ const ContactForm = ({ service }) => {
             ))}
           </div>
         </div>
-
         <div>
           <label className="block text-sm font-medium text-primary mb-2">Tell us about your vision</label>
           <textarea
@@ -181,7 +229,6 @@ const ContactForm = ({ service }) => {
             onChange={handleInputChange}
             placeholder={`Share your ideas, special requirements, or any questions about your ${service?.name?.toLowerCase()}...`}
             rows={4}
-            // --- MODIFIED: Ensured consistent rounded corners ---
             className="w-full px-3 py-2 border border-border rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent resize-none"
           />
         </div>
@@ -192,10 +239,10 @@ const ContactForm = ({ service }) => {
           </label>
         </div>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Button type="submit" variant="default" size="lg" fullWidth iconName={isSubmitting ? "Loader2" : "Send"} iconPosition="left" disabled={isSubmitting} className={isSubmitting ? "animate-pulse" : ""}>
-            {isSubmitting ? 'Sending...' : 'Send My Request'}
+          <Button type="submit" variant="default" size="lg" fullWidth iconName={isSubmitting ? "Loader2" : "MessageCircle"} iconPosition="left" disabled={isSubmitting} className={isSubmitting ? "animate-pulse" : ""}>
+            {isSubmitting ? 'Redirecting...' : 'Send via WhatsApp'}
           </Button>
-          <Button type="button" variant="outline" size="lg" iconName="Phone" iconPosition="left" onClick={() => window.location.href = 'tel:+254700000000'} className="sm:w-auto">
+          <Button type="button" variant="outline" size="lg" iconName="Phone" iconPosition="left" onClick={() => window.location.href = 'tel:+254703334359'} className="sm:w-auto">
             Call Now
           </Button>
         </div>
@@ -214,7 +261,7 @@ const ContactForm = ({ service }) => {
             </div>
             <div className="flex items-center space-x-2">
               <Icon name="Mail" size={16} className="text-secondary" />
-              <span className="text-muted-foreground">info@novaluxuryeventske.com.</span>
+              <span className="text-muted-foreground">info@novaluxuryeventske.com</span>
             </div>
             <div className="flex items-center space-x-2">
               <Icon name="MapPin" size={16} className="text-secondary" />
