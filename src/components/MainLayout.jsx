@@ -7,7 +7,6 @@ import FloatingContactButtons from './ui/FloatingContactButtons';
 const MainLayout = () => {
   return (
     <>
-      <Header />
       <main>
         {/* The Outlet component renders the matched child route element */}
         <Outlet />
