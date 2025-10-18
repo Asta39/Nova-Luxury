@@ -407,14 +407,14 @@ const PortfolioGallery = () => {
           eventCounts={eventCounts}
         />
 
-        {/* Advanced Filters */}
-        <AdvancedFilters
+        {/* Advanced Filters 
+         <AdvancedFilters
           isOpen={showAdvancedFilters}
           onToggle={() => setShowAdvancedFilters(!showAdvancedFilters)}
           filters={advancedFilters}
           onFilterChange={handleAdvancedFilterChange}
           onClearFilters={handleClearAdvancedFilters}
-        />
+        /> */}
 
         {/* Gallery Grid */}
         <section className="py-8">

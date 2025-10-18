@@ -10,7 +10,7 @@ const AdvancedFilters = ({
   onFilterChange, 
   onClearFilters 
 }) => {
-  const venueOptions = [
+  /*const venueOptions = [
     { value: 'all', label: 'All Venues' },
     { value: 'hotel', label: 'Hotels & Resorts' },
     { value: 'outdoor', label: 'Outdoor Venues' },
@@ -36,7 +36,7 @@ const AdvancedFilters = ({
     { value: 'vintage', label: 'Vintage Classic' },
     { value: 'contemporary', label: 'Contemporary Chic' },
     { value: 'cultural', label: 'Cultural Fusion' }
-  ];
+  ]; */
 
   const hasActiveFilters = filters?.venue !== 'all' || filters?.guestCount !== 'all' || filters?.theme !== 'all';
 

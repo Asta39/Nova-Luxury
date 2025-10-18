@@ -3,13 +3,13 @@ import Button from '../../../components/ui/Button';
 
 const FilterTabs = ({ activeFilter, onFilterChange, eventCounts }) => {
   const filters = [
-    { id: 'all', label: 'All Events', count: eventCounts?.all },
-    { id: 'corporate', label: 'Corporate', count: eventCounts?.corporate },
+    { id: 'all', label: 'All Events', count: eventCounts?.all }
+    /*{ id: 'corporate', label: 'Corporate', count: eventCounts?.corporate },
     { id: 'weddings', label: 'Weddings', count: eventCounts?.weddings },
     { id: 'birthdays', label: 'Birthdays', count: eventCounts?.birthdays },
     { id: 'private', label: 'Private Events', count: eventCounts?.private },
     { id: 'milestones', label: 'Milestones', count: eventCounts?.milestones },
-    { id: 'family', label: 'Family', count: eventCounts?.family }
+    { id: 'family', label: 'Family', count: eventCounts?.family }*/
   ];
 
   return (
