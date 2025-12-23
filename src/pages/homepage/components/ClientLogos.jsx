@@ -7,7 +7,6 @@ import Image from '../../../components/AppImage';
 const ClientLogos = () => {
   const clients = [
     { id: 1, name: "Adede Advocates", logo: "/assets/images/advocates.jpg" },
-    { id: 2, name: "Apex", logo: "/assets/images/apex.webp" },
     { id: 3, name: "IUCN", logo: "/assets/images/IUCN.webp" },
     { id: 4, name: "Kenya Wildlife Services", logo: "/assets/images/KWS.webp" },
     { id: 5, name: "Luna Graphics", logo: "/assets/images/luna.png" },

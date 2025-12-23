@@ -68,6 +68,8 @@ export default {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],
+        // --- THIS LINE HAS BEEN ADDED ---
+        calligraphy: ['"Alex Brush"', 'cursive'],
       },
       fontWeight: {
         light: '300',
@@ -137,7 +139,10 @@ export default {
       },
     },
   },
+
+  
   plugins: [require("tailwindcss-animate")
     
   ],
+  
 }

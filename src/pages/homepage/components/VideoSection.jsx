@@ -6,7 +6,7 @@ const VideoSection = () => {
       <div className="w-full max-w-7xl mx-auto px-6 lg:px-12 text-center">
         {/* Section Header */}
         <div className="mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+          <h2 className="text-4xl md:text-6xl font-bold text-primary mb-4">
             Experience the Extraordinary
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">

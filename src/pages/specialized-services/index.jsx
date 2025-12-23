@@ -28,7 +28,7 @@ const SpecializedServices = () => {
       id: 'cultural-integration',
       title: 'Cultural Integration Services',
       description: 'Authentic cultural ceremonies and celebrations that honor traditions while incorporating modern luxury elements for meaningful experiences.',
-      image: 'https://images.unsplsh.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop',
+      image: '/assets/images/culture-1.webp',
       category: 'cultural',
       features: [
         'Traditional ceremony coordination',
@@ -49,7 +49,7 @@ const SpecializedServices = () => {
       id: 'destination-events',
       title: 'Destination Event Coordination',
       description: 'Comprehensive planning for events in Kenya\'s most spectacular locations, from coastal resorts to safari lodges and mountain venues.',
-      image: 'https://images.pixaay.com/photo/2016/11/21/16/01/beach-1846040_1280.jpg?w=600&h=400&fit=crop',
+      image: '/assets/images/destination-1.webp',
       category: 'venue',
       features: [
         'Location scouting and selection',
@@ -70,7 +70,7 @@ const SpecializedServices = () => {
       id: 'luxury-transportation',
       title: 'Luxury Transportation Coordination',
       description: 'Premium transportation services including luxury vehicles, helicopter transfers, and specialized transport for VIP guests and special occasions.',
-      image: 'https://images.unspash.com/photo-1544620347-c4fd4a3d5957?w=600&h=400&fit=crop',
+      image: '/assets/images/culture-1.webp',
       category: 'production',
       features: [
         'Luxury vehicle fleet management',
@@ -91,7 +91,7 @@ const SpecializedServices = () => {
       id: 'entertainment-curation',
       title: 'Entertainment Curation',
       description: 'Bespoke entertainment experiences featuring local and international artists, traditional performances, and cutting-edge production.',
-      image: 'https://images.unspash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop',
+      image: '/assets/images/culture-1.webp',
       category: 'production',
       features: [
         'Artist booking and management',
@@ -112,7 +112,7 @@ const SpecializedServices = () => {
       id: 'floral-artistry',
       title: 'Floral Artistry & Design',
       description: 'Exquisite floral arrangements and botanical designs using local and exotic flowers to create stunning visual experiences.',
-      image: 'https://images.unspash.com/photo-1465495976277-4387d4b0e4a6?w=600&h=400&fit=crop',
+      image: '/assets/images/floral-1.webp',
       category: 'venue',
       features: [
         'Custom floral design concepts',
@@ -133,7 +133,7 @@ const SpecializedServices = () => {
       id: 'bespoke-catering',
       title: 'Bespoke Catering Experiences',
       description: 'Luxury culinary experiences featuring renowned chefs, diverse cuisines, and personalized menus that celebrate Kenya\'s rich culinary heritage.',
-      image: 'https://images.unsplsh.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop',
+      image: '/assets/images/culture-1.webp',
       category: 'catering',
       features: [
         'Celebrity chef partnerships',
@@ -154,7 +154,7 @@ const SpecializedServices = () => {
       id: 'venue-transformation',
       title: 'Venue Transformation Services',
       description: 'Complete venue makeovers that transform ordinary spaces into extraordinary event destinations through innovative design and technology.',
-      image: 'https://images.unsplah.com/photo-1519167758481-83f29c1fe8ea?w=600&h=400&fit=crop',
+      image: '/assets/images/culture-1.webp',
       category: 'venue',
       features: [
         'Architectural space planning',
@@ -175,7 +175,7 @@ const SpecializedServices = () => {
       id: 'av-production',
       title: 'Audio-Visual Production',
       description: 'Cutting-edge AV production services including live streaming, professional recording, interactive displays, and immersive technology.',
-      image: 'https://images.unspash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop',
+      image: '/assets/images/culture-1.webp',
       category: 'production',
       features: [
         'Live streaming production',
@@ -385,7 +385,6 @@ const SpecializedServices = () => {
                 </p>
               </div>
               
-              <CaseStudies caseStudies={caseStudies} />
             </div>
           </section>
 

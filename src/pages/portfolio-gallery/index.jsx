@@ -26,7 +26,7 @@ const PortfolioGallery = () => {
   const portfolioImages = [
     {
       id: 1,
-      src: "/assets/images/tent1.jpeg",
+      src: "/assets/images/wedding-17.webp",
       alt: "Corporate Annual Gala at Nairobi Serena Hotel",
       // eventType: "Corporate Events",
       // category: "corporate", 
@@ -42,7 +42,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 2,
-      src: "/assets/images/stage11.jpeg",
+      src: "/assets/images/wedding-18.webp",
       alt: "Traditional Kikuyu Wedding Ceremony",
       // eventType: "Wedding Celebrations",
       // category: "weddings",
@@ -58,7 +58,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 3,
-      src: "/assets/images/stage5.jpeg",
+      src: "/assets/images/wedding-19.webp",
       alt: "50th Birthday Milestone Celebration",
       // eventType: "Birthday Celebrations",
       // category: "birthdays",
@@ -74,7 +74,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 4,
-      src: "/assets/images/tent12.jpeg",
+      src: "/assets/images/wedding-20.webp",
       alt: "Product Launch Event at KICC",
       // eventType: "Corporate Events",
       // category: "corporate",
@@ -90,7 +90,7 @@ const PortfolioGallery = () => {
     },
     {
       id: 5,
-      src: "/assets/images/tent7.jpeg",
+      src: "/assets/images/wedding-21.webp",
       alt: "Luxury Garden Wedding Reception",
       // eventType: "Wedding Celebrations",
       // category: "weddings",
