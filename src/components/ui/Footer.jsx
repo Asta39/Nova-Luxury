@@ -24,8 +24,8 @@ const Footer = () => {
 
   const socialLinks = [
     { name: 'Facebook', icon: 'Facebook', url: 'https://facebook.com/novaluxuryevents' },
-    { name: 'Instagram', icon: 'Instagram', url: 'https://instagram.com/novaluxuryevents' },
-    { name: 'Twitter', icon: 'Twitter', url: 'https://twitter.com/novaluxuryevents' },
+    { name: 'Instagram', icon: 'Instagram', url: 'https://www.instagram.com/novaluxuryeventske?igsh=MWloZXA1bW9mb21tZA==' },
+    { name: 'TikTok', icon: 'TikTok', url: 'https://www.tiktok.com/@novaluxuryevents?_r=1&_t=ZM-92SAfZgaTQO' },
     { name: 'LinkedIn', icon: 'Linkedin', url: 'https://linkedin.com/company/novaluxuryevents' }
   ];
 

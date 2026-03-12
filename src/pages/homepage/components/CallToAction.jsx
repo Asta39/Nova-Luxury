@@ -97,7 +97,7 @@ const CallToAction = () => {
               </div>
               <h3 className="font-semibold mb-2">Visit Our Office</h3>
               <p className="text-sm text-primary-foreground/80 mb-3">
-                Schedule an in-person consultation at our Westlands office
+                Schedule an in-person consultation at our Garden Estate office
               </p>
               <Button
                 variant="ghost"
